@@ -1,0 +1,169 @@
+% config
+\documentclass[parskip=half,ngerman,paper=a4,abstract,fontsize=11pt,numbers=noendperiod,bibliography=totocnumbered,listof=totoc]{scrreprt}
+\usepackage{scrpage2}
+\automark[chapter]{section}
+
+% pdf
+\pdfminorversion=4
+
+% Fussnoten in Tabellen
+\usepackage{threeparttable}
+
+% table of content configuration
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+% heading for appendix
+\clearscrheadfoot
+\cfoot{\pagemark}
+\ohead{\textnormal{\textbf{\headmark}}}
+
+
+\ohead{\small{Jennifer Wozniak, 10004257}}
+%\usepackage{scrpage2}
+\pagestyle{scrheadings}
+
+
+
+
+
+% layout
+\usepackage[left=4cm,right=2cm,top=1.5cm,bottom=2.5cm,includeheadfoot,headheight=1.3\baselineskip]{geometry}
+\renewcommand{\chapterpagestyle}{scrheadings}
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}
+% footnote
+\usepackage{remreset}
+\makeatletter\@removefromreset{footnote}{chapter}\makeatother
+
+\usepackage{lmodern}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[babel,german=quotes]{csquotes}
+
+% 1,5 line space
+\usepackage{setspace}
+\onehalfspacing
+
+% landscape sites
+\usepackage{lscape}
+
+% pictures
+\usepackage{graphicx}
+\newcommand{\includegraphix}[2]{\IfFileExists{#1}{\includegraphics[#2]{#1}}{\includegraphics[draft,#2]{#1}}}
+\usepackage{placeins}
+\usepackage{wrapfig}
+\usepackage{rotating}
+
+% bibliography
+\usepackage[style=alphabetic-verb,block=space,backend=biber,bibencoding=utf8]{biblatex}
+\bibliography{library/bibliography}
+
+\defbibheading{Literatur}{\section{Literatur}}
+\defbibheading{Internet}{\section{Internet}}
+
+% links
+\usepackage[pdfborder={0 0 0}, unicode=true]{hyperref}
+\usepackage{pdfsync}
+
+% floatingareas
+\let\mysection=\section
+\renewcommand{\section}[1]{\FloatBarrier\mysection{#1}}
+
+\let\mysubsection=\subsection
+\renewcommand{\subsection}[1]{\FloatBarrier\mysubsection{#1}}
+
+\let\mysubsubsection=\subsubsection
+\renewcommand{\subsubsection}[1]{\FloatBarrier\mysubsubsection{#1}}
+
+\let\myparagraph=\paragraph
+\renewcommand{\paragraph}[1]{\FloatBarrier\myparagraph{#1}}
+
+\let\mysubparagraph=\subparagraph
+\renewcommand{\subparagraph}[1]{\FloatBarrier\mysubparagraph{#1}}
+
+\usepackage{float}
+
+% glossaries
+\usepackage[acronym,nopostdot]{glossaries}
+\renewcommand{\acronymname}{Abkürzungsverzeichnis}
+\renewcommand*{\glssettoctitle}[1]{\def\glossarytoctitle{\csname @glotype@#1@title\endcsname}}
+
+\let\mygls=\gls
+\renewcommand{\gls}[1]{\protect\glsIfListOfAcronyms{\glsentrytype{#1}}{\textnormal{\textit{\mygls{#1}}}}{\textnormal{\textbf{\mygls{#1}\footnote{siehe Glossar: \mygls{#1}}}}}}
+\newcommand{\glsLink}[1]{\mygls{#1}}
+
+\let\myglspl=\glspl
+\renewcommand{\glspl}[1]{\protect\glsIfListOfAcronyms{\glsentrytype{#1}}{\textnormal{\textit{\myglspl{#1}}}}{\textnormal{\textbf{\myglspl{#1}\footnote{siehe Glossar: \mygls{#1}}}}}}
+
+\let\myglsfirst=\glsfirst
+\renewcommand{\glsfirst}[1]{\protect\glsIfListOfAcronyms{\glsentrytype{#1}}{\textnormal{\textit{\myglsfirst{#1}}}}{\textnormal{\textbf{\myglsfirst{#1}\footnote{siehe Glossar: \mygls{#1}}}}}}
+
+\let\myglsdisp=\glsdisp
+\renewcommand{\glsdisp}[2]{\protect\glsIfListOfAcronyms{\glsentrytype{#1}}{\textnormal{\textit{\myglsdisp{#1}{#2}}}}{\textnormal{\textbf{\myglsdisp{#1}{#2}\footnote{siehe Glossar: \mygls{#1}}}}}}
+
+\newglossarystyle{myListStyle}{\setglossarystyle{list}\renewcommand*{\glossaryentryfield}[5]{\item[\glstarget{##1}{##2}]##3\glspostdescription\dotfill\space{##5}}}
+
+\makeatletter
+\renewcommand*\dotfill{\leavevmode%
+	\leaders\hbox{$\m@th \mkern \@dotsep mu\hbox{.}\mkern \@dotsep mu$}\hfill\kern\z@}
+\makeatother
+
+% todos
+\usepackage{todonotes}
+\reversemarginpar
+
+\usepackage{color}
+\definecolor{todo}{rgb}{1,.7,.6}
+\definecolor{comment}{rgb}{1,1,.8}
+\definecolor{correction}{rgb}{.7,1,.7}
+
+\let\mytodo=\todo
+\renewcommand{\todo}[1]{\protect\mytodo[fancyline, backgroundcolor=todo, size=\footnotesize]{TODO:\\#1}}
+\newcommand{\TODO}[1]{\protect\mytodo[fancyline, backgroundcolor=todo, size=\footnotesize]{TODO:\\#1}}
+\newcommand{\comment}[1]{\protect\mytodo[fancyline, backgroundcolor=comment, size=\footnotesize]{Comment:\\#1}}
+\newcommand{\correction}[1]{\protect\mytodo[fancyline, backgroundcolor=correction, size=\footnotesize]{Correction:\\#1}}
+ 
+% zitate
+\let\mycite = \cite
+\renewcommand{\cite}[1]{\footnote{\mycite{#1}}}
+\newcommand{\ccite}[1]{\footnote{Vgl. \mycite{#1}}}
+
+% Grafiken auf der Titelseite
+\usepackage{subfigure}
+\usepackage[font=small]{caption} % Bei zu wenig Text das hier wieder rausnehmen
+
+%listings
+\usepackage{listings}
+%\renewcommand{\lstlistingname}{Beispiel}
+\lstset{breaklines=true,captionpos=b,title=\lstname}
+
+%custom enumerate 
+\usepackage{enumitem}
+
+%math symbols
+\usepackage {amsmath}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{nicefrac}
+\usepackage{amsthm}
+\newtheorem{mydef}{Definition}
+\newtheorem{example}{Beispiel}
+%Eigene Befehle:
+\newcommand{\x}{\cdot}
+%flowchart
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, text width=5.2cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle,text width=6cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+%url
+\usepackage{url}
+
+% MakeIndex NICHT NÖTIG
+%\usepackage{makeidx}
+\makeindex

@@ -1,0 +1,66 @@
+\chapter{Schwachstellenberechnung}
+\section{Berechnung Welle-Nabe-Verbindungen}
+In diesem Kapitel wird die maximale Flächenpressung für jede Passfederverbindung berechnet. Dieses wird anschließend mit der durch den Werkstoff vorgegebenen zulässigen Pressung verglichen. \\
+Da hier die maximale Pressung bestimmt wird, muss für die Berechnung der 1,5 fache Wert des maximalen Momentes verwendet werden, da die Kupplung erst bei diesem Moment durch rutscht. \\ 
+\begin{itemize}
+	\item Zulässige Flächenpressung \hfill  (Skript KL IV\ccite{bib:poll:kl4} S. 56)
+	\begin{align*}
+		\text{Werkstoff C45: } &R_{e,min} = 430 \frac{\text{N}}{\text{mm}^2} \text{ bei } d\le 40 \text{ mm} \\
+		 &R_{e,min} = 370 \frac{\text{N}}{\text{mm}^2} \text{ bei } d> 40 \text{ mm} \\
+		 &p_{zul} = 0,9 \x R_{e,min}  \\
+		 &p_{zul} = 387 \frac{\text{N}}{\text{mm}^2} \text{ für } d\le 40 \text{ mm} \\
+		  &p_{zul} = 330 \frac{\text{N}}{\text{mm}^2} \text{ für } d> 40 \text{ mm} \\
+	\end{align*}
+	\item maximale Flächenpressung \hfill (Skript KL IV\ccite{bib:poll:kl4} S. 55 - 56)
+	\begin{align*}
+		&p_m = \frac{2 \x c_B \x T}{d \x h' \x l' \x n \x \phi} && \\
+		&\text{für alle Passfedern gilt: } &n=1 & \\
+		& &\phi = 1& \\
+		& &c_B = 1 &\text{ (leichte Stöße, Tabelle 3.2 aus Skript KL IV)}\\
+		& l' = l - b \text{ wenn } l'\le 1,2 \x d &&\implies \text{sonst setze } l' = 1,2 \x d \\
+		&h' = 0,45 \x h &&\\
+	\end{align*}
+	Als Beispiel wird Passfeder 1 (Positionsnummer 19) auf Welle II berechnet:
+	\begin{align*}
+		&M= 1,5 \x M_{\mathrm{II}} = 121,98 \text{ Nm} \\
+		&d= 40 \text{ mm} \\
+		&l= 28 \text{ mm} \\
+		&h= 8 \text{ mm} \\
+		&b= 12 \text{ mm} \\
+		&l'= 16 \text{ mm} \\
+		&h'= 3,6 \text{ mm} \\ \\
+		&\implies p_m = \frac{2 \x 1,1 \x 121980 \text{ Nmm}}{40 \text{ mm} \x 3,6 \text{ mm} \x 16 \text{ mm} \x 1 \x 1}  = 116,47 \frac{\text{N}}{\text{mm}^2}\\
+		& p_m < p_{zul} = 387 \frac{\text{N}}{\text{mm}^2} \\
+	\end{align*}
+	Als weiteres Beispiel wird die Passfeder 10 (Positionsnummer 94) an der Schaltvorrichtung berechnet, da hier je nachdem, welche Zahnräder im Eingriff sind, unterschiedliche Längen der Passfeder beansprucht werden:
+	\begin{align*}
+	&d= 70 \text{ mm} &\\
+	&h= 12 \text{ mm} &\\
+	&b= 20 \text{ mm} &\\
+	&h'= 5,4 \text{ mm}& \\ \\
+	&\text{Gang 1:} &&l_1 = 63 \text{ mm, } l_1' = 43 \text{ mm}\\
+	& && M_1 = 1,5 \x  M_{\mathrm{IV},1} = 0,96 \text{ Nm} \\
+	& &&\implies p_{m,1} = 0,13\frac{\text{N}}{\text{mm}^2} \\ \\
+	&\text{Gang 2:} &&l_2 = 30,8\text{ mm, } l_2' = 10,8 \text{ mm}\\
+	& && M_2 = 1,5 \x  M_{\mathrm{IV},2} = 1,37 \text{ Nm} \\
+	& &&\implies p_{m,2} = 0,74\frac{\text{N}}{\text{mm}^2} \\
+	\end{align*}
+\end{itemize}
+\newpage
+Alle weiteren Werte der Passfederberechnung sind in der folgenden Tabelle dargestellt. Alle Längen werden in der Einheit Millimeter angegeben. \\ \\
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}\hline
+	 Passfeder & Pos. Nr. &Welle & d & l & b & h & l' & h' & T(Nm) & $p_m(\frac{\text{N}}{\text{mm}^2})$ \\ \hline \hline
+	 1, bei $z_9$ & 19 & $\mathrm{II}$ &40 & 28 & 12 & 8 & 16 & 3,6 & 121,98 & 116,47 \\ \hline
+	 2, bei $z_8$ & 19 &$\mathrm{I}$ & 40 & 28 & 12 & 8 & 16 & 3,6 & 90,26 & 86,19 \\ \hline
+	 3, bei $z_6$ & 25 &$\mathrm{I}$ & 50 & 40 & 14 & 9 & 26 & 4,05 & 90,26 & 37,72 \\ \hline
+	4, bei $z_4$ & 26 &$\mathrm{I}$ &  50 & 36 & 14 & 9 & 22 & 4,05 & 90,26 & 44,57 \\ \hline
+	5, bei $z_1$ & 19 & $\mathrm{I}$ & 40 & 28 & 12 & 8 & 16 & 3,6 & 90,26 & 86,19 \\ \hline
+	 6, bei Kupplung & 35 &$\mathrm{I}$ & 20 & 20 & 6 & 6 & 14 & 2,7 & 90,26 & 262,66 \\ \hline
+	 7, bei $z_{10}$ & 105 &$\mathrm{IV}$ & 30 & 70 & 10 & 8 & 36 & 3,6 & 1,37 & 0,78 \\ \hline
+	 8, bei Schaltung & 94 &$\mathrm{IV}$ & 40 & 140 & 12 & 8 & 48 & 3,6 & 1,37 & 0,44 \\ \hline
+	 9, bei $z_{11}$ & 103 & $\mathrm{V}$ &35 & 32 & 10 & 8 & 22 & 3,6 & 13,7 & 10,87 \\ \hline
+	 10, bei Schaltung & 91 &Gang 1 & 70 & 63 & 20 & 12 & 43 & 5,4 & 0,96 & 0,13 \\ \hline
+	 10, bei Schaltung & 91 & Gang 2 &70 & 30,8 & 20 & 12 & 10,8 & 5,4 & 1,37 & 0,74 \\ \hline
+\end{tabular} \\
+\vspace{.5cm}
+\\ Da bei allen Passfedern gilt $p_m < p_zul$ halten die Passfedern der Belastung stand.

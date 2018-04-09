@@ -1,0 +1,98 @@
+% Konfiguration
+\input{config/config}
+
+% Glossar
+\include{library/glossaries}
+\makeglossaries
+
+% Dokumenteneinsellungen
+\newcommand{\documentDate}{\today}
+\newcommand{\documentAuthorA}{Jennifer Wozniak}
+\newcommand{\documentAuthorMatricleNumberA}{Matrikelnummer: 10004257}
+\newcommand{\documentAuthorStreetA}{Schaufelder Straße 33A}
+\newcommand{\documentAuthorPostalcodeA}{30167}
+\newcommand{\documentAuthorCityA}{Hannover}
+\newcommand{\documentUniCourse}{B.Sc. Maschinenbau}
+\newcommand{\documentTitle}{Konstruktives Projekt 3}
+
+\DeclareCaptionType{code}[Quelltext][Quelltextverzeichnis] 
+
+% Beginn Hauptdokument
+\begin{document}
+	% Seitennummerierung alphabetisch (nur für das PDF Inhaltsverzeichnis notwendig)
+	\pagenumbering{alph}
+	\setcounter{page}{1}
+	
+	% Titelseite
+	\include{document/titlepage}
+	%Sperrvermerk
+	%\include{document/sperrvermerk}
+	% Zusammenfassung (Abstract)
+	%\include{content/abstract}
+	
+	% Seitennummerierung römisch
+	\pagenumbering{Roman}
+	\setcounter{page}{1}
+	
+	
+	% Inhaltsverzeichnis
+	\clearpage\phantomsection\pdfbookmark{\contentsname}{toc}
+	\tableofcontents
+	\newpage
+	
+	
+	
+	% Seitennummerierung arabisch
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	
+	% Inhalt Start
+	\input{content/anforderungsliste}
+	\input{content/Berechnungen}
+	\input{content/uebersetzungenUndDrehzahlen}
+	\input{content/torsionsmomenteUndMindestdurchmesser}
+	\input{content/zahnraeder}
+	\input{content/korrektur}
+	\input{content/Kupplung}
+	\input{content/schnittkraefte}
+	\input{content/Dauerfestigkeitsberechnung}
+	\input{content/Lagerlebensdauerberechnung}
+	\input{content/WNV}
+	\input{content/Schrauben}
+	\input{content/Passungen}
+	
+	
+	
+	% Inhalt Ende
+	
+	% Glossar
+	\printglossary[numberedsection,style=altlist,nonumberlist,title=Glossar]
+	
+	% Abkürzungsverzeichnis
+	\glstoctrue
+	\printglossary[type=\acronymtype,style=myListStyle,title=Abkürzungsverzeichnis]
+	
+%	% Abbildungsverzeichnis
+%	\listoffigures
+%	\newpage
+%	
+%	% Tabellenverzeichnis
+%	\listoftables
+%	\newpage
+%	
+%	\listofcodes
+%	\newpage
+	
+	% Quellen (Bibliografie)
+	\chapter{Quellen}
+	\printbibliography[heading=Literatur,nottype=online]
+	\printbibliography[heading=Internet,type=online]
+	% Anhang (Appendix)
+	\cleardoublepage
+	\appendix
+	\input{Anhang/appendix}
+	
+	
+	% Ende Hauptdokument
+	
+\end{document}

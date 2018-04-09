@@ -1,0 +1,130 @@
+\section{Zahnräder}
+\subsection{Stirnräder}
+\subsubsection{verwendete Formeln:}
+Formeln aus dem Skript zur Konstruktionslehre III\ccite{bib:poll:kl3} Seiten 150 - 153:
+\begin{align*}
+	&b \cdot d^2 \ge\frac{2 \cdot M}{B_{zul}} \\
+	&\frac{b}{d} = (0,1...0,5) + \frac{i}{20} \\
+	&d \ge \sqrt[3]{\frac{2 \cdot M}{( \frac{b}{d}) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}
+\end{align*}
+Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 747:
+\[
+	d_a = m \cdot (z+2)
+\]
+\[
+	d_f = m \cdot (z-2,5)
+\]
+\subsubsection{Breiten-/ Durchmesserverhältnisse:}
+\begin{itemize}
+\item {Z\textsubscript{1}/Z\textsubscript{2}/Z\textsubscript{3}:}
+\begin{align*}
+	& \left(\frac{b}{d} \right) _{1,2} = (0,1...0,5) + \frac{i_{1,2}}{20} \text{ mit } i_{1,2} = i_{1,3}= 3 \\
+	&\left(\frac{b}{d} \right) _{1,2}= \left(\frac{b}{d} \right) _{1,3} = (0,25...0,65) \\
+	&d_1 \ge \sqrt[3]{\frac{2 \cdot 95290 \text{ Nmm}}{(0,25...0,65) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (41,85...57,55) \text{ mm}\\
+	&d_2 \ge \sqrt[3]{\frac{2 \cdot 71470 \text{ Nmm}}{(0,25...0,65) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (38,02...52,29) \text{ mm}  \\
+	&d_3 \ge \sqrt[3]{\frac{2 \cdot 285870 \text{ Nmm}}{(0,25...0,65) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (60,36...83) \text{ mm}\\
+	&b_1= \left(\frac{b}{d} \right) _{1,2}  \cdot d_1 = (10,46...37,4) \text{ mm}  \\
+	&b_2= \left(\frac{b}{d} \right) _{1,2}  \cdot d_2 = (9,5...33,99) \text{ mm}  \\
+	&b_3= \left(\frac{b}{d} \right) _{1,3}  \cdot d_3 = (15,09...53,95) \text{ mm}  \\
+\end{align*}
+\item {Z\textsubscript{4}/Z\textsubscript{4}:}
+\begin{align*}
+	& \left(\frac{b}{d} \right) _{4,5} = (0,1...0,5) + \frac{i_{4,5}}{20} \text{ mit } i_{4,5} =  3,77 \\
+	&\left(\frac{b}{d} \right) _{4,5}=  (0,29...0,69) \\
+	&d_4 \ge \sqrt[3]{\frac{2 \cdot 71470 \text{ Nmm}}{(0,29...0,69) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (37,29...49,82) \text{ mm}\\
+	&d_5 \ge \sqrt[3]{\frac{2 \cdot 268990 \text{ Nmm}}{(0,29...0,69) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (58...77,5) \text{ mm}  \\
+	&b_4= \left(\frac{b}{d} \right) _{4,5}  \cdot d_4 = (10,78...34,33) \text{ mm}  \\
+	&b_5= \left(\frac{b}{d} \right) _{4,5}  \cdot d_5 = (16,76...53,4) \text{ mm}  \\
+\end{align*}
+\item {Z\textsubscript{6}/Z\textsubscript{7}:}
+\begin{align*}
+	& \left(\frac{b}{d} \right) _{6,7} = (0,1...0,5) + \frac{i_{6,7}}{20} \text{ mit } i_{6,7} =  1,89 \\
+	&\left(\frac{b}{d} \right) _{6,7}=  (0,19...0,59) \\
+	&d_6 \ge \sqrt[3]{\frac{2 \cdot 285870 \text{ Nmm}}{(0,19...0,59) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (62,37...90,95) \text{ mm}\\
+	&d_7 \ge \sqrt[3]{\frac{2 \cdot 268990 \text{ Nmm}}{(0,19...0,59) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (61,09...89,12) \text{ mm}  \\
+	&b_6= \left(\frac{b}{d} \right) _{6,7}  \cdot d_6 = (11,84...53,66) \text{ mm}  \\
+	&b_7= \left(\frac{b}{d} \right) _{6,7}  \cdot d_7 = (11,61...52,58) \text{ mm}  \\
+\end{align*}
+\end{itemize}
+\subsection{Planetengetriebe}
+Um das Planetengetriebe auszulegen, werden zunächst die Einzelübersetzungen ermittelt (siehe Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 884). Anschließend wird der Mindestdurchmesser des Sonnenrades (Z8) bestimmt. Damit lassen sich dann durch Übersetzungsverhältnisse die Durchmesser der Planetenräder bestimmen.
+\begin{align*}
+	&i_{8,9} = 1 - i_0 = 4 \\
+	&i_{9,8} = \frac{1}{1-i_0}  = 0,25 \\
+	& \left(\frac{b}{d} \right) _{9,8} = (0,1...0,5) + \frac{0,25}{20}  =  (0,11...0,51) \\
+	&\textbf{Sonnenrad:} \\
+	&d_8 \ge \sqrt[3]{\frac{2 \cdot 71470 \text{ Nmm}}{(0,11...0,51) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (41,23...68,74) \text{ mm}\\
+	&b_8= \left(\frac{b}{d} \right) _{9,8}  \cdot d_8 = (4,54...35,1) \text{ mm}  \\
+	&\text{wähle: } d_8 = 70 \text{ mm, } b_8 = 35 \text{ mm}  \\
+	&\textbf{Planetenräder:} \\
+	&d_9 = \frac{i_{8,9} \x d_8}{2 } - d_8 = 70 \text{ mm}  \\
+	&\textbf{Hohlrad:} \\
+	&d_{10} = d_8 + 2\x d_9 = 210 \text{ mm}  \\
+	&\text{wähle } b_9 = b_{10} = 30 \text{ mm}  \\
+\end{align*}	
+\subsection{Kegelräder}
+Die Abmaße der Kegelräder werden mit den Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 794 bis 797 ermittelt. Dabei werden zunächst Richtwerte ermittelt, auf deren Basis dann die endgültigen Abmaße bestimmt werden.
+\begin{align*}
+	&\text{Achsenwinkel } \sum = \delta_{11} + \delta_{12} = 90^\circ \\
+	&\delta_{11}= \delta_{12} =  45^\circ \text{ , da die Übersetzung } i_{11,12} =1\\
+\end{align*}
+Nach Tabelle 22-1 aus Roloff/Matek Tabellenbuch\ccite{bib:roloffMatek:tabellenbuch}: $z_{11} = z_{12} = 30$ \\
+\textbf{mittlerer Modul:}\\
+aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 802
+\begin{align*}
+	&m'_m \ge \frac{\left(2,4...2,6\right) \cdot d_{sh}}{z} \\
+	&m'_m \ge \frac{\left(2,4...2,6\right) \cdot d_{\mathrm{IV}}}{z_{11}} = \frac{\left(2,4...2,6\right) \cdot 40\text{ mm}}{30} = (3,2...3,5) \text{mm} 
+\end{align*}
+\textbf{Breitenverhältnis:}
+\begin{align*}
+	&\frac{b}{d} = \frac{\left((0,1...0,5)+ \frac{i}{10}\right) \cdot i}{\sqrt{i^2 + 1}} \text{ mit } i_{11,12} = 1 \\
+	&\frac{b}{d} = (0,14...0,42) \\
+	&\left. \begin{array}{c} F_t \ge B_{zul} \cdot d \cdot b\\T = \frac{d}{2} \cdot F_t \end{array} \right\} \text{ }b \cdot d^2 \ge \frac{2 \cdot T}{B_{zul}} 
+\end{align*}
+\[
+\implies d^3 \ge \frac{2 \cdot T}{(0,19...0,51) \cdot B_{zul}} \text{ mit } T_{\mathrm{IV}} = 268,99 \text{ Nm und  } B_{zul} = 4 \frac{\text{N}}{\text{mm}^2}
+\]
+\begin{align*}
+	&d_{11} \ge \sqrt[3]{\frac{2 \cdot 268990 \text{ Nmm}}{(0,14...0,42) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (68,42...98,67) \text{ mm} \\
+	&b_{11} = (68,42 \cdot 0,14 ...98,67 \cdot 0,42) \text{ mm} = (9,58...41,44) \text{ mm}
+\end{align*}
+\textbf{äußerer Teilkreisdurchmesser:}
+\[
+d_{e,min} = d_{m,min} + b_{min}\cdot\sin\delta_{11} = 68,42 \text{ mm} + 9,58 \text{ mm} \cdot \sin 45^\circ =75,2 \text{ mm}
+\]
+\[
+d_{e,max} = d_{m,max} + b_{max}\cdot\sin\delta_{11} =98,67 \text{ mm} + 41,44 \text{ mm} \cdot \sin 45^\circ =128 \text{ mm}
+\]
+\textbf{äußere Teilkegellänge:}
+\[
+R_{e,min} = \frac{d_{e,min}}{2 \cdot \sin \delta_{11}} = 53,17 \text{ mm}
+\]
+\[
+R_{e,max} = \frac{d_{e,max}}{2 \cdot \sin \delta_{11}} = 90,5 \text{ mm}
+\]
+
+\textbf{äußerer Modul:}
+\[
+m_e = \frac{d_e}{z_{11}} = \frac{(75,2...128)}{30} = (2,5...4,3) \text{ mm}
+\]
+\textbf{endgültige Abmaße:}
+\begin{align*}
+	&b= 15 \text{ mm} \\
+	&m_e=4 \text{ mm} \\ 
+	&d_{e,11} =d_{e,12} = z_{11} \cdot m_e = 30 \cdot 4 \text{ mm} = 120 \text{ mm} \\
+	&R_e \ge 3 \cdot b = 45 \text{ mm} \\
+	&R_e = \frac{d_{e,11}}{2 \cdot \sin \delta_{11}} = 84,85 \text{ mm}
+\end{align*}
+\begin{itemize}
+	\item Zahnkopf-, Zahnfuß-, und Zahnhöhe:
+	\[
+	h_{ae} = m_e = 4 \text{ mm; } h_{fe} = 1,25 \cdot m_e =5 \text{ mm; } h_e = 2,25 \cdot m_e = 9 \text{ mm}
+	\]
+	\item äußerer Kopfkreisdurchmesser:
+	\[
+	d_{ae,11} = m_e \cdot (z_{11} + 2 \cdot \cos \delta_{11}) = 125,66 \text{ mm}
+	\]
+	\[
+	d_{ae,12} = m_e \cdot (z_{12} + 2 \cdot \cos \delta_{12}) = 125,66 \text{ mm}
+	\]
+\end{itemize}

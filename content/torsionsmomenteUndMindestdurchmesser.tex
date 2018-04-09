@@ -1,0 +1,120 @@
+\section{Torsionsmomente \& Mindestdurchmesser}
+Um die wirkenden Torsionsmomente zu bestimmen, wird zunächst die benötigte Schnittleistung für das Umfangs- sowie das Stirnfräsen berechnet. Die verwendeten Formeln stammen aus dem Aufgabenblatt, welches vom IMKT ausgehändigt wurde.
+\subsubsection{Schnittleistung:}
+\begin{itemize}
+\item{Umfangsfräsen:}
+\begin{align*}
+	&\textbf{gegeben: } \\
+	&D_{WZ,U} = 120 \text{ mm, } a_e = 52 \text{ mm } \implies u_{U} = \frac{D_{WZ,U}}{2} - a_e = 8 \text{ mm} \\
+	&z= 12 \text{ , } a_p=b=2\text{ mm, }\kappa = 90^\circ \\
+	&f_{z,1} = 0,06 \text{ mm, } f_{z,2} = 0,09 \text{ mm, } f_{z,3} = 0,12 \text{ mm, } f_{z,4} = 0,15 \text{ mm } \\
+	&\textbf{Rechnung: } \\
+	&\varphi_s = \arccos \left( 1-  \frac{2\x (u_{U} + a_e)}{D_{WZ,U}} \right) - \arccos \left( 1-  \frac{2\x u_{U}}{D_{WZ,U}} \right) = 60,07 ^\circ \\
+	&z_{iE} = \text{RUNDEN}\left( \frac{\varphi \x z}{360 ^\circ} \right) = 2 \\
+	&h_m = \frac{114,6 ^\circ}{\varphi_s} \x f_z \x \frac{a_e}{D_{WZ,U}} \x \sin (\kappa ) \\
+	&h_{m,1} = \frac{114,6 ^\circ}{60,07 ^\circ} \x 0,06 \text{ mm} \x \frac{52\text{ mm}}{120 \text{ mm}} \x \sin (90 ^\circ )  =  0,05 \text{ mm} \\
+	&h_{m,2} = 0,074 \text{ mm} \\
+	&h_{m,3} = 0,099 \text{ mm} \\
+	&h_{m,4} = 0,12 \text{ mm} \\
+	&F_{cz} = b \x h_m ^{1-z} \x k_{c1.1} \x K_{V,c}\\
+	&F_{cz,1} = 2 \text{ mm } \x 0,05 \text{ mm } ^{0,7}  \x 2500 \frac{\text{N}}{\text{mm} ^2} \x 1,7= 926,1 \text{ N} \\
+	&F_{cz,2} = 1237,8 \text{ N} \\
+	&F_{cz,3} = 1535,3 \text{ N} \\
+	&F_{cz,4} = 1770,2 \text{ N} \\
+	&\implies P_c = z_{iE} \x v_c \x F_{cz} \\
+	&P_{c,1} = 2 \x 0,34 \frac{\text{m}}{\text{s}} \x 926,1 \text{ N} = 629,75 \text{ W} \\
+	&P_{c,2} = 1658,7 \text{ W} \\
+	&P_{c,3} = 4114,6 \text{ W} \\
+	&P_{c,4} = 9452,87 \text{ W} \\
+\end{align*}
+\item{Stirnfräsen:}
+\begin{align*}
+	&\textbf{gegeben: } \\
+	&D_{WZ,S} = 120 \text{ mm, } a_e = 120 \text{ mm } \implies u_{S} = \frac{D_{WZ,S}}{2} - a_e = 0 \text{ mm} \\
+	&z= 6 \text{ , } a_p=b=2\text{ mm, } \kappa = 90^\circ\\
+	&f_{z,1} = 0,06 \text{ mm, } f_{z,2} = 0,09 \text{ mm, } f_{z,3} = 0,12 \text{ mm, } f_{z,4} = 0,15 \text{ mm } \\
+	&\textbf{Rechnung: } \\
+	&\varphi_s = \arccos \left( 1-  \frac{2\x (u_{S} + a_e)}{D_{WZ,S}} \right) - \arccos \left( 1-  \frac{2\x u_{S}}{D_{WZ,S}} \right) =180 ^\circ \\
+	&z_{iE} = \text{RUNDEN}\left( \frac{\varphi \x z}{360 ^\circ} \right) = 3 \\
+	&h_m = \frac{114,6 ^\circ}{\varphi_s} \x f_z \x \frac{a_e}{D_{WZ,S}} \x \sin (\kappa ) \\
+	&h_{m,1} = \frac{114,6 ^\circ}{180 ^\circ} \x 0,06 \text{ mm} \x \frac{120\text{ mm}}{120 \text{ mm}} \x \sin (90 ^\circ )  =  0,038 \text{ mm} \\
+	&h_{m,2} = 0,057 \text{ mm} \\
+	&h_{m,3} = 0,0764 \text{ mm} \\
+	&h_{m,4} = 0,0955 \text{ mm} \\
+	&F_{cz} = b \x h_m ^{1-z} \x k_{c1.1} \x K_{V,c}\\
+	&F_{cz,1} = 2 \text{ mm } \x 0,038 \text{ mm } ^{0,7}  \x 2500 \frac{\text{N}}{\text{mm} ^2} \x 1,7= 755,9 \text{ N} \\
+	&F_{cz,2} = 1020,39 \text{ N} \\
+	&F_{cz,3} = 1267,38 \text{ N} \\
+	&F_{cz,4} = 1494,93 \text{ N} \\
+	&\implies P_c = z_{iE} \x v_c \x F_{cz} \\
+	&P_{c,1} = 3 \x 0,34 \frac{\text{m}}{\text{s}} \x 755,9 \text{ N} = 771,02 \text{ W} \\
+	&P_{c,2} = 2050,98 \text{ W} \\
+	&P_{c,3} = 5094,87 \text{ W} \\
+	&P_{c,4} = 11974,39 \text{ W} \\
+\end{align*}
+\end{itemize}
+\subsubsection{Torsionsmomente:}
+Die verwendete Formel zur Berechnung der Torsionsmomente stammt aus dem Skript zur Konstruktionslehre III\ccite{bib:poll:kl3} Seite 2.
+\[
+	T=\frac{P}{2 \pi \x n}
+\]
+\begin{itemize}
+\item {Umfangsfräsen: }
+\begin{align*}
+	&\textbf{Gang 1: } \\
+	&T_{\mathord{\mathrm{I}},1,U} = \frac{P_{c,1,U}}{2 \pi \x n_{an}} = \frac{629,75 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 5 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},1,U} = \frac{P_{c,1,U}}{2 \pi \x n_{\mathord{\mathrm{II}},1}} = \frac{629,75 \text{ W} }{2 \pi \x 400 \frac{1}{\text{min}}} = 15 \text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},1,U} = \frac{P_{c,1,U}}{2 \pi \x n_{\mathord{\mathrm{III}},1}} = \frac{629,75 \text{ W} }{2 \pi \x 100 \frac{1}{\text{min}}} = 60,14 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},1,U} = \frac{P_{c,1,U}}{2 \pi \x n_{\mathord{\mathrm{IV}},1}} = \frac{629,75 \text{ W} }{2 \pi \x 53,05 \frac{1}{\text{min}}} =112,36 \text{ Nm} \\
+	&\textbf{Gang 2: } \\
+	&T_{\mathord{\mathrm{I}},2,U} = \frac{P_{c,2,U}}{2 \pi \x n_{an}} = \frac{1658,7 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 13,2 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},2,U} = \frac{P_{c,2,U}}{2 \pi \x n_{\mathord{\mathrm{II}},2}} = 39,6 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},2,U} = \frac{P_{c,2,U}}{2 \pi \x n_{\mathord{\mathrm{IV}},2}} = 149,29 \text{ Nm} \\
+	&\textbf{Gang 3: } \\
+	&T_{\mathord{\mathrm{I}},3,U} = \frac{P_{c,3,U}}{2 \pi \x n_{an}} = \frac{4114,6 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 32,74 \text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},3,U} = \frac{P_{c,3,U}}{2 \pi \x n_{\mathord{\mathrm{III}},3}} = 98,23 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},3,U} = \frac{P_{c,3,U}}{2 \pi \x n_{\mathord{\mathrm{IV}},3}} = 185,16 \text{ Nm} \\
+	&\textbf{Gang 4: } \\
+	&T_{\mathord{\mathrm{I}},4,U} = \frac{P_{c,4,U}}{2 \pi \x n_{an}} = \frac{9452,87 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} =75,22 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},4,U} = \frac{P_{c,4,U}}{2 \pi \x n_{\mathord{\mathrm{II}},4}} =56,42 \text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},4,U} = \frac{P_{c,4,U}}{2 \pi \x n_{\mathord{\mathrm{III}},4}} = 225,67 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},4,U} = \frac{P_{c,4,U}}{2 \pi \x n_{\mathord{\mathrm{IV}},4}} =212,35 \text{ Nm} \\
+\end{align*}	
+\item {Stirnfräsen: }
+\begin{align*}
+	&\textbf{Gang 1: } \\
+	&T_{\mathord{\mathrm{I}},1,S} = \frac{P_{c,1,S}}{2 \pi \x n_{an}} = \frac{771,02 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 6,12 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},1,S} = \frac{P_{c,1,S}}{2 \pi \x n_{\mathord{\mathrm{II}},1}} = \frac{771,02 \text{ W} }{2 \pi \x 400 \frac{1}{\text{min}}} = 18,4 \text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},1,S} = \frac{P_{c,1,S}}{2 \pi \x n_{\mathord{\mathrm{III}},1}} = \frac{771,02 \text{ W} }{2 \pi \x 100 \frac{1}{\text{min}}} = 73,63 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},1,S} = \frac{P_{c,1,S}}{2 \pi \x n_{\mathord{\mathrm{IV}},1}} = \frac{771,02 \text{ W} }{2 \pi \x 53,05 \frac{1}{\text{min}}} =138,79 \text{ Nm} \\
+	&\textbf{Gang 2: } \\
+	&T_{\mathord{\mathrm{I}},2,S} = \frac{P_{c,2,S}}{2 \pi \x n_{an}} = \frac{2050,98 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 16,32 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},2,S} = \frac{P_{c,2,S}}{2 \pi \x n_{\mathord{\mathrm{II}},2}} = 48,96 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},2,S} = \frac{P_{c,2,S}}{2 \pi \x n_{\mathord{\mathrm{IV}},2}} = 184,59 \text{ Nm} \\
+	&\textbf{Gang 3: } \\
+	&T_{\mathord{\mathrm{I}},3,S} = \frac{P_{c,3,S}}{2 \pi \x n_{an}} = \frac{5094,87 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} = 40,54 \text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},3,S} = \frac{P_{c,3,S}}{2 \pi \x n_{\mathord{\mathrm{III}},3}} = 121,63 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},3,S} = \frac{P_{c,3,S}}{2 \pi \x n_{\mathord{\mathrm{IV}},3}} = 229,28 \text{ Nm} \\
+	&\textbf{Gang 4: } \\
+	&T_{\mathord{\mathrm{I}},4,S} = \frac{P_{c,4,S}}{2 \pi \x n_{an}} = \frac{11974,39 \text{ W} }{2 \pi \x 1200 \frac{1}{\text{min}}} =95,29 \text{ Nm} \\
+	&T_{\mathord{\mathrm{II}},4,S} = \frac{P_{c,4,S}}{2 \pi \x n_{\mathord{\mathrm{II}},4}} =71,47\text{ Nm} \\
+	&T_{\mathord{\mathrm{III}},4,S} = \frac{P_{c,4,S}}{2 \pi \x n_{\mathord{\mathrm{III}},4}} = 285,87 \text{ Nm} \\
+	&T_{\mathord{\mathrm{IV}},4,S} = \frac{P_{c,4,S}}{2 \pi \x n_{\mathord{\mathrm{IV}},4}} =268,99 \text{ Nm} \\
+\end{align*}	
+\end{itemize}
+Auf jeden Welle wirken im vierten Gang beim Stirnfräsen die höchsten Torsionsmomente. Im Folgenden wird das Getriebe deshalb auf Basis dieser Momente ausgelegt.
+\newpage
+\subsubsection{Mindestdurchmesser:}
+Mithilfe der berechneten Torsionsmomente kann nun auf die Mindestdurchmesser der jeweiligen Wellen geschlossen werden. Die verwendeten Formeln stammen aus dem Skript zur Konstruktionslehre III\ccite{bib:poll:kl3} Seiten 150 - 153 und dem Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 391
+\begin{align*}
+	&\tau_t = \frac{M}{W_p} \implies W_p = \frac{M}{\tau_{zul}} \text{ mit } W_p = \frac{\pi\cdot d^3}{16} \\
+	&\tau_{zul} = 44 \frac{\text{N}}{\text{mm}^2} \text{ (Einsatzstahl) } \text{ , } S= 2 \\
+	&d \ge \sqrt[3]{ \frac{T \cdot S}{\tau_{zul}} \cdot \frac{16}{\pi}}  \\
+	&d_\mathrm{I} \ge \sqrt[3]{ \frac{95290\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 28,05\text{ mm} \implies d_\mathrm{I} = 29\text{ mm} \\
+	&d_\mathrm{II} \ge \sqrt[3]{ \frac{71470\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 25,48\text{ mm} \implies d_\mathrm{II} = 26\text{ mm} \\
+	&d_\mathrm{IV} \ge \sqrt[3]{ \frac{268990\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 39,64\text{ mm} \implies d_\mathrm{IV} = 40\text{ mm} \\
+	&\text{Hohlwelle: } \\
+	&d_{a,\mathrm{III}} \ge \sqrt[3]{ \frac{16 \cdot T_{\mathrm{III}}}{\pi \x (1-k^4) \x \tau_{zul}}} = \sqrt[3]{ \frac{16 \x 285870}{\pi \x (1-0,8^4) \x 44 \frac{\text{N}}{\text{mm}^2} }} = 48,22\text{ mm} \implies d_{a,\mathrm{III}} = 49\text{ mm} \\
+	&d_{i,\mathrm{III}} \le k \x d_{a,\mathrm{III}} = 0,8 \x 49 \text{ mm} = 39,2 \text{ mm} \implies d_{i,\mathrm{III}} = 39\text{ mm} \\
+\end{align*}
+\newpage
