@@ -31,128 +31,126 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Profilverschiebung Z4/Z5:}{13}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Profilverschiebung Z6/Z7:}{15}{section*.12}
+\contentsline {subsubsection}{\nonumberline Profilverschiebung Z6/Z7:}{14}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Erste Getriebestufe:}{16}{section*.13}
+\contentsline {subsubsection}{\nonumberline Erste Getriebestufe:}{15}{section*.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Planetengetriebe}{16}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Kegelr\IeC {\"a}der}{17}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Endg\IeC {\"u}ltige Abma\IeC {\ss }e}{19}{section.2.4}
+\contentsline {section}{\numberline {2.4}Endg\IeC {\"u}ltige Abma\IeC {\ss }e}{18}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Stirnr\IeC {\"a}der:}{19}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Kegelr\IeC {\"a}der:}{20}{section*.15}
+\contentsline {subsubsection}{\nonumberline Kegelr\IeC {\"a}der:}{19}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Schneckenrad/ Schnecke:}{20}{section*.16}
+\contentsline {subsubsection}{\nonumberline \IeC {\"U}berpr\IeC {\"u}fung der Gesamt\IeC {\"u}bersetzung:}{19}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \IeC {\"U}berpr\IeC {\"u}fung der Gesamt\IeC {\"u}bersetzung:}{21}{section*.17}
+\contentsline {section}{\numberline {2.5}Auslegung der Kupplung}{20}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Auslegung der Kupplung}{21}{section.2.5}
+\contentsline {chapter}{\numberline {3}Berechnung der Schnittkr\IeC {\"a}fte}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Berechnung der Schnittkr\IeC {\"a}fte}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Berechnung der auf die Zahnr\IeC {\"a}der wirkenden Kr\IeC {\"a}fte}{23}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Berechnung der auf die Zahnr\IeC {\"a}der wirkenden Kr\IeC {\"a}fte}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Berechnung der Lagerreaktionen}{25}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Berechnung der Lagerreaktionen}{26}{section.3.2}
+\contentsline {section}{\numberline {3.3}Berechnung der Schnittkraftverl\IeC {\"a}ufe}{26}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Berechnung der Schnittkraftverl\IeC {\"a}ufe}{27}{section.3.3}
+\contentsline {section}{\numberline {3.4}Resultierende Momente}{30}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Resultierende Momente}{31}{section.3.4}
+\contentsline {chapter}{\numberline {4}Dauerfestigkeitsberechnung f\IeC {\"u}r Welle I}{31}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Dauerfestigkeitsberechnung f\IeC {\"u}r Welle I}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Werkstoffkennwerte}{31}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Werkstoffkennwerte}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Passfedernutberechnung}{31}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Passfedernutberechnung}{32}{section.4.2}
+\contentsline {subsubsection}{\nonumberline Wirkende Spannungen (nach DIN 743 - 1 Tabelle 1)}{32}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Wirkende Spannungen (nach DIN 743 - 1 Tabelle 1)}{33}{section*.19}
+\contentsline {subsubsection}{\nonumberline Gesamteinflussfaktor f\IeC {\"u}r Biegung}{32}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gesamteinflussfaktor f\IeC {\"u}r Biegung}{33}{section*.20}
+\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl f\IeC {\"u}r Dauerfestigkeitsnachweis nach Belastungsfall 1}{33}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl f\IeC {\"u}r Dauerfestigkeitsnachweis nach Belastungsfall 1}{34}{section*.21}
+\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl S f\IeC {\"u}r Nachweis gegen \IeC {\"U}berschreiten der Flie\IeC {\ss }grenze}{34}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl S f\IeC {\"u}r Nachweis gegen \IeC {\"U}berschreiten der Flie\IeC {\ss }grenze}{35}{section*.22}
+\contentsline {section}{\numberline {4.3}Freistichberechnung}{36}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Freistichberechnung}{37}{section.4.3}
+\contentsline {subsubsection}{\nonumberline Abmessungen:}{36}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Abmessungen:}{37}{section*.23}
+\contentsline {subsubsection}{\nonumberline Wirkende Spannungen (nach DIN 743 - 1 Tabelle 1)}{36}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Wirkende Spannungen (nach DIN 743 - 1 Tabelle 1)}{37}{section*.24}
+\contentsline {subsubsection}{\nonumberline Gesamteinflussfaktor}{36}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gesamteinflussfaktor}{37}{section*.25}
+\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl f\IeC {\"u}r Dauerfestigkeitsnachweis nach Belastungsfall 1}{39}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl f\IeC {\"u}r Dauerfestigkeitsnachweis nach Belastungsfall 1}{40}{section*.26}
+\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl S f\IeC {\"u}r Nachweis gegen \IeC {\"U}berschreiten der Flie\IeC {\ss }grenze}{40}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Vorhandene Sicherheitszahl S f\IeC {\"u}r Nachweis gegen \IeC {\"U}berschreiten der Flie\IeC {\ss }grenze}{41}{section*.27}
+\contentsline {chapter}{\numberline {5}Lagerlebensdauerberechnung}{42}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Lagerlebensdauerberechnung}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Berechnung der Lagerkr\IeC {\"a}fte im Gang 1}{42}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Berechnung der Lagerkr\IeC {\"a}fte im Gang 1}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Berechnung der \IeC {\"a}quivalenten dynamischen Lagerbelastung}{44}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Berechnung der \IeC {\"a}quivalenten dynamischen Lagerbelastung}{45}{section.5.2}
+\contentsline {subsubsection}{\nonumberline Gang 1, Festlager:}{44}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 1, Festlager:}{45}{section*.28}
+\contentsline {subsubsection}{\nonumberline Gang 1, Loslager:}{45}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 1, Loslager:}{46}{section*.29}
+\contentsline {subsubsection}{\nonumberline Gang 2, Festlager:}{46}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 2, Festlager:}{47}{section*.30}
+\contentsline {subsubsection}{\nonumberline Gang 2, Loslager:}{47}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 2, Loslager:}{48}{section*.31}
+\contentsline {section}{\numberline {5.3}Bestimmung der Lastkollektive und der Lebensdauer}{48}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Bestimmung der Lastkollektive und der Lebensdauer}{49}{section.5.3}
+\contentsline {subsubsection}{\nonumberline Lastkollektiv Festlager}{48}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lastkollektiv Festlager}{49}{section*.32}
+\contentsline {subsubsection}{\nonumberline Lastkollektiv Loslager}{48}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lastkollektiv Loslager}{49}{section*.33}
+\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{48}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{49}{section*.34}
+\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{48}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{49}{section*.35}
+\contentsline {chapter}{\numberline {6}Schwachstellenberechnung}{49}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Schwachstellenberechnung}{50}{chapter.6}
+\contentsline {section}{\numberline {6.1}Berechnung Welle-Nabe-Verbindungen}{49}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Berechnung Welle-Nabe-Verbindungen}{50}{section.6.1}
+\contentsline {section}{\numberline {6.2}Berechnung der Schraubenverbindungen}{52}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Berechnung der Schraubenverbindungen}{53}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Verschraubung Lagerdeckel}{52}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Verschraubung Lagerdeckel}{53}{subsection.6.2.1}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{52}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{53}{section*.36}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{53}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{54}{section*.37}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{54}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{55}{section*.38}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{56}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{57}{section*.39}
+\contentsline {subsection}{\numberline {6.2.2}Verschraubung Kupplung}{57}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Verschraubung Kupplung}{58}{subsection.6.2.2}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{57}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{58}{section*.40}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{58}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{59}{section*.41}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{59}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{60}{section*.42}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{61}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{62}{section*.43}
+\contentsline {chapter}{\numberline {7}Passungsberechnung}{63}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Passungsberechnung}{64}{chapter.7}
+\contentsline {subsubsection}{\nonumberline Passung 1: Schalth\IeC {\"u}lse und Welle IV}{64}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 1: Schalth\IeC {\"u}lse und Welle IV}{65}{section*.44}
+\contentsline {subsubsection}{\nonumberline Passung 2: Lagerinnenring Schr\IeC {\"a}gkugellager (Festlager) und Welle IV}{65}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 2: Lagerinnenring Schr\IeC {\"a}gkugellager (Festlager) und Welle IV}{66}{section*.45}
+\contentsline {subsubsection}{\nonumberline Passung 3: Lagerau\IeC {\ss }enring Schr\IeC {\"a}gkugellager (Festlager, Welle I) und Lagertopf}{66}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 3: Lagerau\IeC {\ss }enring Schr\IeC {\"a}gkugellager (Festlager, Welle I) und Lagertopf}{67}{section*.46}
+\contentsline {subsubsection}{\nonumberline Passung 4: Schnecke und Welle IV}{67}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 4: Schnecke und Welle IV}{68}{section*.47}
+\contentsline {subsubsection}{\nonumberline Passung 5: Gleitlagerbuchse (Festlager, Welle VI) und Lagertopf}{68}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 5: Gleitlagerbuchse (Festlager, Welle VI) und Lagertopf}{69}{section*.48}
+\contentsline {chapter}{\numberline {8}Quellen}{69}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Quellen}{70}{chapter.8}
+\contentsline {section}{\numberline {8.1}Literatur}{69}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Literatur}{70}{section.8.1}
+\contentsline {section}{\numberline {8.2}Internet}{69}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Internet}{70}{section.8.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Anhang}{71}{appendix.A}
+\contentsline {chapter}{\numberline {A}Anhang}{70}{appendix.A}

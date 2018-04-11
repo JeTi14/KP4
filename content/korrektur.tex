@@ -2,54 +2,40 @@
 Bei der Konstruktion haben sich aufgrund der vorgegebenen Achsabstände und anderen konstruktiven Gründen einige Änderungen in den endgültigen Abmaßen der Zahnräder verändert. Deshalb werden im Folgenden alle endgültigen Werte dargestellt.
 \subsubsection{Stirnräder:}
 \begin{align*}
-	d_1 &= 128\text{ mm} & b_1= 34\text{ mm}\\
-	d_2 &= 64\text{ mm} & b_2= 32\text{ mm}\\
-	d_3 &= 140,2\text{ mm} & b_3= 30\text{ mm}\\
-	d_4 &= 85\text{ mm} & b_5= 40\text{ mm}\\
-	d_5 &= 310,25\text{ mm} & b_2= 38\text{ mm}\\
-	d_6 &= 178\text{ mm} & b_3= 30\text{ mm}\\
-	d_7 &= 217,1\text{ mm} & b_3= 28\text{ mm}\\
+	d_1 &= 40,4\text{ mm} & b_1= 32\text{ mm}\\
+	d_2 &= 121,3\text{ mm} & b_2= 30\text{ mm}\\
+	d_3 &= 121,3\text{ mm} & b_3= 30\text{ mm}\\
+	d_4 &= 89,4\text{ mm} & b_4= 32\text{ mm}\\
+	d_5 &= 340,5\text{ mm} & b_5= 30\text{ mm}\\
+	d_6 &= 149\text{ mm} & b_6= 32\text{ mm}\\
+	d_7 &= 280,9\text{ mm} & b_7= 30\text{ mm}\\
+	d_8 &= 70\text{ mm} & b_8= 35\text{ mm}\\
+	d_9 &= 70\text{ mm} & b_9= 30\text{ mm}\\
+	d_{10} &= 210\text{ mm} & b_{10}= 30\text{ mm}
 \end{align*}
 \subsubsection{Kegelräder:}
-siehe Formeln von Seite 9 bis 10
-
 \begin{align*}
-	&\delta_8 = 36,13 ^\circ \text{ , } \delta_9 = 53,87 ^\circ \\
-	&z_8 = 30 \text{ , } z_9 = 41\\
-	&d_8 \ge (55,43...39,9) \text{ mm} \implies \text{ wähle } d_{e,8} = 124 \text{ mm}\\
-	&b_8 = (23,56...63,24) \text{ mm} \implies \text{ wähle } b_8 = 30 \text{ mm}\\
-	&m_e = 4 \text{ mm}\\
-	&d_{e,9} = 164 \text{ mm}\\
-	&R_e = 105,15 \text{ mm}\\
-	&h_{ae} = 4 \text{ mm, } 	h_{fe} = 5 \text{ mm, } h_{e} = 9 \text{ mm}\\
-	&d_{ae,8} = 126,46 \text{ mm, } d_{ae,9} = 168,72 \text{ mm }
+	&d_{e,11} = d_{e,12} = 120\text{ mm} \\
+	&b_{11} = b_{12} = 15 \text{ mm} \\
+	&R_e = 84,85 \text{ mm}
 \end{align*}
-
-\subsubsection{Schneckenrad/ Schnecke:}
-\begin{align*}
-&d_{m,10} = 80\text{ mm} &d_{11} &= 320\text{ mm}\\
-&b_{10} = 130\text{ mm} & b_{11} &= 57,6\text{ mm}\\
-&z_{10} = 4 &z_{11} &=40\\
-&m = 8\text{ mm} &\\
-\end{align*}
-
 \subsubsection{Überprüfung der Gesamtübersetzung:}
 \begin{itemize}
 \item geforderte Gesamtübersetzung:
 \begin{align*}
-	&i_{ges} = \frac{n_{an}}{n_{\mathrm{II}}} = \frac{1200 \frac{1}{\text{min}}}{876,78 \frac{1}{\text{min}}} = 1,37 \\
-	&i_{ges,1} = \frac{n_{an}}{n_{\mathrm{V},1}} = \frac{1200 \frac{1}{\text{min}}}{32,88 \frac{1}{\text{min}}} = 36,5 \\
-	&i_{ges,2} = \frac{n_{an}}{n_{\mathrm{V},2}} = \frac{1200 \frac{1}{\text{min}}}{98,64 \frac{1}{\text{min}}} = 12,165 \\
-	&i_{ges,R} = \frac{n_{an}}{n_{\mathrm{V},R}} = \frac{1200 \frac{1}{\text{min}}}{109,6 \frac{1}{\text{min}}} = 10,95
+	&i_{ges,1} = \frac{n_{an}}{n_{\mathrm{IV},1}} = \frac{1200 \frac{1}{\text{min}}}{53,05 \frac{1}{\text{min}}} = 22,62 \\
+	&i_{ges,2} = \frac{n_{an}}{n_{\mathrm{IV},2}} = \frac{1200 \frac{1}{\text{min}}}{106,1 \frac{1}{\text{min}}} = 11,31 \\
+	&i_{ges,3} = \frac{n_{an}}{n_{\mathrm{IV},3}} = \frac{1200 \frac{1}{\text{min}}}{212,2 \frac{1}{\text{min}}} = 5,66 \\
+	&i_{ges,4} = \frac{n_{an}}{n_{\mathrm{IV},4}} = \frac{1200 \frac{1}{\text{min}}}{424,4 \frac{1}{\text{min}}} = 2,83
 \end{align*}
 
 \item tatsächliche Gesamtübersetzung:
 	\begin{align*}
-	&i_{\tilde{ges}} = \frac{z_9}{z_8} = \frac{41}{30} = 1,37 \\
-	&i_{\tilde{ges,1}} = i_{4,5} \cdot i_{10,11} = \frac{z_5}{z_4} \x \frac{z_{11}}{z_{10}} = \frac{78}{21} \x \frac{40}{4}= 37,1 \\
-	&i_{\tilde{ges,2}} = i_{6,7} \cdot i_{10,11} = \frac{z_7}{z_6} \x \frac{z_{11}}{z_{10}} = \frac{54}{44} \x \frac{40}{4} = 12,3 \\
-	&i_{\tilde{ges,R}} = i_{1,3} \cdot i_{10,11} = \frac{z_3}{z_1} \x \frac{z_{11}}{z_{10}} = \frac{35}{32} \x \frac{40}{4} = 10,9
+	&i_{\tilde{ges,1}} = i_{1,2} \cdot i_{8,9} \cdot i_{6,7} = \frac{z_2}{z_1} \x \cdot i_{8,9} \x \frac{z_{7}}{z_{6}} = \frac{57}{19} \x 4 \x \frac{66}{35}= 22,63 \\
+	&i_{\tilde{ges,2}} = i_{1,2} \cdot i_{4,5} = \frac{z_2}{z_1} \x \frac{z_{5}}{z_{4}} = \frac{57}{19} \x \frac{80}{21} = 11,4 \\
+	&i_{\tilde{ges,3}} = i_{1,3} \cdot i_{6,7} = \frac{z_3}{z_1} \x \frac{z_{7}}{z_{6}} = \frac{57}{19} \x \frac{66}{35} = 5,66\\
+	&i_{\tilde{ges,4}} = i_{1,3} \cdot i_{9,8} \cdot i_{4,5} = \frac{z_3}{z_1} \cdot i_{9,8} \x \frac{z_{5}}{z_{4}} = \frac{57}{19} \x  0,25 \x \frac{80}{21} = 2,857
 	\end{align*}
-maximale Abweichung im Gang 1: $\frac{37,1}{35,6} = 1,016 \implies 1,6 \% $ Abweichung \\
-Diese Abweichung liegt innerhalb der maximal erlaubten Abweichung von 5 Prozent.
+maximale prozentuale Abweichung im Gang 4: $\frac{2,857}{2,83} = 1,00954 \implies 0,95 \% $ Abweichung \\
+Diese Abweichung liegt innerhalb der maximal erlaubten Abweichung von 1 Prozent.
 \end{itemize}
