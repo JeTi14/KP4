@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{anyt/global/}
+  \datalist[entry]{anyt/global//global/global}
     \entry{bib:denkena:kl2}{report}{}
       \name{author}{1}{}{%
         {{hash=9e589f4e3d33f7f6ffb1bdbc149d488e}{%
@@ -32,11 +32,13 @@
       }
       \strng{namehash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
       \strng{fullhash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
+      \strng{bibnamehash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
+      \strng{authorbibnamehash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
       \strng{authornamehash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
       \strng{authorfullhash}{9e589f4e3d33f7f6ffb1bdbc149d488e}
       \field{labelalpha}{Den17}
       \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Konstruktion, Gestaltung und Herstellung von Produkten II}
@@ -56,11 +58,13 @@
       }
       \strng{namehash}{0202ff266931ad74f670acc5a8d3a171}
       \strng{fullhash}{0202ff266931ad74f670acc5a8d3a171}
+      \strng{bibnamehash}{0202ff266931ad74f670acc5a8d3a171}
+      \strng{authorbibnamehash}{0202ff266931ad74f670acc5a8d3a171}
       \strng{authornamehash}{0202ff266931ad74f670acc5a8d3a171}
       \strng{authorfullhash}{0202ff266931ad74f670acc5a8d3a171}
       \field{labelalpha}{Fis14}
       \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-8085-1676-8}
@@ -77,11 +81,13 @@
       }
       \strng{namehash}{0db9e0474c58fd8328ed3f78da70771c}
       \strng{fullhash}{0db9e0474c58fd8328ed3f78da70771c}
+      \strng{bibnamehash}{0db9e0474c58fd8328ed3f78da70771c}
+      \strng{authorbibnamehash}{0db9e0474c58fd8328ed3f78da70771c}
       \strng{authornamehash}{0db9e0474c58fd8328ed3f78da70771c}
       \strng{authorfullhash}{0db9e0474c58fd8328ed3f78da70771c}
       \field{labelalpha}{Gmb}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Reibbelag LR353-Technische Daten | Reibwerkstoff: Bremsbelag-Kupplungsbelag}
@@ -89,6 +95,9 @@
       \field{urlmonth}{11}
       \field{urlyear}{2017}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.leicht-gmbh.de/cms/Werkstoffe/LR353/index1-a-45.html
+      \endverb
       \verb{url}
       \verb http://www.leicht-gmbh.de/cms/Werkstoffe/LR353/index1-a-45.html
       \endverb
@@ -106,11 +115,13 @@
       }
       \strng{namehash}{8cd1058c7f33ba4b082e60c12d138580}
       \strng{fullhash}{8cd1058c7f33ba4b082e60c12d138580}
+      \strng{bibnamehash}{8cd1058c7f33ba4b082e60c12d138580}
+      \strng{authorbibnamehash}{8cd1058c7f33ba4b082e60c12d138580}
       \strng{authornamehash}{8cd1058c7f33ba4b082e60c12d138580}
       \strng{authorfullhash}{8cd1058c7f33ba4b082e60c12d138580}
       \field{labelalpha}{Lac16}
       \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Konstruktion, Gestaltung und Herstellung von Produkten I}
@@ -130,11 +141,13 @@
       }
       \strng{namehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{fullhash}{fae7463848ff3ff959be35bd739cb87c}
+      \strng{bibnamehash}{fae7463848ff3ff959be35bd739cb87c}
+      \strng{authorbibnamehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{authornamehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{authorfullhash}{fae7463848ff3ff959be35bd739cb87c}
       \field{labelalpha}{Pol17}
       \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -155,11 +168,13 @@
       }
       \strng{namehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{fullhash}{fae7463848ff3ff959be35bd739cb87c}
+      \strng{bibnamehash}{fae7463848ff3ff959be35bd739cb87c}
+      \strng{authorbibnamehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{authornamehash}{fae7463848ff3ff959be35bd739cb87c}
       \strng{authorfullhash}{fae7463848ff3ff959be35bd739cb87c}
       \field{labelalpha}{Pol17}
       \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -177,11 +192,13 @@
       }
       \strng{namehash}{0601bd4f680ceb2e56b5e7cb3090b100}
       \strng{fullhash}{0601bd4f680ceb2e56b5e7cb3090b100}
+      \strng{bibnamehash}{0601bd4f680ceb2e56b5e7cb3090b100}
+      \strng{authorbibnamehash}{0601bd4f680ceb2e56b5e7cb3090b100}
       \strng{authornamehash}{0601bd4f680ceb2e56b5e7cb3090b100}
       \strng{authorfullhash}{0601bd4f680ceb2e56b5e7cb3090b100}
       \field{labelalpha}{Wäl}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Produktkatalog Rillenkugellager}
@@ -189,6 +206,9 @@
       \field{urlmonth}{12}
       \field{urlyear}{2017}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
+      \endverb
       \verb{url}
       \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
       \endverb
@@ -221,11 +241,13 @@
       }
       \strng{namehash}{4342f8d791c13740c9a34408f8876efa}
       \strng{fullhash}{45028973515e479fd79f330d39a60fa3}
+      \strng{bibnamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authorbibnamehash}{4342f8d791c13740c9a34408f8876efa}
       \strng{authornamehash}{4342f8d791c13740c9a34408f8876efa}
       \strng{authorfullhash}{45028973515e479fd79f330d39a60fa3}
       \field{labelalpha}{Wit+15}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-658-09081-4}
@@ -256,11 +278,13 @@
       }
       \strng{namehash}{e44604c60b72b0331169fdf91eaf0d6b}
       \strng{fullhash}{e44604c60b72b0331169fdf91eaf0d6b}
+      \strng{bibnamehash}{e44604c60b72b0331169fdf91eaf0d6b}
+      \strng{authorbibnamehash}{e44604c60b72b0331169fdf91eaf0d6b}
       \strng{authornamehash}{e44604c60b72b0331169fdf91eaf0d6b}
       \strng{authorfullhash}{e44604c60b72b0331169fdf91eaf0d6b}
       \field{labelalpha}{WJV15}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-658-09081-4}
@@ -268,7 +292,7 @@
       \field{title}{Roloff/Matek Maschinenelemente}
       \field{year}{2015}
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 \endinput
 
