@@ -39,15 +39,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Kegelr\IeC {\"a}der}{17}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Kr\IeC {\"a}fte}{18}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Endg\IeC {\"u}ltige Abma\IeC {\ss }e}{18}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Endg\IeC {\"u}ltige Abma\IeC {\ss }e}{21}{section.2.4}
+\contentsline {subsubsection}{\nonumberline Stirnr\IeC {\"a}der:}{19}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Stirnr\IeC {\"a}der:}{21}{section*.14}
+\contentsline {subsubsection}{\nonumberline Kegelr\IeC {\"a}der:}{19}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Kegelr\IeC {\"a}der:}{22}{section*.15}
+\contentsline {subsubsection}{\nonumberline \IeC {\"U}berpr\IeC {\"u}fung der Gesamt\IeC {\"u}bersetzung:}{19}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \IeC {\"U}berpr\IeC {\"u}fung der Gesamt\IeC {\"u}bersetzung:}{22}{section*.16}
+\contentsline {section}{\numberline {2.5}Kr\IeC {\"a}fte}{20}{section.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Berechnung der Schnittkr\IeC {\"a}fte}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
