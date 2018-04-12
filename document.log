@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  12 APR 2018 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  12 APR 2018 19:47
 entering extended mode
 **./document.tex
 (document.tex
@@ -2133,41 +2133,36 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
  [19]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 43.
 
-Overfull \hbox (3.11813pt too wide) in paragraph at lines 45--48
+Overfull \hbox (3.11813pt too wide) in paragraph at lines 46--49
 \OT1/lmr/m/n/10.95 Um die Zahnr[]ader rich-tig aus-zu-le-gen, wer-den die Kr[]a
 fte f[]ur die je-weils h[]ochstbelastete
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 [20]
 Overfull \vbox (60.11627pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-) (content/schnittkraefte.tex
+[21]) (content/schnittkraefte.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2913,7 +2908,7 @@ iKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Programme/MiKTeX/fonts/type1/public/
 lm/lmssbx10.pfb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Progr
 amme/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MiKTeX/fonts/type1/pu
 blic/lm/lmtt10.pfb>
-Output written on document.pdf (73 pages, 698333 bytes).
+Output written on document.pdf (73 pages, 698300 bytes).
 PDF statistics:
  841 PDF objects out of 1000 (max. 8388607)
  204 named destinations out of 1000 (max. 500000)
