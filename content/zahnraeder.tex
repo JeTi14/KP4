@@ -11,13 +11,14 @@ Formeln aus dem Skript zur Konstruktionslehre IV\ccite{bib:poll:kl4} Seite 187:
 \begin{align*}
 	&z= \frac{d \x \cos(\beta)}{m_n} \\
 \end{align*}
-Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 747:
-\[
-	d_a = m \cdot (z+2)
-\]
-\[
-	d_f = m \cdot (z-2,5)
-\]
+Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} :
+\begin{align*}
+	&\text{S. 798: Für schrägverzahnte Stirnräder: }d_a = m_n \cdot (\frac{z}{\cos(\alpha_n)}+2)\text{, } d_f =d- 2,5 \x m_n\\
+	&\text{S. 780: Für geradverzahnte Stirnräder (Planetengetriebe): } d_a = m_n \x (z + 2) \text{, } d_f = m_n \x (z-2,5) \\
+	&\text{S. 791: Aufteilung Profilverschiebung: } x_1 \approx \frac{x_1 + x_2}{2} + \left( 0,5 - \frac{x_1+x_2}{2} \right) \x \frac{\lg(u)}{\lg\left( \frac{z_1 \x z_2}{100} \right)} \\
+	&\text{S. 798: Ersatzzähnezahl: } z_n = \frac{z}{\cos^3\beta} \\
+	&\text{S. 798: Profilverschiebung: } V = x \x m_n 
+\end{align*}
 \subsubsection{Breiten-/ Durchmesserverhältnisse:}
 \begin{itemize}
 \item {Z\textsubscript{1}/Z\textsubscript{2}/Z\textsubscript{3}:}
@@ -31,7 +32,7 @@ Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 747:
 	&b_2= \left(\frac{b}{d} \right) _{1,2}  \cdot d_2 = (9,5...33,99) \text{ mm}  \\
 	&b_3= \left(\frac{b}{d} \right) _{1,3}  \cdot d_3 = (15,09...53,95) \text{ mm}  
 \end{align*}
-\item {Z\textsubscript{4}/Z\textsubscript{4}:}
+\item {Z\textsubscript{4}/Z\textsubscript{5}:}
 \begin{align*}
 	& \left(\frac{b}{d} \right) _{4,5} = (0,1...0,5) + \frac{i_{4,5}}{20} \text{ mit } i_{4,5} =  3,77 \\
 	&\left(\frac{b}{d} \right) _{4,5}=  (0,29...0,69) \\
@@ -67,20 +68,28 @@ Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 747:
 	&z_4 = 21 \text{ , } z_5 = 80 \\
 	&d_4 = \frac{21 \x 4\text{ mm} }{\cos(20^\circ)} = 89,39093 \text{ mm} \\
 	&d_5 = \frac{80\x 4\text{ mm} }{\cos(20^\circ)} = 340,53689 \text{ mm} \\
+	&d_{4,a} = 4\text{ mm} \x \left(\frac{21}{\cos(20^\circ)}+2\right) =97,39\text{ mm} \\
+	&d_{4,f} = 89,39\text{ mm} -2,5 \x 4\text{ mm} =79,39\text{ mm} \\
+	&d_{5,a} = 4\text{ mm} \x \left(\frac{80}{\cos(20^\circ)}+2\right) =348,54\text{ mm} \\
+	&d_{5,f} = 340,54\text{ mm} -2,5 \x 4\text{ mm} =330,54\text{ mm} \\
 	&a* = 214,96391 \text{ mm} 
 \end{align*}
 \item Modul und Eingriffswinkel:
 \begin{align*}
-	&m_t = \frac{m_n}{\cos(\alpha)} = 4,257\text{ mm} \\
+	&m_t = \frac{m_n}{\cos(\beta)} = 4,257\text{ mm} \\
 	&\text{Eingriffswinkel Teilkreis: } \alpha_t = \tan^{(-1)} \left( \frac{\tan(\alpha)}{\cos(\beta)} \right) = 21,17283 ^\circ \\
-	&\text{Eingriffswinkel Wälzkreis: } \alpha_{\omega t} = \arccos \left( \frac{a*}{a} \x \cos/\alpha_t\right) = 21,19765 ^\circ \\
+	&\text{Eingriffswinkel Wälzkreis: } \alpha_{\omega t} = \arccos \left( \frac{a*}{a} \x \cos(\alpha_t)\right) = 21,19765 ^\circ \\
 	&inv(\alpha) = \tan(\alpha) -\alpha \x \frac{\pi}{180^\circ} \\
 	&inv(\alpha_t) = 0,017793 \\
 	&inv(\alpha_{\omega t}) = 0,017858 
 \end{align*}
 \item Profilverschiebungsfaktoren:
 \begin{align*}
-	&x_4 + x_5 = \frac{inv(\alpha_{\omega t})-inv(\alpha_{t})}{2 \x \alpha_{\omega t}} \x (z_4 + z_5) = \frac{a - a*}{m_n} = 0,009 
+	&x_4 + x_5 = \frac{inv(\alpha_{\omega t})-inv(\alpha_{t})}{2 \x \tan(\alpha_{n})} \x (z_4 + z_5) = \frac{a - a*}{m_n} = 0,009 \\
+	&z_{n,4} = \frac{21}{\cos^3(20^\circ)} = 25,3 \text{ , }z_{n,5} = \frac{80}{\cos^3(20^\circ)} = 96,41 \\
+	&x_4 =\frac{0,009}{2} + \left( 0,5 - \frac{0,009}{2} \right) \x \frac{\lg(3,77)}{\lg\left( \frac{21 \x 80}{100} \right)} = 0,238 \\
+	&x_5 = 0,009 - 0,238 = - 0,229 \\ 
+	&V_4 = 0,238 \x 4 \text{ mm} = 0,953 \text{ mm, }V_5 = -0,229\x 4 \text{ mm} = -0,916 \text{ mm} 
 \end{align*}
 \end{itemize}
 \subsubsection{Profilverschiebung Z6/Z7:}
@@ -100,30 +109,43 @@ Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 747:
 	&z_6 = 35 \text{ , } z_7 = 66 \\
 	&d_6 = \frac{35 \x 4\text{ mm} }{\cos(20^\circ)} = 148,98489 \text{ mm} \\
 	&d_7 = \frac{66\x 4\text{ mm} }{\cos(20^\circ)} = 280,942932\text{ mm} \\
+	&d_{6,a} = 4\text{ mm} \x \left(\frac{35}{\cos(20^\circ)}+2\right) =156,98\text{ mm} \\
+	&d_{6,f} = 148,98\text{ mm} -2,5 \x 4\text{ mm} =138,98\text{ mm} \\
+	&d_{7,a} = 4\text{ mm} \x \left(\frac{66}{\cos(20^\circ)}+2\right) =288,94\text{ mm} \\
+	&d_{7,f} = 280,94\text{ mm} -2,5 \x 4\text{ mm} =270,94\text{ mm} \\
 	&a* = 214,96391 \text{ mm} 
 \end{align*}
 \item Modul und Eingriffswinkel:
 \begin{align*}
-	&m_t = \frac{m_n}{\cos(\alpha)} = 4,257\text{ mm} \\
+	&m_t = \frac{m_n}{\cos(\beta)} = 4,257\text{ mm} \\
 	&\text{Eingriffswinkel Teilkreis: } \alpha_t = \tan^(-1) \left( \frac{\tan(\alpha)}{\cos(\beta)} \right) = 21,17283 ^\circ \\
-	&\text{Eingriffswinkel Wälzkreis: } \alpha_{\omega t} = \arccos \left( \frac{a*}{a} \x \cos/\alpha_t\right) = 21,19765 ^\circ \\
+	&\text{Eingriffswinkel Wälzkreis: } \alpha_{\omega t} = \arccos \left( \frac{a*}{a} \x \cos(\alpha_t)\right) = 21,19765 ^\circ \\
 	&inv(\alpha) = \tan(\alpha) -\alpha \x \frac{\pi}{180^\circ} \\
 	&inv(\alpha_t) = 0,017793 \\
 	&inv(\alpha_{\omega t}) = 0,017858 
 \end{align*}
 \item Profilverschiebungsfaktoren:
 \begin{align*}
-	&x_6 + x_7 = \frac{inv(\alpha_{\omega t})-inv(\alpha_{t})}{2 \x \alpha_{\omega t}} \x (z_6 + z_7) = \frac{a - a*}{m_n} = 0,009 
+	&x_6 + x_7 = \frac{inv(\alpha_{\omega t})-inv(\alpha_{t})}{2 \x \tan(\alpha_n)} \x (z_6 + z_7) = \frac{a - a*}{m_n} = 0,009 \\
+	&z_{n,6} = \frac{35}{\cos^3(20^\circ)} = 42,18 \text{ , }z_{n,7} = \frac{66}{\cos^3(20^\circ)} = 79,54 \\
+	&x_6 =\frac{0,009}{2} + \left( 0,5 - \frac{0,009}{2} \right) \x \frac{\lg(1,89)}{\lg\left( \frac{35 \x 66}{100} \right)} = 0,105 \\
+	&x_7 = 0,009 - 0,105 = - 0,096 \\ 
+	&V_6 = 0,105 \x 4 \text{ mm} = 0,42 \text{ mm, }V_7 = -0,096\x 4 \text{ mm} = -0,384 \text{ mm} 
 	\end{align*}
 \end{itemize}
 \subsubsection{Erste Getriebestufe:}
 \begin{align*}
-	&\text{Wähle: } m= 2\text{ mm, } d_2 = d_3 = 120 \text{ mm} \\
+	&\text{Wähle: } m_n= 2\text{ mm, } d_2 = d_3 = 120 \text{ mm} \\
+	&m_t =  \frac{m_n}{\cos(\beta)} = 2,13 \text{ mm} \\
 	&d_1 = \frac{d_3}{i_{1,3}} = 40 \text{ mm} \\
-	&z_1 = \frac{40 \text{ mm} \x \cos(20^\circ)}{2 \text{ mm}} \text{ mm} = 18,8 \implies z_8 = 19\\
+	&z_1 = \frac{40 \text{ mm} \x \cos(20^\circ)}{2 \text{ mm}} \text{ mm} = 18,8 \implies z_1 = 19\\
 	&z_2=z_3 = z_1 \x i_{1,3} =19 \x 3 = 57 \\
 	&d_{1,neu} = \frac{19 \x 2 \text{ mm}}{\cos(20^\circ)} = 40,44 \text{ mm} \\
-	&d_{2,neu} = d_{3,neu} = \frac{57 \x 2 \text{ mm}}{\cos(20^\circ)} = 121,32 \text{ mm} 
+	&d_{2,neu} = d_{3,neu} = \frac{57 \x 2 \text{ mm}}{\cos(20^\circ)} = 121,32 \text{ mm} \\
+	&d_{1,a} = 2\text{ mm} \x \left(\frac{19}{\cos(20^\circ)}+2v\right) =44,44\text{ mm} \\
+	&d_{1,f} = 40,44\text{ mm} -2,5 \x 2\text{ mm} =35,44\text{ mm} \\
+	&d_{2,a} = d_{3,a} =2\text{ mm} \x \left(\frac{57}{\cos(20^\circ)}+2\right) =125,32\text{ mm} \\
+	&d_{2,f} =d_{3,f} = 121,32\text{ mm} -2,5 \x 2\text{ mm} =116,32\text{ mm} \\
 \end{align*}
 \subsection{Planetengetriebe}
 Um das Planetengetriebe auszulegen, werden zunächst die Einzelübersetzungen ermittelt (siehe Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 884). Anschließend wird der Mindestdurchmesser des Sonnenrades (Z8) bestimmt. Damit lassen sich dann durch Übersetzungsverhältnisse die Durchmesser der Planetenräder bestimmen.
@@ -139,30 +161,36 @@ Um das Planetengetriebe auszulegen, werden zunächst die Einzelübersetzungen er
 	&d_8 \ge \sqrt[3]{\frac{2 \cdot 71470 \text{ Nmm}}{(0,11...0,51) \cdot  4 \frac{\text{N}}{\text{mm}^2}}}= (41,23...68,74) \text{ mm}\\
 	&b_8= \left(\frac{b}{d} \right) _{9,8}  \cdot d_8 = (4,54...35,1) \text{ mm}  \\
 	&\text{wähle: } d_8 = 70 \text{ mm, } b_8 = 35 \text{ mm}  \\
-	&z_8 = \frac{d_8}{m} =35 
+	&z_8 = \frac{d_8}{m} =35 \\
+	&d_{8,a} = 2\text{ mm} \x (35+2) =74\text{ mm} \\
+	&d_{8,f} = 2\text{ mm} \x (35-2,5) =65\text{ mm} 
 \end{align*}
 \item Planetenräder 
 \begin{align*}
 	&d_9 = \frac{i_{8,9} \x d_8}{2 } - d_8 = 70 \text{ mm}  \\
 	&z_9 = \frac{d_9}{m} = 35 \\
+	&d_{9,a} = 2\text{ mm} \x (35+2) =74\text{ mm} \\
+	&d_{9,f} = 2\text{ mm} \x (35-2,5) =65\text{ mm} \\ 
 	&\text{Anzahl Planeten: } \frac{z_{8} + z_{10}}{4} = 35 \implies 4 \text{ Planeten} 
 \end{align*}	
 \item Hohlrad:
 \begin{align*}
 	&d_{10} = d_8 + 2\x d_9 = 210 \text{ mm}  \\
 	&\text{wähle } b_9 = b_{10} = 30 \text{ mm}  \\
-	&z_{10}  = \frac{d_{10}}{m} = 105 
+	&z_{10}  = \frac{d_{10}}{m} = 105 \\
+	&d_{10,a} = 2\text{ mm} \x (105+2) =214\text{ mm} \\
+	&d_{10,f} = 2\text{ mm} \x (105-2,5) =205\text{ mm} 
 \end{align*}	
 \end{itemize}
 \subsection{Kegelräder}
-Die Abmaße der Kegelräder werden mit den Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 794 bis 797 ermittelt. Dabei werden zunächst Richtwerte ermittelt, auf deren Basis dann die endgültigen Abmaße bestimmt werden.
+Die Abmaße der Kegelräder werden mit den Formeln aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 832 bis 835 ermittelt. Dabei werden zunächst Richtwerte ermittelt, auf deren Basis dann die endgültigen Abmaße bestimmt werden.
 \begin{align*}
 	&\text{Achsenwinkel } \sum = \delta_{11} + \delta_{12} = 90^\circ \\
 	&\delta_{11}= \delta_{12} =  45^\circ \text{ , da die Übersetzung } i_{11,12} =1
 \end{align*}
 Nach Tabelle 22-1 aus Roloff/Matek Tabellenbuch\ccite{bib:roloffMatek:tabellenbuch}: $z_{11} = z_{12} = 30$ \\
 \textbf{mittlerer Modul:}\\
-aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 802
+aus Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 841
 \begin{align*}
 	&m'_m \ge \frac{\left(2,4...2,6\right) \cdot d_{sh}}{z} \\
 	&m'_m \ge \frac{\left(2,4...2,6\right) \cdot d_{\mathrm{IV}}}{z_{11}} = \frac{\left(2,4...2,6\right) \cdot 40\text{ mm}}{30} = (3,2...3,5) \text{mm} 
