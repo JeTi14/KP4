@@ -64,7 +64,7 @@
 \newpage
 \item Bereich II: $0 \leq x_2 \leq l_2$
 \begin{center}
-	\includegraphics[width=1\textwidth,keepaspectratio]{figures/Bereich2.png}
+	\includegraphics[width=0.93\textwidth,keepaspectratio]{figures/Bereich2.png}
 \end{center}
 \begin{align*}
         \sum F_x &\overset{!}{=} 0 = F_{a,4} + N_{\mathrm{II}} 
@@ -78,7 +78,8 @@
 		\sum M\textsubscript{y}\textsuperscript{(P)} &\overset{!}{=} 0 = M_{y,\mathrm{II}} - x_2 \x F_{t,4} - (l_1 + x_2) \x C_z \\
 				&\implies M_{y,\mathrm{II}} = (l_1 + x_2) \x C_z +x_2 \x F_{t,4}  = 120,6\text{ Nm} +2616,7 \text{ N} \x x_2\\ \\
 		\sum M\textsubscript{z}\textsuperscript{(P)} &\overset{!}{=} 0 = M_{z,\mathrm{II}} + \frac{d_4 }{2} \x F_{a,4} - x_2 \x F_{r,4} - (l_1 + x_2) \x )C_y \\ 
-				&\implies M_{z,\mathrm{II}} = -\frac{d_4}{2} \x F_{a,4} + x_2 \x F_{r,4} + (l_1 + x_2) \x )C_y= -61,58 \text{ Nm} + 319,17 \text{ N} \x x_2 \\
+				&\implies M_{z,\mathrm{II}} = -\frac{d_4}{2} \x F_{a,4} + x_2 \x F_{r,4} + (l_1 + x_2) \x )C_y \\
+				&= -61,58 \text{ Nm} + 319,17 \text{ N} \x x_2 \\
 \end{align*}
 \newpage
 \item Bereich III: $0 \leq x_3 \leq l_3$
@@ -94,10 +95,10 @@
 				\implies Q_{z,\mathrm{III}} = -D_z = -2229,05 \text{ N} \\ \\
         \sum M\textsubscript{x}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{x,\mathrm{III}} - 4 \x \frac{d_8}{2}\x F_{t,8} \\
 				&\implies M_{x,\mathrm{III}} = - 4 \x \frac{d_8}{2}\x F_{t,8} = -71,5 \text{ Nm} \\ \\
-		\sum M\textsubscript{y}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{y,\mathrm{III}} + D_z \x (l_4+ x_3) + F_{t,8} \x x_3 - F_{t,8} \x x_3\\
-				&\implies M_{y,\mathrm{III}} = (l_4 + x_3) \x D_z =104,77 \text{ Nm} +2229,05 \text{ N} \x x_3\\ \\
-		\sum M\textsubscript{z}\textsuperscript{(P)} &\overset{!}{=} 0 = - M_{z,\mathrm{III}} + D_y \x (l_4 + x_3) + F_{r,8} \x x_3 - F_{r,8} \x x_3 \\
-				&\implies  M_{z,\mathrm{III}} =  D_y \x (l_4 + x_3) = 1,6 \text{ Nm} +33,48 \text{ N} \x x_3\\
+		\sum M\textsubscript{y}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{y,\mathrm{III}} + D_z \x (l_4+(l_3- x_3)) + F_{t,8} \x (l_3-x_3 )- F_{t,8} \x (l_3-x_3)\\
+				&\implies M_{y,\mathrm{III}} = (l_4 + (l_3 - x_3)) \x D_z =490,39 \text{ Nm} -2229,05 \text{ N} \x x_3\\ \\
+		\sum M\textsubscript{z}\textsuperscript{(P)} &\overset{!}{=} 0 = - M_{z,\mathrm{III}} + D_y \x (l_4 + (l_3 - x_3)) + F_{r,8} \x (l_3 -x_3) - F_{r,8} \x (l_3 - x_3) \\
+				&\implies  M_{z,\mathrm{III}} =  D_y \x (l_4 + (l_3 - x_3)) = 10,71 \text{ Nm} -33,48 \text{ N} \x x_3\\
 	\end{align*}
 \item Bereich IV: $0 \leq x_4 \leq l_4$
 \begin{center}
@@ -109,43 +110,52 @@
 	\sum F_y &\overset{!}{=} 0 =D_y - Q_{y,\mathrm{IV}}
 		\implies Q_{y,\mathrm{IV}} = D_y = 33,48 \text{ N}\\ 
 	\sum F_z &\overset{!}{=} 0 = -D_z -Q{z,\mathrm{IV}} 
-		\implies Q_{z,\mathrm{IV}} = -D_z = -2229,05 \text{ N} \\ 
+		\implies Q_{z,\mathrm{IV}} = -D_z = -2229,05 \text{ N} \\ \\
 	\sum M\textsubscript{x}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{x,\mathrm{IV}}  
-		\implies M_{x,\mathrm{IV}} = 0 \text{ Nm} \\ 
-	\sum M\textsubscript{y}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{y,\mathrm{IV}} + D_z \x  x_4 
-		\implies M_{y,\mathrm{IV}} =  x_4 \x D_z =2229,05 \text{ N} \x x_4\\ 
-	\sum M\textsubscript{z}\textsuperscript{(P)} &\overset{!}{=} 0 = - M_{z,\mathrm{IV}} + D_y \x  x_4  
-		\implies  M_{z,\mathrm{IV}} =  D_y \x x_4 = 33,48 \text{ N} \x x_4
+		\implies M_{x,\mathrm{IV}} = 0 \text{ Nm} \\ \\
+	\sum M\textsubscript{y}\textsuperscript{(P)} &\overset{!}{=} 0 =- M_{y,\mathrm{IV}} + D_z \x  (l_4 - x_4) \\
+		&\implies M_{y,\mathrm{IV}} =  (l_4 - x_4) \x D_z =104,77\text{ Nm} - 2229,05 \text{ N} \x x_4\\ \\
+	\sum M\textsubscript{z}\textsuperscript{(P)} &\overset{!}{=} 0 = - M_{z,\mathrm{IV}} + D_y \x  (l_4 - x_4)  \\
+		&\implies  M_{z,\mathrm{IV}} =  D_y \x (l_4 - x_4) = 1,57 \text{ Nm} -33,48 \text{ N} \x x_4
 	\end{align*}
 \end{enumerate}
 \newpage
 \textbf{Eckwerte:}\\ \\
 Bereich i)
 \begin{align*}
-	N_{\mathrm{I}} (0) &= N_{\mathrm{I}} (l_1) = -2078,59 \text{ N}\\
-	Q_{x,\mathrm{I}} (0) &= Q_{x,\mathrm{I}} (l_1) = -145,44\text{ N}\\
-	Q_{y,\mathrm{I}} (0) &= Q_{y,\mathrm{I}} (l_1) = 548,63\text{ N}\\
-	M_{x,\mathrm{I}} (0) &=  0\text{ Nm} & M_{x,\mathrm{I}} (l_1) &= 224,39\text{ Nm}\\
-	M_{y,\mathrm{I}} (0) &=  0\text{ Nm} & M_{y,\mathrm{I}} (l_1) &= 59,48\text{ Nm}\\
-	M_{z,\mathrm{I}} (0) &= M_{z,\mathrm{I}} (l_1) = 0\text{ Nm}\\
+	N_{\mathrm{I}} (0) &= N_{\mathrm{I}} (l_1) = 0 \text{ N}\\
+	Q_{y,\mathrm{I}} (0) &= Q_{y,\mathrm{I}} (l_1) = 300,12\text{ N}\\
+	Q_{z,\mathrm{I}} (0) &= Q_{z,\mathrm{I}} (l_1) = 1017,82\text{ N}\\
+	M_{x,\mathrm{I}} (0) &=  M_{x,\mathrm{I}} (l_1) = 0\text{ Nm}\\
+	M_{y,\mathrm{I}} (0) &=  0\text{ Nm} & M_{y,\mathrm{I}} (l_1) &= 120,61\text{ Nm}\\
+	M_{z,\mathrm{I}} (0) &= 0\text{ Nm} & M_{z,\mathrm{I}} (l_1) &= -35,56\text{ Nm}\\
 \end{align*}
 Bereich ii)
 \begin{align*}
-	N_{\mathrm{II}} (0) &= N_{\mathrm{II}} (l_2) = -2318,49 \text{ N}\\
-	Q_{x,\mathrm{II}} (0) &= Q_{x,\mathrm{II}} (l_2) = 183,18\text{ N}\\
-	Q_{y,\mathrm{II}} (0) &= Q_{y,\mathrm{II}} (l_2) = -569,23\text{ N}\\
-	M_{x,\mathrm{II}} (0) &= 224,39\text{ Nm} & M_{x,\mathrm{II}} (l_2) &= 189,83\text{ Nm}\\
-	M_{y,\mathrm{II}} (0) &=  72,23\text{ Nm} & M_{y,\mathrm{II}} (l_2) &= 61,11\text{ Nm}\\
-	M_{z,\mathrm{II}} (0) &= M_{z,\mathrm{II}} (l_2) = -59,42\text{ Nm}\\
+	N_{\mathrm{II}} (0) &= N_{\mathrm{II}} (l_2) = -581,94 \text{ N}\\
+	Q_{y,\mathrm{II}} (0) &= Q_{y,\mathrm{II}} (l_2) =-319,17\text{ N}\\
+	Q_{z,\mathrm{II}} (0) &= Q_{z,\mathrm{II}} (l_2) = 2616,7\text{ N}\\
+	M_{x,\mathrm{II}} (0) &= M_{x,\mathrm{II}} (l_2) = -71,5\text{ Nm}\\
+	M_{y,\mathrm{II}} (0) &=  120,6\text{ Nm} & M_{y,\mathrm{II}} (l_2) &= 713,28\text{ Nm}\\
+	M_{z,\mathrm{II}} (0) &=  -61,58\text{ Nm} &M_{z,\mathrm{II}} (l_2) &= 10,71\text{ Nm}\\
 \end{align*}
 Bereich iii)
 \begin{align*}
-	N_{\mathrm{III}} (0) &= N_{\mathrm{III}} (l_3) = -2318,49 \text{ N}\\
-	Q_{x,\mathrm{III}} (0) &= Q_{x,\mathrm{III}} (l_3) = 180,11\text{ N}\\
-	Q_{y,\mathrm{III}} (0) &= Q_{y,\mathrm{III}} (l_3) = -560,8\text{ N}\\
-	M_{x,\mathrm{III}} (0) &= 205,5\text{ Nm} & M_{x,\mathrm{III}} (l_3) &= 0\text{ Nm}\\
-	M_{y,\mathrm{III}} (0) &=  66\text{ Nm} & M_{y,\mathrm{III}} (l_3) &= 0\text{ Nm}\\
-	M_{z,\mathrm{III}} (0) &= M_{z,\mathrm{III}} (l_3) = -61,11\text{ Nm}\\
+	N_{\mathrm{III}} (0) &= N_{\mathrm{III}} (l_3) = -581,94 \text{ N}\\
+	Q_{y,\mathrm{III}} (0) &= Q_{y,\mathrm{III}} (l_3) = 33,48\text{ N}\\
+	Q_{z,\mathrm{III}} (0) &= Q_{z,\mathrm{III}} (l_3) = -2229,05\text{ N}\\
+	M_{x,\mathrm{III}} (0) &= M_{x,\mathrm{III}} (l_3) = -71,5\text{ Nm}\\
+	M_{y,\mathrm{III}} (0) &=  490,39\text{ Nm} & M_{y,\mathrm{III}} (l_3) &= -118,14\text{ Nm}\\
+	M_{z,\mathrm{III}} (0) &= 10,71\text{ Nm} &M_{z,\mathrm{III}} (l_3) &= 1,6\text{ Nm}\\
+\end{align*}
+Bereich iv)
+\begin{align*}
+	N_{\mathrm{IV}} (0) &= N_{\mathrm{IV}} (l_3) = -581,94 \text{ N}\\
+	Q_{y,\mathrm{IV}} (0) &= Q_{y,\mathrm{IV}} (l_3) = 33,48\text{ N}\\
+	Q_{z,\mathrm{IV}} (0) &= Q_{z,\mathrm{IV}} (l_3) = -2229,05\text{ N}\\
+	M_{x,\mathrm{IV}} (0) &= M_{x,\mathrm{IV}} (l_3) = 0\text{ Nm}\\
+	M_{y,\mathrm{IV}} (0) &=  104,77\text{ Nm} & M_{y,\mathrm{IV}} (l_3) &= 0\text{ Nm}\\
+	M_{z,\mathrm{IV}} (0) &= 1,6\text{ Nm} &M_{z,\mathrm{IV}} (l_3) &= 0\text{ Nm}\\
 \end{align*}
 \newpage
 \section{Resultierende Momente}
