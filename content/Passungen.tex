@@ -21,131 +21,98 @@ Die verwendeten Formeln stammen aus dem Skript KL I\ccite{bib:lachmayer:kl1} S. 
 \end{align*}
 Die jeweiligen Werte von $T$, $A_O$ und $A_U$ stammen aus dem Tabellenbuch Metall\ccite{bib:fischer:tabellenbuchMetall} Seite 103 bis 105. 
 \newpage
-\subsubsection{Passung 1: Schalthülse und Welle IV}
-
-An dieser Stelle wird eine lose Passung gewählt, da die Schaltung per Hand erfolgen soll und somit Spiel zwischen der Schalthülse und der Welle sein muss. \\ 
-Passung: h9/F8
-\begin{itemize}
-\item Toleranz Welle: 40 h9
-\begin{align*}
-	&\text{Toleranzgrad 9 } \implies \text{Grundtoleranz } T=52 \mu\text{m} \\
-	&\text{oberes Abmaß } A_o = 0 \mu\text{m} \implies \text{Höchstmaß } G_O = N \\
-	&A_o = 0 \text{ mm} \\
-	&A_u = -0,052 \text{ mm} \\
-	&G_o = N = 40 \text{ mm} \\
-	&G_u = 39,948 \text{ mm}\\
-\end{align*} 
-\item Toleranz Bohrung: 40 F6
-\begin{align*}
-	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=16 \mu\text{m} \\
-	&\text{unteres Abmaß } A_u = +25 \mu\text{m} \\
-	&A_u = +0,025 \text{ mm} \\
-	&A_o = +0,041 \text{ mm} \\
-	&G_u = 40,025 \text{ mm} \\
-	&G_o = 40,041 \text{ mm}\\
-\end{align*} 
-\item Passungsart
-\begin{align*}
-	&P_o = 40,041 \text{ mm} - 39,948 \text{ mm} = +0,093 \text{ mm} \\
-	&P_u = 40,025 \text{ mm} - 40 \text{ mm} = +0,025 \text{ mm}\\
-	&\implies \text{es liegt in jeden Fall eine Spielpassung vor}
-\end{align*} 
-\end{itemize}
-\newpage
-
-\subsubsection{Passung 2: Lagerinnenring Schrägkugellager (Festlager) und Welle IV}
-
-Bei dieser Passung wird eine Übermaßpassung gewählt. Es handelt sich um ein Festlager, bei dem der Innenring auf Umfangslast beansprucht wird. Deshalb ist eine feste Passung notwendig. \\ 
-Passung: k6 (Empfehlung Produktkatalog\ccite{bib:www:LFD_Produktkatalog} Seite 21)
-\begin{itemize}
-	\item Toleranz Welle: 15 k6
-	\begin{align*}
-	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=11 \mu\text{m} \\
-	&\text{unteres Abmaß } A_u = +35 \mu\text{m} \\
-	&A_u = +0,035 \text{ mm} \\
-	&A_o = +0,046 \text{ mm} \\
-	&G_u = 15,035 \text{ mm} \\
-	&G_o = 15,046 \text{ mm}\\
-	\end{align*} 
-	\item Toleranz Bohrung: 15 P0 
-	\begin{align*}
-	&\text{oberes Abmaß } A_o = 0 \mu\text{m} \\
-	&\text{unteres Abmaß } A_u = -8 \mu\text{m} \\
-	&G_o = 15 \text{ mm} \\
-	&G_u = 14,992 \text{ mm}\\
-	\end{align*} 
-	\item Passungsart
-	\begin{align*}
-	&P_o = 15 \text{ mm} - 15,035 \text{ mm} = -0,035 \text{ mm} \\
-	&P_u = 14,992 \text{ mm} - 15,046 \text{ mm} =-0,053 \text{ mm}\\
-	&\implies \text{es liegt in jedem Fall ein Übermaß vor}
-	\end{align*} 
-\end{itemize}
-\newpage
-
-\subsubsection{Passung 3: Lageraußenring Schrägkugellager (Festlager, Welle I) und Lagertopf}
+\subsubsection{Passung 1: Lageraußenring Rillenkugellager (Festlager, Welle I) und Lagertopf}
 
 Bei dieser Passung wird eine Spielpassung gewählt. Es handelt sich zwar um ein Festlager, der Außenring wird allerdings nur auf Punktlast beansprucht, weshalb keine feste Passung notwendig ist. Außerdem darf nur ein Ring des Lagers fest angepasst werden (das wäre in diesem Fall der Innenring), da das Lager ansonsten nicht mehr zu montieren wäre. \\ 
 Passung: J6 (Empfehlung Produktkatalog\ccite{bib:www:LFD_Produktkatalog} Seite 21)
 \begin{itemize}
-	\item Toleranz Außenring ("Welle"): 52 P0 
+	\item Toleranz Außenring ("Welle"): 47 P0 
 	\begin{align*}
 	&\text{oberes Abmaß } A_o = 0 \mu\text{m} \\
-	&\text{unteres Abmaß } A_u = -13 \mu\text{m} \\
-	&G_o = 52 \text{ mm} \\
-	&G_u = 51,987 \text{ mm}\\
+	&\text{unteres Abmaß } A_u = -11 \mu\text{m} \\
+	&G_o = 47 \text{ mm} \\
+	&G_u = 46,989 \text{ mm}\\
 	\end{align*} 
-	\item Toleranz Lagertop ("Bohrung"): 52 J6
+	\item Toleranz Lagertop ("Bohrung"): 47 J6
 	\begin{align*}
-	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=19 \mu\text{m} \\
-	&\text{oberes Abmaß } A_o = +28 \mu\text{m} \\
-	&A_o = +0,028 \text{ mm} \\
-	&A_u = +0,009 \text{ mm} \\
-	&G_o = 52,028 \text{ mm} \\
-	&G_u = 52,009 \text{ mm}\\
+	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=16 \mu\text{m} \\
+	&\text{oberes Abmaß } A_o = +24 \mu\text{m} \\
+	&A_o = +0,024 \text{ mm} \\
+	&A_u = +0,008 \text{ mm} \\
+	&G_o = 47,024 \text{ mm} \\
+	&G_u = 47,008 \text{ mm}\\
 	\end{align*} 
 	\item Passungsart
 	\begin{align*}
-	&P_o = 52,028 \text{ mm} - 51,987 \text{ mm} = +0,051 \text{ mm} \\
-	&P_u =52,009 \text{ mm} - 52 \text{ mm} = +0,009 \text{ mm}\\
+	&P_o = 47,024 \text{ mm} - 46,989 \text{ mm} = +0,035 \text{ mm} \\
+	&P_u =47,008 \text{ mm} - 47 \text{ mm} = +0,008 \text{ mm}\\
 	&\implies \text{Es liegt in jedem Fall Spiel vor.}
 	\end{align*} 
 \end{itemize}
 \newpage
 
-\subsubsection{Passung 4: Schnecke und Welle IV}
+\subsubsection{Passung 2: Lagerinnenring Rillenkugellager (Festlager) und Welle I}
 
-Da die Schnecke per Hand auf die Welle aufgeschoben wird, wird für diese Passung ein geringes Passungsspiel gewählt. \\ 
-Passung: H7/h6
+Bei dieser Passung wird eine Übermaßpassung gewählt. Es handelt sich um ein Festlager, bei dem der Innenring auf Umfangslast beansprucht wird. Deshalb ist eine feste Passung notwendig. \\ 
+Passung: k6 (Empfehlung Produktkatalog\ccite{bib:www:LFD_Produktkatalog} Seite 21)
 \begin{itemize}
-	\item Toleranz Welle: 30 h6
+	\item Toleranz Welle: 25 k6
 	\begin{align*}
 	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=13 \mu\text{m} \\
-	&\text{oberes Abmaß } A_o = 0\mu\text{m} \implies G_o = N\\
-	&A_o = 0 \text{ mm} \\
-	&A_u = -0,013 \text{ mm} \\
-	&G_o = 30 \text{ mm} \\
-	&G_u = 29,987 \text{ mm}\\
+	&\text{unteres Abmaß } A_u = +2 \mu\text{m} \\
+	&A_u = +0,002 \text{ mm} \\
+	&A_o = +0,015 \text{ mm} \\
+	&G_u = 25,002 \text{ mm} \\
+	&G_o = 25,015 \text{ mm}\\
 	\end{align*} 
-	\item Toleranz Bohrung: 30 H7
+	\item Toleranz Bohrung: 25 P0 
 	\begin{align*}
-	&\text{Toleranzgrad 7 } \implies \text{Grundtoleranz } T=21 \mu\text{m} \\
-	&\text{unteres Abmaß } A_u = 0 \mu\text{m} \implies G_u = N\\
-	&A_u = 0 \text{ mm} \\
-	&A_o = 0,021 \text{ mm} \\
-	&G_u = 30 \text{ mm} \\
-	&G_o = 30,021 \text{ mm}\\
+	&\text{oberes Abmaß } A_o = 0 \mu\text{m} \\
+	&\text{unteres Abmaß } A_u = -10 \mu\text{m} \\
+	&G_o = 25 \text{ mm} \\
+	&G_u = 24,990 \text{ mm}\\
 	\end{align*} 
 	\item Passungsart
 	\begin{align*}
-	&P_o = 30,021 \text{ mm} - 29,987 \text{ mm} = 0,034 \text{ mm} \\
-	&P_u = 30 \text{ mm} - 30 \text{ mm} =0 \text{ mm}\\
-	&\implies \text{ein Verschieben der Schnecke per Hand ist gerade noch möglich}
+	&P_o = 25 \text{ mm} - 25,002 \text{ mm} = -0,002 \text{ mm} \\
+	&P_u = 24,990 \text{ mm} - 25,015 \text{ mm} =-0,025 \text{ mm}\\
+	&\implies \text{es liegt in jedem Fall ein Übermaß vor}
 	\end{align*} 
 \end{itemize}
 \newpage
 
-\subsubsection{Passung 5: Gleitlagerbuchse (Festlager, Welle VI) und Lagertopf}
+\subsubsection{Passung 3: Lageraußenring Rillenkugellager (Loslager, Welle I) und Lagertopf}
+
+Für die Passung des Loslagers wird eine Spielpassung gewählt. Bei eventueller thermischer Ausdehnung der Welle musss sich der Außenring des Lagers verschieben können, weshalb in jedem Fall Spiel vorliegen muss. \\ 
+Passung: G7 (Empfehlung Produktkatalog\ccite{bib:www:LFD_Produktkatalog} Seite 21)
+\begin{itemize}
+	\item Toleranz Außenring ("Welle"): 62 P0 
+	\begin{align*}
+	&\text{oberes Abmaß } A_o = 0 \mu\text{m} \\
+	&\text{unteres Abmaß } A_u = -13 \mu\text{m} \\
+	&G_o = 62 \text{ mm} \\
+	&G_u = 61,987 \text{ mm}\\
+	\end{align*} 
+	\item Toleranz Lagertop ("Bohrung"): 62 G7
+	\begin{align*}
+	&\text{Toleranzgrad 7 } \implies \text{Grundtoleranz } T=30 \mu\text{m} \\
+	&\text{unteres Abmaß } A_u = +10 \mu\text{m} \\
+	&A_o = +0,040 \text{ mm} \\
+	&A_u = +0,010 \text{ mm} \\
+	&G_o = 62,040 \text{ mm} \\
+	&G_u = 62,010 \text{ mm}\\
+	\end{align*} 
+	\item Passungsart
+	\begin{align*}
+	&P_o = 62,040 \text{ mm} - 61,987 \text{ mm} = +0,053 \text{ mm} \\
+	&P_u =62,010 \text{ mm} - 62 \text{ mm} = +0,010 \text{ mm}\\
+	&\implies \text{Es liegt in jedem Fall Spiel vor.}
+	\end{align*} 
+\end{itemize}
+\newpage
+
+
+\subsubsection{Passung 4: Gleitlagerbuchse (Festlager, Schaltwelle 1) und Lagertopf}
 
 An dem Außenring der Gleitlagerbuchse ist eine feste Passung notwendig, das das Lager über eine Presspassung im Gehäuse montiert wird. \\ 
 Passung: H7/s6
@@ -175,3 +142,37 @@ Passung: H7/s6
 	&\implies \text{es liegt in jedem Fall ein Übermaß vor}
 	\end{align*} 
 \end{itemize}
+\newpage
+
+\subsubsection{Passung 5: Zahnrad 4 und Welle II}
+
+Da das Zahnrad per Hand auf die Welle aufgeschoben wird, wird für diese Passung ein geringes Passungsspiel gewählt. \\ 
+Passung: H7/h6
+\begin{itemize}
+	\item Toleranz Welle: 35 h6
+	\begin{align*}
+	&\text{Toleranzgrad 6 } \implies \text{Grundtoleranz } T=16 \mu\text{m} \\
+	&\text{oberes Abmaß } A_o = 0\mu\text{m} \implies G_o = N\\
+	&A_o = 0 \text{ mm} \\
+	&A_u = -0,016 \text{ mm} \\
+	&G_o = 35 \text{ mm} \\
+	&G_u = 34,984 \text{ mm}\\
+	\end{align*} 
+	\item Toleranz Bohrung: 35 H7
+	\begin{align*}
+	&\text{Toleranzgrad 7 } \implies \text{Grundtoleranz } T=25 \mu\text{m} \\
+	&\text{unteres Abmaß } A_u = 0 \mu\text{m} \implies G_u = N\\
+	&A_u = 0 \text{ mm} \\
+	&A_o = 0,025 \text{ mm} \\
+	&G_u = 35 \text{ mm} \\
+	&G_o = 35,025 \text{ mm}\\
+	\end{align*} 
+	\item Passungsart
+	\begin{align*}
+	&P_o = 35,025 \text{ mm} - 34,984 \text{ mm} = 0,041 \text{ mm} \\
+	&P_u = 35 \text{ mm} - 35 \text{ mm} =0 \text{ mm}\\
+	&\implies \text{ein Verschieben des Zahnrades per Hand ist gerade noch möglich}
+	\end{align*} 
+\end{itemize}
+
+

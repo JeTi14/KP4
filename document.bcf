@@ -2012,6 +2012,7 @@
     <bcf:citekey order="36">bib:fischer:tabellenbuchMetall</bcf:citekey>
     <bcf:citekey order="37">bib:www:LFD_Produktkatalog</bcf:citekey>
     <bcf:citekey order="38">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="39">bib:www:LFD_Produktkatalog</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
