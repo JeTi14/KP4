@@ -171,9 +171,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Produktkatalog Rillenkugellager}
-      \field{urlday}{10}
-      \field{urlmonth}{12}
-      \field{urlyear}{2017}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
@@ -225,7 +225,7 @@
       \field{year}{2015}
     \endentry
     \entry{bib:roloffMatek:maschinenelemente}{book}{}
-      \name{author}{3}{}{%
+      \name{author}{4}{}{%
         {{hash=8d94a961089098226aad8d2a390dcd0b}{%
            family={Wittel},
            familyi={W\bibinitperiod},
@@ -241,25 +241,30 @@
            familyi={V\bibinitperiod},
            given={Joachim},
            giveni={J\bibinitperiod}}}%
+        {{hash=bdef9533d6764fdb6cbac4e9327ce46f}{%
+           family={Spura},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer Vieweg}%
       }
-      \strng{namehash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \strng{fullhash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \strng{bibnamehash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \strng{authorbibnamehash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \strng{authornamehash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \strng{authorfullhash}{e44604c60b72b0331169fdf91eaf0d6b}
-      \field{labelalpha}{WJV15}
+      \strng{namehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{fullhash}{b3ff91bf4c30a43c72c5a586b72787ef}
+      \strng{bibnamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authorbibnamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authornamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authorfullhash}{b3ff91bf4c30a43c72c5a586b72787ef}
+      \field{labelalpha}{Wit+17}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-3-658-09081-4}
+      \field{isbn}{978-3-658-17895-6}
       \field{subtitle}{Normung Berechnung Gestaltung}
       \field{title}{Roloff/Matek Maschinenelemente}
-      \field{year}{2015}
+      \field{year}{2017}
     \endentry
   \enddatalist
 \endrefsection
