@@ -102,8 +102,9 @@ Die verwendete Formel zur Berechnung der Torsionsmomente stammt aus dem Skript z
 	&T_{\mathord{\mathrm{IV}},4,S} = \frac{P_{c,4,S}}{2 \pi \x n_{\mathord{\mathrm{IV}},4}} =268,99 \text{ Nm} \\
 \end{align*}	
 \end{itemize}
-Auf jeden Welle wirken im vierten Gang beim Stirnfräsen die höchsten Torsionsmomente. Im Folgenden wird das Getriebe deshalb auf Basis dieser Momente ausgelegt.
 \newpage
+Auf Welle V und VI im Vertikalkopf wirkt das gleiche Torsionsmoment wie auf Welle IV. Da maximale Moment liegt demnach beim Stirnfräsen im 4. Gang vor, also ist $T_{\mathord{\mathrm{V}},4,S} = T_{\mathord{\mathrm{VI}},4,S} = 268,99 \text{ Nm}$ \\
+Auf jeden Welle wirken im vierten Gang beim Stirnfräsen die höchsten Torsionsmomente. Im Folgenden wird das Getriebe deshalb auf Basis dieser Momente ausgelegt. 
 \subsubsection{Mindestdurchmesser:}
 Mithilfe der berechneten Torsionsmomente kann nun auf die Mindestdurchmesser der jeweiligen Wellen geschlossen werden. Die verwendeten Formeln stammen aus dem Skript zur Konstruktionslehre III\ccite{bib:poll:kl3} Seiten 150 - 153 und dem Roloff/Matek\ccite{bib:roloffMatek:maschinenelemente} Seite 391
 \begin{align*}
@@ -113,7 +114,8 @@ Mithilfe der berechneten Torsionsmomente kann nun auf die Mindestdurchmesser der
 	&d_\mathrm{I} \ge \sqrt[3]{ \frac{95290\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 28,05\text{ mm} \implies d_\mathrm{I} = 29\text{ mm} \\
 	&d_\mathrm{II} \ge \sqrt[3]{ \frac{71470\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 25,48\text{ mm} \implies d_\mathrm{II} = 26\text{ mm} \\
 	&d_\mathrm{IV} \ge \sqrt[3]{ \frac{268990\text{ Nmm} \cdot 2}{44\frac{\text{N}}{\text{mm}^2}} \cdot \frac{16}{\pi}} = 39,64\text{ mm} \implies d_\mathrm{IV} = 40\text{ mm} \\
-	&\text{Hohlwelle: } \\
+	&d_\mathrm{V} = d_\mathrm{VI} = d_\mathrm{IV} = 40\text{ mm} \\ \\
+&\text{Hohlwelle: } \\
 	&d_{a,\mathrm{III}} \ge \sqrt[3]{ \frac{16 \cdot T_{\mathrm{III}} \x S}{\pi \x (1-k^4) \x \tau_{zul}}} = \sqrt[3]{ \frac{16 \x 285870\text{ Nmm} \cdot 2}{\pi \x (1-0,6^4) \x 44 \frac{\text{N}}{\text{mm}^2} }} = 42,36\text{ mm}  \\
 	&\text{Wähle }d_{i,\mathrm{III}} =62  \text{ mm} \text{, damit der Mindestdurchmesser der Welle 2 eingehalten werden kann} \\
 	&\text{und ausreichend Raum für die Lager gelassen wird.}\\
