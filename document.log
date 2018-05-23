@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  22 MAY 2018 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  23 MAY 2018 14:25
 entering extended mode
 **./document.tex
 (document.tex
@@ -2626,36 +2626,36 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 33.
 [55
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
  [56]) (content/Schrauben.tex
-Underfull \hbox (badness 10000) in paragraph at lines 50--1
+Underfull \hbox (badness 10000) in paragraph at lines 49--1
 
  []
 
 
-Overfull \hbox (29.6591pt too wide) in paragraph at lines 50--1
+Overfull \hbox (23.74089pt too wide) in paragraph at lines 49--1
 [] 
  []
 
@@ -2925,7 +2925,7 @@ iKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Programme/MiKTeX/fonts/type1/public/
 lm/lmssbx10.pfb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Progr
 amme/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MiKTeX/fonts/type1/pu
 blic/lm/lmtt10.pfb>
-Output written on document.pdf (79 pages, 698042 bytes).
+Output written on document.pdf (79 pages, 697766 bytes).
 PDF statistics:
  832 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
