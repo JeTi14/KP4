@@ -1,17 +1,17 @@
 \newpage
 \section{Berechnung der Schraubenverbindungen}
 \subsection{Verschraubung Lagerdeckel}
-Da an allen Festlagern dieselben Schrauben verwendet wurden, muss nur die Schraubenverbindung mit der höchsten Belastung berechnet werden. Diese ergibt sich durch die Axialkraft, die auf die jeweilige Welle wirkt. Wegen der Kupplungskraft, die aufgrund der Konuskupplung als Normalkraft in die Welle eingeleitet wird, ist die Welle I am höchsten belastet. Da das Loslager keine Axialkräfte aufnehmen kann, muss die Schraubenverbindung an diesem Lagerdeckel nicht berechnet werden. 
-Aus diesen Gründen wird im Folgenden die Schraubenverbindung des Lagerdeckels am Festlager der Welle I berechnet.
+Da an allen Festlagern dieselben Schrauben verwendet wurden, muss nur die Schraubenverbindung mit der höchsten Belastung berechnet werden. Diese ergibt sich durch die Axialkraft, die auf die jeweilige Welle wirkt. Aufgrund der Axialkraft der Kegelräder ist die Welle V am Höchsten belastet.
+Aus diesen Gründen wird im Folgenden die Schraubenverbindung des Lagerdeckels am Festlager der Welle V berechnet.
 \subsubsection{\underline{Kräfte}}
 \[
-	F_A = F_K - F_{a,8} = 2078,59 \text{ N}
+	F_A = F_{a,11} = 1381,81 \text{ N}
 \]
 \flushleft
-Betriebskraft pro Schraube: $F_B = \frac{F_A}{Z} = \frac{2078,59 \text{ N}}{4} = 519,65 \text{ N}$ \\
+Betriebskraft pro Schraube: $F_B = \frac{F_A}{Z} = \frac{1381,81 \text{ N}}{4} = 345,45 \text{ N}$ \\
 Vorspannungsverhältnis soll im Bereich $\frac{F_V}{F_B} = 2,5...3,5$ liegen (siehe Skript KL IV \ccite{bib:poll:kl4} Seite 37). \\
 \vspace{.5cm}
-Wähle Faktor 2,5 $\implies F_V = 2,5 \x F_B = 1299,12 \text{ N}$
+Wähle Faktor 2,5 $\implies F_V = 2,5 \x F_B = 863,63 \text{ N}$
 
 \newpage
 \subsubsection{\underline{Schraubendaten}}
@@ -33,7 +33,7 @@ $R_e = 8\x8\x10\frac{\text{N}}{\text{mm}^2} = 640 \frac{\text{N}}{\text{mm}^2}$\
 \newpage
 
 \subsubsection{\underline{Vorspannen}}
-Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 37 bis 39, Reibwerte aus dem Anhang A.1.5 und A.1.6 \\
+Formeln und Anhang aus dem Skript KL IV \ccite{bib:poll:kl4} (Seite 37 bis 39, Reibwerte aus A.1.5 und A.1.6) \\
 \textbf{Anzugsmoment}\\
 \begin{itemize}
 		\item Bestimmung Gewindereibmoment: 
@@ -42,17 +42,17 @@ Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 37 bis 39, Reibwerte aus
 		\tan\left(\phi\right) &= \frac{P}{d_2 \x \pi}\implies \phi = 3,25^{\circ}\\
 		\tan\left(p'\right) &= \frac{\mu_G}{\cos\left(\frac{\beta}{2}\right)} \text{ mit } \mu_G = 0,14 \implies p' = 9,18^{\circ}
 		\end{align*}
-		\[\implies \text{einsetzen liefert: }  M_{RG} = 0,6414 \text{ Nm} = 641,4\text{ Nmm}\]
+		\[\implies \text{einsetzen liefert: }  M_{RG} =0,4264 \text{ Nm} = 426,4\text{ Nmm}\]
 			
 		\item Bestimmung Kopfreibmoment:
 		\begin{align*}
 		M_{RK}&= F_V\x \mu_K\x \frac{d_R}{2} \text{ mit }\mu_K = 0,14\\
 		d_R &= \frac{S+D_B}{2} = 6,75 \text{ mm}
 		\end{align*}
-		\[\implies \text{einsetzen liefert: }  M_{RK} = 0,6138 \text{ Nm} = 613,8\text{ Nmm} \]
+		\[\implies \text{einsetzen liefert: }  M_{RK} = 0,4081 \text{ Nm} = 408,1\text{ Nmm} \]
 		
 		\item Gesamtanzugsmoment:
-	$M_A = M_{RG} + M_{RK} = 1228,2 \text{ Nmm}$
+	$M_A = M_{RG} + M_{RK} = 834,5 \text{ Nmm}$
 \end{itemize}
 \newpage
 \textbf{Spannungen beim Vorspannen}
@@ -62,15 +62,15 @@ Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 37 bis 39, Reibwerte aus
 		\tau_{t,V} &= \frac{M_{RG}}{W_p}\\
 		W_p &= \frac{\pi\x d_3^3}{16} = 12,76 \text{ mm}^3
 	\end{align*}
-	\[\implies \tau_{t,V} = 48,1 \frac{\text{N}}{\text{mm}^2}\]
+	\[\implies \tau_{t,V} = 33,42 \frac{\text{N}}{\text{mm}^2}\]
 	\item Bestimmung Zugspannung: \\
-	\begin{center} $\sigma_{Z,V} = \frac{F_V}{A_S} = 91,49 \frac{\text{N}}{\text{mm}^2}$\end{center}
+	\begin{center} $\sigma_{Z,V} = \frac{F_V}{A_S} = 60,82 \frac{\text{N}}{\text{mm}^2}$\end{center}
 	\item Berechnung der resultierenden Vergleichsspannung:\\
 	\begin{center}
-		$\sigma_{v,V} = \sqrt{\sigma_{Z,V}^2+3\x\tau_{t,V}^2} = 123,74 \frac{N}{mm}^2$
+		$\sigma_{v,V} = \sqrt{\sigma_{Z,V}^2+3\x\tau_{t,V}^2} = 83,96 \frac{N}{mm}^2$
 	\end{center} 
 	Die Sicherheit der Schraubenverbindung gegen plastische Verformung beträgt:\\ 
-	\[S_F = \frac{R_{p0,2}}{\sigma_{v,V}} = 5,12\]
+	\[S_F = \frac{R_{p0,2}}{\sigma_{v,V}} = 7,6\]
 \end{itemize}
 \newpage
 \subsubsection{\underline{unter Betriebslast}}
@@ -82,144 +82,32 @@ Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 41 bis 43 \\
 	\[\text{mit } E = 2,1\x 10^5 \frac{\text{N}}{\text{mm}^2} \text{, } l_1 = 9 \text{ mm, } l_2 = 16 \text{ mm}\]
 	\[\implies \delta_S = 8,5\x 10^{-6} \frac{\text{mm}}{\text{N}}\]
 	\item Bestimmung der Nachgiebigkeit der verspannten Elemente nach Fall b)
-	\[\alpha = 0,1 \text{ für Stahl, } D_A = 14 \text{ mm, } l_K = 25 \text{ mm}\]
+	\[\alpha = 0,1 \text{ für Stahl, } D_A = 15 \text{ mm, } l_K = 25 \text{ mm, }  d_K = 6,88 \text{ mm}\]
 	\begin{align*}
 	\delta_H &= \frac{l_K}{E\x A_{ers}}\\
-	\text{mit } A_{ers} = \frac{\pi}{4}\x \left(d_K^2 -D_B^2\right) &+ \frac{\pi}{8}\x\left(\frac{D_A}{d_K}-1\right)\x\left(\frac{d_K\x l_K}{5}+ \alpha^2\x l_K^2\right) = 40,12 \text{ mm}^2\\
-	\implies \delta_H &= 2,97\x 10^{-6} \frac{\text{mm}}{\text{N}}
+	\text{mit } A_{ers} = \frac{\pi}{4}\x \left(d_K^2 -D_B^2\right) &+ \frac{\pi}{8}\x\left(\frac{D_A}{d_K}-1\right)\x\left(\frac{d_K\x l_K}{5}+ \alpha^2\x l_K^2\right) = 32,26 \text{ mm}^2\\
+	\implies \delta_H &= 3,69\x 10^{-6} \frac{\text{mm}}{\text{N}}
 	\end{align*}
 	Damit ergibt sich die Schraubenkraft unter Betriebslast zu: \\
 	\begin{center}
-		$F_S = F_V+ \frac{F_B}{1+\frac{\delta_S}{\delta_H}} = 1433,68 \text{ N}$
+		$F_S = F_V+ \frac{F_B}{1+\frac{\delta_S}{\delta_H}} = 968,2 \text{ N}$
 	\end{center}
-	Die verbleibende Klemmkraft beträgt dann $ F_{Kl} = F_S-F_B = 914,03 \text{ N}$
+	Die verbleibende Klemmkraft beträgt dann $ F_{Kl} = F_S-F_B = 622,75 \text{ N}$
 \end{itemize}
 \newpage
 \textbf{Spannungen}
 \begin{itemize}
 	\item Zugspannung:
-	$\sigma_{Z,B} = \frac{F_S}{A_S} = 100,96 \frac{\text{N}}{\text{mm}^2}$\\
+	$\sigma_{Z,B} = \frac{F_S}{A_S} = 68,18 \frac{\text{N}}{\text{mm}^2}$\\
 	\item Torsionsspannung:\\
 	\vspace{0.3cm}
 	Das Torsionsmoment im Betrieb hat die Größe des kleineren Wertes von $M_{RK}$ und $M_{RG}$, also: 
-	\[\tau_{t,B} = \frac{M_{RK}}{W_p} = 48,1 \frac{\text{N}}{\text{mm}^2}\]
-	\item resultierende Vergleichsspannung: $\sigma_{v,B} = \sqrt{\sigma_{Z,B}^2+3\x \tau_{t,B}^2} = 130,9 \frac{N}{mm}^2$\\
+	\[\tau_{t,B} = \frac{M_{RK}}{W_p} = 31,98 \frac{\text{N}}{\text{mm}^2}\]
+	\item resultierende Vergleichsspannung: $\sigma_{v,B} = \sqrt{\sigma_{Z,B}^2+3\x \tau_{t,B}^2} = 87,8 \frac{N}{mm}^2$\\
 	\vspace{.5cm}
 	Daraus ergibt sich die Sicherheit der Verbindung gegen plastische Verformung zu: 
 	\begin{center}
-		$S_F = \frac{R_{p0,2}}{\sigma_{v,B}} = 4,89$
-	\end{center}
-	Die Schraubenverbindung hält der Belastung also stand.
-\end{itemize}
-
-\subsection{Verschraubung Kupplung}
-Da an allen Festlagern dieselben Schrauben verwendet wurden, muss nur die Schraubenverbindung mit der höchsten Belastung berechnet werden. Diese ergibt sich durch die Axialkraft, die auf die jeweilige Welle wirkt. Wegen der Kupplungskraft, die aufgrund der Konuskupplung als Normalkraft in die Welle eingeleitet wird, ist die Welle I am höchsten belastet. Da das Loslager keine Axialkräfte aufnehmen kann, muss die Schraubenverbindung an diesem Lagerdeckel nicht berechnet werden. 
-Aus diesen Gründen wird im Folgenden die Schraubenverbindung des Lagerdeckels am Festlager der Welle I berechnet.
-\subsubsection{\underline{Kräfte}}
-\[
-F_A = F_K = 2318,49 \text{ N}
-\]
-\flushleft
-Betriebskraft pro Schraube: $F_B = \frac{F_A}{Z} = \frac{2318,49 \text{ N}}{8} = 289,8 \text{ N}$ \\
-Vorspannungsverhältnis soll im Bereich $\frac{F_V}{F_B} = 2,5...3,5$ liegen (siehe Skript KL IV \ccite{bib:poll:kl4} Seite 37). \\
-\vspace{.5cm}
-Wähle Faktor 2,5 $\implies F_V = 2,5 \x F_B = 724,5 \text{ N}$
-
-\newpage
-\subsubsection{\underline{Schraubendaten}}
-Sechskantschraube M3x20 nach DIN EN ISO 4014, Festigkeitsklasse 8.8\\
-$R_m = 800 \frac{\text{N}}{\text{mm}^2}$\\
-$R_e = 8\x8\x10\frac{\text{N}}{\text{mm}^2} = 640 \frac{\text{N}}{\text{mm}^2}$\\
-\begin{align*}
-\text{Nenndurchmesser: } d &= 3\text{ mm}\\
-\text{Nennquerschnitt: } A_N &= \frac{\pi\x d^2}{4} = 7,07\text{ mm}^2\\
-\text{Steigung: } P &= 0,5\text{ mm}\\
-\text{Flankendurchmesser: } d_2 &= 2,68\text{ mm}\\
-\text{Kerndurchmesser: } d_3 &= 2,39 \text{ mm}\\
-\text{Flankenwinkel: } \beta &= 60^{\circ}\\
-\text{Kernquerschnitt: } A_3 &= \frac{\pi\x d_3^2}{4} = 4,49\text{ mm}^2\\
-\text{Spannungsquerschnitt: } A_S &= 5,03 \text{ mm}^2\\
-\text{Schlüsselweite: } S &= 5,5 \text{ mm}\\
-\text{Durchmesser Durchgangsbohrung: } D_B &= 3,4 \text{ mm} \text{ (DIN EN 20273)}
-\end{align*}
-\newpage
-
-\subsubsection{\underline{Vorspannen}}
-Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 37 bis 39, Reibwerte aus dem Anhang A.1.5 und A.1.6 \\
-\textbf{Anzugsmoment}\\
-\begin{itemize}
-	\item Bestimmung Gewindereibmoment: 
-	\begin{align*}
-	M_{RG} &= F_U \x \frac{d_2}{2} = F_V\x \frac{d_2}{2}\x \tan\left(\phi + p'\right)\\
-	\tan\left(\phi\right) &= \frac{P}{d_2 \x \pi}\implies \phi = 3,4^{\circ}\\
-	\tan\left(p'\right) &= \frac{\mu_G}{\cos\left(\frac{\beta}{2}\right)} \text{ mit } \mu_G = 0,14 \implies p' = 9,18^{\circ}
-	\end{align*}
-	\[\implies \text{einsetzen liefert: }  M_{RG} = 0,2167 \text{ Nm} = 216,65\text{ Nmm}\]
-	
-	\item Bestimmung Kopfreibmoment:
-	\begin{align*}
-	M_{RK}&= F_V\x \mu_K\x \frac{d_R}{2} \text{ mit }\mu_K = 0,14\\
-	d_R &= \frac{S+D_B}{2} = 4,45 \text{ mm}
-	\end{align*}
-	\[\implies \text{einsetzen liefert: }  M_{RK} = 0,2257 \text{ Nm} = 225,68\text{ Nmm} \]
-	
-	\item Gesamtanzugsmoment:
-	$M_A = M_{RG} + M_{RK} = 442,33 \text{ Nmm}$
-\end{itemize}
-\newpage
-\textbf{Spannungen beim Vorspannen}
-\begin{itemize}
-	\item maximale Schubspannung:
-	\begin{align*}
-	\tau_{t,V} &= \frac{M_{RG}}{W_p}\\
-	W_p &= \frac{\pi\x d_3^3}{16} = 2,68 \text{ mm}^3
-	\end{align*}
-	\[\implies \tau_{t,V} = 80,84 \frac{\text{N}}{\text{mm}^2}\]
-	\item Bestimmung Zugspannung: \\
-	\begin{center} $\sigma_{Z,V} = \frac{F_V}{A_S} = 144 \frac{\text{N}}{\text{mm}^2}$\end{center}
-	\item Berechnung der resultierenden Vergleichsspannung:\\
-	\begin{center}
-		$\sigma_{v,V} = \sqrt{\sigma_{Z,V}^2+3\x\tau_{t,V}^2} = 200,85 \frac{N}{mm}^2$
-	\end{center} 
-	Die Sicherheit der Schraubenverbindung gegen plastische Verformung beträgt:\\ 
-	\[S_F = \frac{R_{p0,2}}{\sigma_{v,V}} = 3,19\]
-\end{itemize}
-\newpage
-\subsubsection{\underline{unter Betriebslast}}
-Formeln aus dem Skript KL IV \ccite{bib:poll:kl4} Seite 41 bis 43 \\
-\textbf{Kräfte}
-\begin{itemize}
-	\item Nachgiebigkeit der Schraube:
-	\[\delta_S = \frac{1}{E}\x \left(\frac{1}{d}+\frac{l_1}{A_N}+\frac{l_2}{A_S}\right)\]
-	\[\text{mit } E = 2,1\x 10^5 \frac{\text{N}}{\text{mm}^2} \text{, } l_1 = 8 \text{ mm, } l_2 = 12 \text{ mm}\]
-	\[\implies \delta_S = 1,97\x 10^{-5} \frac{\text{mm}}{\text{N}}\]
-	\item Bestimmung der Nachgiebigkeit der verspannten Elemente nach Fall b)
-	\[\alpha = 0,1 \text{ für Stahl, } D_A = 7,5 \text{ mm, } l_K = 20 \text{ mm, } d_K = 4,6 \text{ mm}\]
-	\begin{align*}
-	\delta_H &= \frac{l_K}{E\x A_{ers}}\\
-	\text{mit } A_{ers} = \frac{\pi}{4}\x \left(d_K^2 -D_B^2\right) &+ \frac{\pi}{8}\x\left(\frac{D_A}{d_K}-1\right)\x\left(\frac{d_K\x l_K}{5}+ \alpha^2\x l_K^2\right) = 13,09 \text{ mm}^2\\
-	\implies \delta_H &= 7,27\x 10^{-6} \frac{\text{mm}}{\text{N}}
-	\end{align*}
-	Damit ergibt sich die Schraubenkraft unter Betriebslast zu: \\
-	\begin{center}
-		$F_S = F_V+ \frac{F_B}{1+\frac{\delta_S}{\delta_H}} = 802,62 \text{ N}$
-	\end{center}
-	Die verbleibende Klemmkraft beträgt dann $ F_{Kl} = F_S-F_B = 512,82 \text{ N}$
-\end{itemize}
-\newpage
-\textbf{Spannungen}
-\begin{itemize}
-	\item Zugspannung:
-	$\sigma_{Z,B} = \frac{F_S}{A_S} = 159,57 \frac{\text{N}}{\text{mm}^2}$\\
-	\item Torsionsspannung:\\
-	\vspace{0.3cm}
-	Das Torsionsmoment im Betrieb hat die Größe des kleineren Wertes von $M_{RK}$ und $M_{RG}$, also: 
-	\[\tau_{t,B} = \frac{M_{RG}}{W_p} = 80,84 \frac{\text{N}}{\text{mm}^2}\]
-	\item resultierende Vergleichsspannung: $\sigma_{v,B} = \sqrt{\sigma_{Z,B}^2+3\x \tau_{t,B}^2} = 212,29 \frac{N}{mm}^2$\\
-	\vspace{.5cm}
-	Daraus ergibt sich die Sicherheit der Verbindung gegen plastische Verformung zu: 
-	\begin{center}
-		$S_F = \frac{R_{p0,2}}{\sigma_{v,B}} = 3,01$
+		$S_F = \frac{R_{p0,2}}{\sigma_{v,B}} = 7,29$
 	\end{center}
 	Die Schraubenverbindung hält der Belastung also stand.
 \end{itemize}

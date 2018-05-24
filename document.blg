@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'document.blg'
-[52] biber-MSWIN64:313> INFO - === 
-[94] Biber.pm:371> INFO - Reading 'document.bcf'
-[260] Biber.pm:857> INFO - Found 8 citekeys in bib section 0
-[287] Biber.pm:3976> INFO - Processing section 0
-[308] Biber.pm:4136> INFO - Looking for bibtex format file 'library/bibliography.bib' for section 0
-[312] bibtex.pm:1500> INFO - LaTeX decoding ...
-[333] bibtex.pm:1316> INFO - Found BibTeX data source 'library/bibliography.bib'
-[476] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[477] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[477] Biber.pm:3804> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[477] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[501] bbl.pm:617> INFO - Writing 'document.bbl' with encoding 'UTF-8'
-[509] bbl.pm:720> INFO - Output to document.bbl
+[1] Config.pm:305> INFO - Logfile is 'document.blg'
+[71] biber-MSWIN64:313> INFO - === 
+[123] Biber.pm:371> INFO - Reading 'document.bcf'
+[312] Biber.pm:857> INFO - Found 8 citekeys in bib section 0
+[341] Biber.pm:3976> INFO - Processing section 0
+[374] Biber.pm:4136> INFO - Looking for bibtex format file 'library/bibliography.bib' for section 0
+[378] bibtex.pm:1500> INFO - LaTeX decoding ...
+[401] bibtex.pm:1316> INFO - Found BibTeX data source 'library/bibliography.bib'
+[531] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[531] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[531] Biber.pm:3804> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[532] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[562] bbl.pm:617> INFO - Writing 'document.bbl' with encoding 'UTF-8'
+[568] bbl.pm:720> INFO - Output to document.bbl
