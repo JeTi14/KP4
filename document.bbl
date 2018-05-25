@@ -182,48 +182,6 @@
       \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
       \endverb
     \endentry
-    \entry{bib:roloffMatek:tabellenbuch}{book}{}
-      \name{author}{4}{}{%
-        {{hash=8d94a961089098226aad8d2a390dcd0b}{%
-           family={Wittel},
-           familyi={W\bibinitperiod},
-           given={Herbert},
-           giveni={H\bibinitperiod}}}%
-        {{hash=8946e17b260f63f34e816f240f9c5f56}{%
-           family={Jannasch},
-           familyi={J\bibinitperiod},
-           given={Dieter},
-           giveni={D\bibinitperiod}}}%
-        {{hash=a79225ca3add9a1191cad15a838d8842}{%
-           family={Voßkiek},
-           familyi={V\bibinitperiod},
-           given={Joachim},
-           giveni={J\bibinitperiod}}}%
-        {{hash=357434b6ed4ab4226afde6cc2bc33208}{%
-           family={Muhs},
-           familyi={M\bibinitperiod},
-           given={Dieter},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Vieweg}%
-      }
-      \strng{namehash}{4342f8d791c13740c9a34408f8876efa}
-      \strng{fullhash}{45028973515e479fd79f330d39a60fa3}
-      \strng{bibnamehash}{4342f8d791c13740c9a34408f8876efa}
-      \strng{authorbibnamehash}{4342f8d791c13740c9a34408f8876efa}
-      \strng{authornamehash}{4342f8d791c13740c9a34408f8876efa}
-      \strng{authorfullhash}{45028973515e479fd79f330d39a60fa3}
-      \field{labelalpha}{Wit+15}
-      \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-658-09081-4}
-      \field{subtitle}{Tabellenbuch}
-      \field{title}{Roloff/Matek Maschinenelemente}
-      \field{year}{2015}
-    \endentry
     \entry{bib:roloffMatek:maschinenelemente}{book}{}
       \name{author}{4}{}{%
         {{hash=8d94a961089098226aad8d2a390dcd0b}{%
@@ -259,10 +217,54 @@
       \field{labelalpha}{Wit+17}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-658-17895-6}
-      \field{subtitle}{Normung Berechnung Gestaltung}
+      \field{subtitle}{Normung Berechnung Gestaltung, 23. Auflage}
+      \field{title}{Roloff/Matek Maschinenelemente}
+      \field{year}{2017}
+    \endentry
+    \entry{bib:roloffMatek:tabellenbuch}{book}{}
+      \name{author}{4}{}{%
+        {{hash=8d94a961089098226aad8d2a390dcd0b}{%
+           family={Wittel},
+           familyi={W\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8946e17b260f63f34e816f240f9c5f56}{%
+           family={Jannasch},
+           familyi={J\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a79225ca3add9a1191cad15a838d8842}{%
+           family={Voßkiek},
+           familyi={V\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=357434b6ed4ab4226afde6cc2bc33208}{%
+           family={Muhs},
+           familyi={M\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{fullhash}{45028973515e479fd79f330d39a60fa3}
+      \strng{bibnamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authorbibnamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authornamehash}{4342f8d791c13740c9a34408f8876efa}
+      \strng{authorfullhash}{45028973515e479fd79f330d39a60fa3}
+      \field{labelalpha}{Wit+17}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-658-17895-6}
+      \field{subtitle}{Tabellenbuch, 23. Auflage}
       \field{title}{Roloff/Matek Maschinenelemente}
       \field{year}{2017}
     \endentry
