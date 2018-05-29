@@ -84,18 +84,18 @@ Die Berechnung der Kräfte und die verwendeten Formeln entsprechen dem Kapitel 3
 	\begin{align*}
 	\sum F_x &\overset{!}{=} 0 = F_{a,4,2} +F_{a,2,2} + D_x \implies D_x = -F_{a,4,2} -F_{a,2,2}= -562,85 \text{ N} \\
 	\sum F_y &\overset{!}{=} 0 = C_y +F_{r,4,2}- F_{r,2,2}+D_y \\ 
-	\sum F_z &\overset{!}{=} 0 = - C_z - D_z - F_{t,2,2} + F_{t,4,2} \\ \\
-	\sum M\textsubscript{y}\textsuperscript{(D)} &\overset{!}{=} 0 = - F_{t,2,2} \x l_3 - C_z \x l_{ges} +(l_2 + l_3) \x F_{t,4,2} \\ 
-	&\implies C_z = \frac{- F_{t,2,2} \x l_3 + (l_2+l_3) \x F_{t,4,2} }{l_{ges}} = 632,72 \text { N} \\ 
-	& \implies D_z = - C_z - F_{t,2,2} + F_{t,4,2}= 11,58 \text{ N}\\ \\
-	\sum M\textsubscript{z}\textsuperscript{(D)} &\overset{!}{=} 0 = - \frac{d_2}{2} \x F_{a,2,2} + \frac{d_4}{2} \x F_{a,4,2} + l_3 \x F_{r,2,2} - (l_2 + l_3)+ \x F_{r,4,2}- l_{ges} \x C_y  \\ 
+	\sum F_z &\overset{!}{=} 0 = - C_z - D_z - F_{t,2,2} - F_{t,4,2} \\ \\
+	\sum M\textsubscript{y}\textsuperscript{(D)} &\overset{!}{=} 0 = - F_{t,2,2} \x l_3 - C_z \x l_{ges} -(l_2 + l_3) \x F_{t,4,2} \\ 
+	&\implies C_z = \frac{- F_{t,2,2} \x l_3 - (l_2+l_3) \x F_{t,4,2} }{l_{ges}} = -1169,2 \text { N} \\ 
+	& \implies D_z = - C_z - F_{t,2,2} - F_{t,4,2}= -377,1 \text{ N}\\ \\
+	\sum M\textsubscript{z}\textsuperscript{(D)} &\overset{!}{=} 0 = - \frac{d_2}{2} \x F_{a,2,2} + \frac{d_4}{2} \x F_{a,4,2} + l_3 \x F_{r,2,2} - (l_2 + l_3) \x F_{r,4,2}- l_{ges} \x C_y  \\ 
 	&\implies C_y = \frac{- \frac{d_2}{2} \x F_{a,2,2} + \frac{d_4}{2} \x F_{a,4,2}  + l_3 \x F_{r,2,2} - (l_2 + l_3) \x F_{r,4,2}}{l\textsubscript{ges}} = -245 \text{ N}\\ 
 	& \implies D_y =  - C_y - F_{r,4,2} + F_{r,2,2} = -4,7\text{ N}
 	\end{align*}
 	\begin{align*}
 	C_{x,2} &= \underline{0\text{ N}} & D_{x,2}= \underline{-562,85\text{ N}}\\
 	C_{y,2} &= \underline{-245\text{ N}} & D_{y,2}= \underline{-4,7\text{ N}}\\
-	C_{z,2} &= \underline{632,72\text{ N}} & D_{z,2}= \underline{11,58\text{ N}}
+	C_{z,2} &= \underline{-1169,2\text{ N}} & D_{z,2}= \underline{-377,1\text{ N}}
 	\end{align*}
 \end{itemize}
 \section{Lagerkräfte im Gang 4}
@@ -109,13 +109,13 @@ Die Lagerkräfte der Welle 2 im 4. Gang wurden im Kaptel 3.2 zur Berechnung der 
 Die Formeln für die Berechnung stammen aus dem Skript KL III\ccite{bib:poll:kl3} Seite 73 bis 74.
 Die Werte für die statische und dynamisch Tragzahl stammen aus dem Tabellenbuch Roloff/Matek \ccite{bib:roloffMatek:tabellenbuch} Seite 205.
 \subsection{Gang 1}
-\subsubsection{Gang 1, Festlager:} Rillenkugellager , DIN 625-6006\\
+\subsubsection{Gang 1, Festlager:} Rillenkugellager , DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},1}} &&=  400 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300 \text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Dx} && = -61,7 \text{ N}\\
 	&F_{Dy} && = 31,25 \text{ N}\\
@@ -135,13 +135,13 @@ Die Werte für die statische und dynamisch Tragzahl stammen aus dem Tabellenbuch
 	\]
 \end{itemize}
 
-\subsubsection{Gang 1, Loslager:} Rillenkugellager, DIN 625-6006\\
+\subsubsection{Gang 1, Loslager:} Rillenkugellager, DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},1}} &&=  400 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300 \text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Cy} && = -34 \text{ N}\\
 	&F_{Cz} && = -458,2 \text{ N}
@@ -160,64 +160,64 @@ Die Werte für die statische und dynamisch Tragzahl stammen aus dem Tabellenbuch
 \newpage
 
 \subsection{Gang 2}
-\subsubsection{Gang 2, Festlager:} Rillenkugellager , DIN 625-6006\\
+\subsubsection{Gang 2, Festlager:} Rillenkugellager , DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},2}} &&=  400 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300 \text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Dx} && = -562,58 \text{ N}\\
 	&F_{Dy} && = -4,7 \text{ N}\\
-	&F_{Dz} && = 11,58 \text{ N}
+	&F_{Dz} && = -377,1 \text{ N}
 	\end{align*} 
 	\item Berechnung der äquivalenten dynamischen Belastung
 	\begin{align*}
-	&\text{dynamische radiale Lagerkraft } F_r&& = \sqrt{F_{Dy}^2 + F_{Dz}^2 } = 12,5 \text{ N} \\
+	&\text{dynamische radiale Lagerkraft } F_r&& = \sqrt{F_{Dy}^2 + F_{Dz}^2 } = 377,1 \text{ N} \\
 	&\text{dynamische axiale Lagerkraft } F_a&& = |F_{Dx}| = 562,58 \text{ N}\\
-	&\text{Belastungsfaktor } e &&= 0,27 \text{ da } \frac{F_a}{C_0} = 0,07
+	&\text{Belastungsfaktor } e &&= 0,24 \text{ da } \frac{F_a}{C_0} = 0,05
 	\end{align*}
-	\[\frac{F_a}{F_r} = 45 \implies \frac{F_a}{F_r} > e\]
-	Deshalb folgt aus Tabelle 2.9 im Skript KL III\ccite{bib:poll:kl3} : X= 0,56 \text{, } Y= 1,6 \\
+	\[\frac{F_a}{F_r} = 1,5 \implies \frac{F_a}{F_r} > e\]
+	Deshalb folgt aus Tabelle 2.9 im Skript KL III\ccite{bib:poll:kl3} : X= 0,56 \text{, } Y= 1,8 \\
 	Die äquivalente dynamische Belastung ergibt sich zu: 
 	\[
-	P= X \x F_r + Y \x F_a = 907,1 \text{ N}
+	P= X \x F_r + Y \x F_a = 1223,82 \text{ N}
 	\]
 \end{itemize}
 \newpage
-\subsubsection{Gang 2, Loslager:} Rillenkugellager, DIN 625-6006\\
+\subsubsection{Gang 2, Loslager:} Rillenkugellager, DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},2}} &&=  400 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300 \text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Cy} && = -245 \text{ N}\\
-	&F_{Cz} && = 632,72 \text{ N}
+	&F_{Cz} && =-1169,2 \text{ N}
 	\end{align*} 
 	\item Berechnung der äquivalenten dynamischen Belastung
 	\begin{align*}
-	&\text{dynamische radiale Lagerkraft } F_r&& = \sqrt{F_{Cy}^2 + F_{Cz}^2 } =678,5 \text{ N} \\
+	&\text{dynamische radiale Lagerkraft } F_r&& = \sqrt{F_{Cy}^2 + F_{Cz}^2 } =1194,6 \text{ N} \\
 	&\text{dynamische axiale Lagerkraft } F_a&& = F_{Cx} = 0\text{ N}
 	\end{align*} 
 	Da es sich um eine reine Radialbelastung handelt, ergeben sich der Radial- und Axialfaktor zu: $X= 1$ und $Y=0$\\
 	Daraus ergibt sich die äquivalente dynamische Lagerbelastung zu:  
 	\[
-	P= X \x F_r =678,5 \text{ N}
+	P= X \x F_r =1194,6 \text{ N}
 	\]
 \end{itemize}
 \newpage
 
 \subsection{Gang 4}
-\subsubsection{Gang 4, Festlager:} Rillenkugellager , DIN 625-6006\\
+\subsubsection{Gang 4, Festlager:} Rillenkugellager , DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},4}} &&=  1600 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300 \text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Dx} && = -581,94 \text{ N}\\
 	&F_{Dy} && = 78,9 \text{ N}\\
@@ -227,23 +227,23 @@ Die Werte für die statische und dynamisch Tragzahl stammen aus dem Tabellenbuch
 	\begin{align*}
 	&\text{dynamische radiale Lagerkraft } F_r&& = \sqrt{F_{Dy}^2 + F_{Dz}^2 } =1691,4\text{ N} \\
 	&\text{dynamische axiale Lagerkraft } F_a&& = |F_{Dx}| = 581,94 \text{ N}\\
-	&\text{Belastungsfaktor } e &&= 0,27 \text{ da } \frac{F_a}{C_0} = 0,07
+	&\text{Belastungsfaktor } e &&= 0,24 \text{ da } \frac{F_a}{C_0} = 0,05
 	\end{align*} 
 	\[\frac{F_a}{F_r} = 0,34 \implies \frac{F_a}{F_r} > e\]
-	Deshalb folgt aus Tabelle 2.9 im Skript KL III\ccite{bib:poll:kl3} : X= 0,56 \text{, } Y= 1,6 \\
+	Deshalb folgt aus Tabelle 2.9 im Skript KL III\ccite{bib:poll:kl3} : X= 0,56 \text{, } Y= 1,8 \\
 	Die äquivalente dynamische Belastung ergibt sich zu: 
 	\[
-	P= X \x F_r + Y \x F_a= 1878,3 \text{ N}
+	P= X \x F_r + Y \x F_a= 1994,7 \text{ N}
 	\]
 \end{itemize}
 \newpage
-\subsubsection{Gang 4, Loslager:} Rillenkugellager, DIN 625-6006\\
+\subsubsection{Gang 4, Loslager:} Rillenkugellager, DIN 625-6206\\
 \begin{itemize}
 	\item gegebene Werte:
 	\begin{align*}
 	&n_{{\mathord{\mathrm{II}},2}} &&=  1600 \frac{1}{\text{min}} \\
-	&\text{statische Tragzahl } C_{0} &&= 8000 \text{ N}\\
-	&\text{dynamische Tragzahl } C &&= 12700 \text{ N} \\
+	&\text{statische Tragzahl } C_{0} &&= 11200 \text{ N}\\
+	&\text{dynamische Tragzahl } C &&= 19300\text{ N} \\
 	&\text{Lebensdauerexponent } p &&= 3 \text{ (für Wälzlager)} \\
 	&F_{Cy} && = -258 \text{ N}\\
 	&F_{Cz} && = -2616,8 \text{ N}
@@ -268,20 +268,20 @@ Die Formeln für die Berechnung stammen aus dem Skript KL III\ccite{bib:poll:kl3
 	n_m &= n_{\mathord{\mathrm{II}},1} \x \frac{40 \%}{100 \%} + n_{\mathord{\mathrm{II}},2} \x \frac{25 \%}{100 \%} + n_{\mathord{\mathrm{II}},3} \x \frac{20 \%}{100 \%} + n_{\mathord{\mathrm{II}},4} \x \frac{15 \%}{100 \%} \\
 	n_m &= 400 \frac{1}{\text{min}} \x 0,4 + 400 \frac{1}{\text{min}} \x 0,25 + 0 \frac{1}{\text{min}} + 1600 \frac{1}{\text{min}} \x 0,15 = 500 \frac{1}{\text{min}} \\
 	P_{\text{äq}} &= \sqrt[p]{P_1 ^{p} \x \frac{n_1}{n_m} \x \frac{q_1}{100\% } + P_2 ^{p} \x \frac{n_2}{n_m} \x \frac{q_2}{100 \%}} \text{ mit $q_1 = 70$ und $q_2= 30$} \\
-	&= \sqrt[3]{(455,1 \text{ N}) ^{3} \x \frac{400}{500} \x \frac{40 \%}{100 \%} +(907,1 \text{ N} )^{3} \x \frac{400}{500} \x \frac{25 \%}{100\% } +(1878,3 \text{ N} )^{3} \x \frac{1600}{500} \x \frac{15 \%}{100\% }} \\
-	&= 1497,8 \text{ N}
+	&= \sqrt[3]{(455,1 \text{ N}) ^{3} \x \frac{400}{500} \x \frac{40 \%}{100 \%} +(1223,82 \text{ N} )^{3} \x \frac{400}{500} \x \frac{25 \%}{100\% } +(1994,7 \text{ N} )^{3} \x \frac{1600}{500} \x \frac{15 \%}{100\% }} \\
+	&= 1614,2 \text{ N}
 \end{align*}
 \subsubsection{Lastkollektiv Loslager}
 \begin{align*}
 	n_m &= n_{\mathord{\mathrm{II}},1} \x \frac{40 \%}{100 \%} + n_{\mathord{\mathrm{II}},2} \x \frac{25 \%}{100 \%} + n_{\mathord{\mathrm{II}},3} \x \frac{20 \%}{100 \%} + n_{\mathord{\mathrm{II}},4} \x \frac{15 \%}{100 \%} \\
 	n_m &= 400 \frac{1}{\text{min}} \x 0,4 + 400 \frac{1}{\text{min}} \x 0,25 + 0 \frac{1}{\text{min}} + 1600 \frac{1}{\text{min}} \x 0,15 = 500 \frac{1}{\text{min}} \\
 	P_{\text{äq}} &= \sqrt[p]{P_1 ^{p} \x \frac{n_1}{n_m} \x \frac{q_1}{100\% } + P_2 ^{p} \x \frac{n_2}{n_m} \x \frac{q_2}{100 \%}} \text{ mit $q_1 = 70$ und $q_2= 30$} \\
-	&= \sqrt[3]{(459,6 \text{ N}) ^{3} \x \frac{400}{500} \x \frac{40 \%}{100 \%} +(678,5 \text{ N} )^{3} \x \frac{400}{500} \x \frac{25 \%}{100\% } +(2629,5 \text{ N} )^{3} \x \frac{1600}{500} \x \frac{15 \%}{100\% }} \\
-	&= 2066,2 \text{ N}
+	&= \sqrt[3]{(459,6 \text{ N}) ^{3} \x \frac{400}{500} \x \frac{40 \%}{100 \%} +(1194,6 \text{ N} )^{3} \x \frac{400}{500} \x \frac{25 \%}{100\% } +(2629,5 \text{ N} )^{3} \x \frac{1600}{500} \x \frac{15 \%}{100\% }} \\
+	&= 2087,7 \text{ N}
 \end{align*}
 
 \subsubsection{Lebensdauer Festlager}
-$L_{10h}= \left( \frac{C}{P_{\text{äq}}} \right) ^p \x \frac{10^6}{n_m \x 60} = \left( \frac{12700 \text{ N}}{1497,8 \text{ N}} \right) ^3 \x \frac{10^6}{500 \frac{1}{\text{min}} \x 60} = 20320,2 \text{ h} = 2,3 \text{ a}$
+$L_{10h}= \left( \frac{C}{P_{\text{äq}}} \right) ^p \x \frac{10^6}{n_m \x 60} = \left( \frac{19300 \text{ N}}{1614,2 \text{ N}} \right) ^3 \x \frac{10^6}{500 \frac{1}{\text{min}} \x 60} = 56974,3 \text{ h} = 6,5 \text{ a}$
 
-\subsubsection{Lebensdauer Festlager}
-$L_{10h}= \left( \frac{C}{P_{\text{äq}}} \right) ^p \x \frac{10^6}{n_m \x 60} = \left( \frac{12700 \text{ N}}{2066,2 \text{ N}} \right) ^3 \x \frac{10^6}{500 \frac{1}{\text{min}} \x 60} = 7740,6 \text{ h} = 0,88 \text{ a}$
+\subsubsection{Lebensdauer Loslager}
+$L_{10h}= \left( \frac{C}{P_{\text{äq}}} \right) ^p \x \frac{10^6}{n_m \x 60} = \left( \frac{19300 \text{ N}}{2087,7 \text{ N}} \right) ^3 \x \frac{10^6}{500 \frac{1}{\text{min}} \x 60} = 26335,8 \text{ h} = 3 \text{ a}$

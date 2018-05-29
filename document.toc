@@ -133,7 +133,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{58}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{58}{section*.41}
+\contentsline {subsubsection}{\nonumberline Lebensdauer Loslager}{58}{section*.41}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Schwachstellenberechnung}{59}{chapter.6}
 \defcounter {refsection}{0}\relax 
