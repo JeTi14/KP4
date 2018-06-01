@@ -128,55 +128,55 @@ Die Berechnung zeigt, dass die Passfedernut gegen Dauerbruch und bleibende Verfo
 \section{Freistichberechnung}
 \subsubsection{Abmessungen:}
 \begin{align*}
-	&D= 50 \text{ mm} & \frac{r}{t} = 0,15 \\
+	&D= 47 \text{ mm} & \frac{r}{t} = 0,21 \\
 	&d= 39,4 \text{ mm} & \frac{r}{d} = 0,02 \\
-	& r= 0,8 \text{ mm} & \frac{d}{D} = 0,788 \\
-	& t= \frac{D-d}{2} = 5,3 \text{ mm} 
+	& r= 0,8 \text{ mm} & \frac{d}{D} = 0,838 \\
+	& t= \frac{D-d}{2} = 3,8 \text{ mm} 
 \end{align*}
 \subsubsection{Wirkende Spannungen (nach DIN 743 - 1 Tabelle 1)}
 \begin{align*}
-	&\sigma_{zda} = \frac{F_{zda}}{A} = \frac{N}{\frac{\pi \x d^2}{4}} = \frac{2318,49 \text{ N}}{1219,22 \text{ mm}^2} = 1,9 \frac{\text{ N}}{\text{ mm}^2} \\
-	&\sigma_{ba} = \frac{M_{ba}}{A} = \frac{|M_{b,res}(z=409 \text{ mm}) |}{\frac{\pi \x d^3}{32}} = \frac{235730 \text{ Nmm}}{6004,66 \text{ mm}^3} = 39,26 \frac{\text{ N}}{\text{ mm}^2} \\
-	&\tau_{ta} = \frac{M_{ta}}{A} = \frac{M_{\mathrm{I}}}{\frac{\pi \x d^3}{16}} = \frac{60170 \text{ Nmm}}{12009,32 \text{ mm}^3} = 5,01 \frac{\text{ N}}{\text{ mm}^2} 
+	&\sigma_{zda} = \frac{F_{zda}}{A} = \frac{N}{\frac{\pi \x d^2}{4}} = \frac{581,94 \text{ N}}{1219,22 \text{ mm}^2} = 0,48 \frac{\text{ N}}{\text{ mm}^2} \\
+	&\sigma_{ba} = \frac{M_{ba}}{A} = \frac{|M_{b,res}(x=345 \text{ mm}) |}{\frac{\pi \x d^3}{32}} = \frac{541240 \text{ Nmm}}{6004,66 \text{ mm}^3} = 90,1 \frac{\text{ N}}{\text{ mm}^2} \\
+	&\tau_{ta} = \frac{M_{ta}}{A} = \frac{M_{\mathrm{II}}}{\frac{\pi \x d^3}{16}} = \frac{71500 \text{ Nmm}}{12009,32 \text{ mm}^3} = 5,95 \frac{\text{ N}}{\text{ mm}^2} 
 \end{align*}
 \subsubsection{Gesamteinflussfaktor}
 Die folgenden Formeln stammen, soweit nichts anderes vermerkt, aus der DIN 743 - 2.
 \begin{itemize}
 	\item Bezogenes Spannungsgefälle $G'$ \hfill (Tabelle 2)
 	\begin{align*}
-		\text{Hilfsgröße } \Phi &= \frac{1}{4 \x \sqrt{\frac{t}{r}} +2} = 0,08 \\
-		G'_{ZD} &= \frac{2,3 \x (1+\Phi)}{r} = 3,12 \frac{1}{\text{ mm}} \\
-		G'_{B}&= G'_{ZD}  =3,12 \frac{1}{\text{ mm}} \\
+		\text{Hilfsgröße } \Phi &= \frac{1}{4 \x \sqrt{\frac{t}{r}} +2} = 0,09 \\
+		G'_{ZD} &= \frac{2,3 \x (1+\Phi)}{r} = 3,13 \frac{1}{\text{ mm}} \\
+		G'_{B}&= G'_{ZD}  =3,13 \frac{1}{\text{ mm}} \\
 		G'_{T}&= \frac{1,15}{r} = 1,44\frac{1}{\text{ mm}} 
 	\end{align*}
 	\item Technologischer Größeneinflussfaktor $K_1 (d_{eff})$ 
 	\begin{align*}
-		&\text{zur Vereinfachung wird angenommen } d_{eff} = D =50 \text{ mm und } d_B = 16 \text{ mm} \\ 
-		&\text{Streckgrenze Vergütungsstahl: }K_{1,Re}(d_{eff}) = 1 - 0,34 \lg \left( \frac{d_{eff}}{d_B} \right) = 0,83  &(14) \\
-		&\text{Zugfestigkeit Vergütungsstahl: } K_{1,Rm}(d_{eff}) = 1 - 26 \lg \left( \frac{d_{eff}}{d_B} \right) = 0,87  &(12) 
+		&\text{zur Vereinfachung wird angenommen } d_{eff} = D =47 \text{ mm und } d_B = 16 \text{ mm} \\ 
+		&\text{Streckgrenze Vergütungsstahl: }K_{1,Re}(d_{eff}) = 1 - 0,34 \lg \left( \frac{d_{eff}}{d_B} \right) = 0,84  &(14) \\
+		&\text{Zugfestigkeit Vergütungsstahl: } K_{1,Rm}(d_{eff}) = 1 - 26 \lg \left( \frac{d_{eff}}{d_B} \right) = 0,88  &(12) 
 	\end{align*}
 	\item Formzahl $\alpha$
 	\begin{align*}
-		&\alpha_{\sigma ZD} = 1 + \frac{1}{\sqrt{0,62 \x \frac{r}{t} + 7 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2}} = 3,02 & \text{(Bild 8)} \\
-		&\alpha_{\sigma B} = 1 + \frac{1}{\sqrt{0,62 \x \frac{r}{t} + 11,6 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2 + 0,2 \x \left( \frac{r}{t} \right) ^3 \x \frac{d}{D}}} = 2,7 & \text{(Bild 9)} \\
-		&\alpha_{\tau} = 1 + \frac{1}{\sqrt{3,4 \x \frac{r}{t} + 38 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2 + \left( \frac{r}{t} \right) ^2 \x \frac{d}{D}}} = 1,86 & \text{(Bild 10)} 
+		&\alpha_{\sigma ZD} = 1 + \frac{1}{\sqrt{0,62 \x \frac{r}{t} + 7 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2}} = 2,88 & \text{(Bild 8)} \\
+		&\alpha_{\sigma B} = 1 + \frac{1}{\sqrt{0,62 \x \frac{r}{t} + 11,6 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2 + 0,2 \x \left( \frac{r}{t} \right) ^3 \x \frac{d}{D}}} = 2,62 & \text{(Bild 9)} \\
+		&\alpha_{\tau} = 1 + \frac{1}{\sqrt{3,4 \x \frac{r}{t} + 38 \x \frac{r}{d} (1+2 \x \frac{r}{d})^2 + \left( \frac{r}{t} \right) ^2 \x \frac{d}{D}}} = 1,8  & \text{(Bild 10)} 
 	\end{align*}
 	\item Stützziffer n \hfill (5)
 	\begin{align*}
 		n&= 1 + \sqrt{G' \x \text{ mm}} \x 10 ^{-\left( 0,33 + \frac{\sigma_S (d)}{712\frac{\text{ N}}{\text{ mm}^2}} \right)} \\
 		\text{mit } \sigma_S (d) &= K_{1,Re} (d_{eff}) \x \sigma_S (d_B) \\
-		&= 0,83 \x 800 \frac{\text{ N}}{\text{ mm}^2} = 664 \frac{\text{ N}}{\text{ mm}^2} \\
-		n_{ZD} &= n_B = 1 + \sqrt{3,12} \x 10 ^{-\left( 0,33 + \frac{664}{712} \right)} \\
-		&=1,1 \\
-		n_{\tau} &= 1 + \sqrt{1,44} \x 10 ^{-\left( 0,33 + \frac{664}{712} \right)} \\
-		&= 1,07 
+		&= 0,84 \x 800 \frac{\text{ N}}{\text{ mm}^2} = 672 \frac{\text{ N}}{\text{ mm}^2} \\
+		n_{ZD} &= n_B = 1 + \sqrt{3,13} \x 10 ^{-\left( 0,33 + \frac{672}{712} \right)} \\
+		&=1,09 \\
+		n_{\tau} &= 1 + \sqrt{1,44} \x 10 ^{-\left( 0,33 + \frac{672}{712} \right)} \\
+		&= 1,06 
 	\end{align*}
 	Formel für $\sigma_S$ aus Skript KL III \ccite{bib:poll:kl3} S.168
 	\item Kerbwirkungszahl $\beta$ \hfill (4)
 	\begin{align*}
-		&\beta_{\sigma ZD} = \frac{\alpha_{\sigma ZD}}{n_{ZD}} = 2,75 \\
-		&\beta_{\sigma B} = \frac{\alpha_{\sigma B}}{n_{B}} = 2,45 \\
-		&\beta_{ \tau} = \frac{\alpha_{\sigma \tau}}{n_{\tau}} = 1,74 
+		&\beta_{\sigma ZD} = \frac{\alpha_{\sigma ZD}}{n_{ZD}} = 2,64 \\
+		&\beta_{\sigma B} = \frac{\alpha_{\sigma B}}{n_{B}} = 2,4 \\
+		&\beta_{ \tau} = \frac{\alpha_{\sigma \tau}}{n_{\tau}} = 1,7 
 	\end{align*}
 	\item Geometrischer Größeneinflussfaktor $K_2 (d)$ 
 	\begin{align*}
@@ -187,8 +187,8 @@ Die folgenden Formeln stammen, soweit nichts anderes vermerkt, aus der DIN 743 -
 	\begin{align*}
 		\text{Zug/Druck \& Biegung: } K_{F\sigma} &= 1 - 0,22 \x \lg \left( \frac{Rz}{\mu m}\right) \x ( \lg \left( \frac{\sigma_B (d)}{20}\frac{\text{ N}}{\text{ mm}^2}\right) -1 ) &(18) \\
 		\text{mit } \sigma_B (d) &= K_{1,Re} (d_{eff}) \x \sigma_B (d_B) \\
-		&= 0,83 \x 1000\frac{\text{ N}}{\text{ mm}^2} = 830 \frac{\text{ N}}{\text{ mm}^2} \\
-		\implies K_{F\sigma} &= 0,89 \\
+		&= 0,84 \x 1000\frac{\text{ N}}{\text{ mm}^2} = 840 \frac{\text{ N}}{\text{ mm}^2} \\
+		\implies K_{F\sigma} &= 0,89 \text{ mit } R_z = 6,3 \mu m\\
 		\text{Torsion: } K_{F\tau} &= 0,575 \x K_{F\sigma} +0,425 = 0,937 & (19) 
 	\end{align*}
 	\item Einflussfaktor der Oberflächenverfestigung (aus KL III \ccite{bib:poll:kl3} Seite 172)
@@ -198,14 +198,14 @@ Die folgenden Formeln stammen, soweit nichts anderes vermerkt, aus der DIN 743 -
 	\item Gesamteinflussfaktor $K_{\sigma}$ nach DIN 743 - 1
 	\begin{align*}
 		\text{Zug/Druck: } K_{\sigma ZD} &= \left( \frac{\beta_{\sigma ZD}}{K_{2ZD} (d)} + \frac{1}{K_{F\sigma}} -1\right) \x \frac{1}{K_V} & (8) \\
-		&= \left( \frac{2,75}{1} + \frac{1}{0,89} -1\right) \x \frac{1}{1} \\
-		&= 2,87 \\
+		&= \left( \frac{2,64}{1} + \frac{1}{0,89} -1\right) \x \frac{1}{1} \\
+		&= 2,76 \\
 		\text{Biegung: } K_{\sigma B} &= \left( \frac{\beta_{\sigma B}}{K_{2B}(d)} + \frac{1}{K_{F\sigma}} -1\right) \x \frac{1}{K_V} & (8) \\
-		&= \left( \frac{2,45}{0,89} + \frac{1}{0,89} -1\right) \x \frac{1}{1} \\
-		&= 2,88 \\
+		&= \left( \frac{2,4}{0,89} + \frac{1}{0,89} -1\right) \x \frac{1}{1} \\
+		&= 2,82 \\
 		\text{Torsion: } K_{\tau} &= \left( \frac{\beta_{\tau}}{K_{2\tau}(d)} + \frac{1}{K_{F\tau}} -1\right) \x \frac{1}{K_V} & (9) \\
-		&= \left( \frac{1,74}{0,89} + \frac{1}{0,937} -1\right) \x \frac{1}{1} \\
-		&= 2,02 
+		&= \left( \frac{1,7}{0,89} + \frac{1}{0,937} -1\right) \x \frac{1}{1} \\
+		&= 1,98 
 	\end{align*}
 \end{itemize}
 \subsubsection{Vorhandene Sicherheitszahl für Dauerfestigkeitsnachweis nach Belastungsfall 1 }
@@ -214,41 +214,44 @@ verwendete Formeln aus der DIN 743 - 1
 	\item Vergleichsmittelspannung 
 	\begin{align*}
 	\sigma_{mv}&= \sqrt{(\sigma_{zdm} +\sigma_{bm} )^2+ 3 \x \tau_{tm}^2 } & (23) \\
-	&= \sqrt{(1,9 \frac{\text{ N}}{\text{ mm}^2} +0 )^2+ 3 \x (5,01 \frac{\text{ N}}{\text{ mm}^2})^2 }  \\
-	&= 8,88 \frac{\text{ N}}{\text{ mm}^2} \\
-	\tau_{mv} &= \frac{\sigma_{mv}}{\sqrt{3}} = 5,13 \frac{\text{ N}}{\text{ mm}^2} & (24)
+	&\sigma_{bm}= 0 \text{ (da Umlaufbiegung vorliegt)} \\
+	&\sigma_{zdm} = \sigma_{zda} = 0,48\frac{\text{ N}}{\text{ mm}^2} \\
+	&\tau_{tm} = \tau_{ta} = 5,95 \frac{\text{ N}}{\text{ mm}^2} \\
+	\implies \sigma_{mv}&= \sqrt{(0,48 \frac{\text{ N}}{\text{ mm}^2} +0 )^2+ 3 \x (5,95 \frac{\text{ N}}{\text{ mm}^2})^2 }  \\
+	&= 10,32 \frac{\text{ N}}{\text{ mm}^2} \\
+	\tau_{mv} &= \frac{\sigma_{mv}}{\sqrt{3}} = 5,96 \frac{\text{ N}}{\text{ mm}^2} & (24)
 	\end{align*}
 	\item Bauteilwecheselfestigkeit $\sigma_{WK}$ 
 	\begin{align*}
 	\sigma_{zdWK}&= \frac{\sigma_{zdW} \x K_{1,Rm} (d_{eff})}{K_{\sigma ZD}}  & (5)\\
-	&=  \frac{400 \frac{\text{ N}}{\text{ mm}^2}\x 0,87}{2,87} = 121,25 \frac{\text{ N}}{\text{ mm}^2}\\
+	&=  \frac{400 \frac{\text{ N}}{\text{ mm}^2}\x 0,88}{2,76} = 127,54 \frac{\text{ N}}{\text{ mm}^2}\\
 	\sigma_{bWK}&= \frac{\sigma_{bW} \x K_{1,Rm} (d_{eff})}{K_{\sigma B}}  & (6 )\\
-	&=  \frac{500 \frac{\text{ N}}{\text{ mm}^2}\x 0,87}{2,88} = 135,4 \frac{\text{ N}}{\text{ mm}^2}\\
+	&=  \frac{500 \frac{\text{ N}}{\text{ mm}^2}\x 0,88}{2,82} = 156 \frac{\text{ N}}{\text{ mm}^2}\\
 	\tau_{tWK}&= \frac{\tau_{tW} \x K_{1,Rm} (d_{eff})}{K_{\tau}} &(7) \\
-	&=  \frac{300 \frac{\text{ N}}{\text{ mm}^2}\x 0,87}{2,02} = 129,2 \frac{\text{ N}}{\text{ mm}^2}
+	&=  \frac{300 \frac{\text{ N}}{\text{ mm}^2}\x 0,88}{1,98} = 133,3 \frac{\text{ N}}{\text{ mm}^2}
 	\end{align*}
 	\item Einflussfaktor der Mittelspannungsempfindlichkeit $\Psi_{K}$ 
 	\begin{align*}
 	\Psi_{zd \sigma K}&= \frac{\sigma_{zdWK}}{2 \x  K_{1,Rm} (d_{eff}) \x \sigma_B (d_B) -\sigma_{zdWK}}  &(20)\\
-	&=  \frac{121,25 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,87 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 121,25 \frac{\text{ N}}{\text{ mm}^2}} = 0,075 \\
+	&=  \frac{127,54 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,88 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 127,54 \frac{\text{ N}}{\text{ mm}^2}} = 0,078 \\
 	\Psi_{b \sigma K}&= \frac{\sigma_{bWK}}{2 \x  K_{1,Rm} (d_{eff}) \x \sigma_B (d_B) -\sigma_{bWK}} &(21) \\
-	&=  \frac{135,4 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,87 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 135,4 \frac{\text{ N}}{\text{ mm}^2}} = 0,08 \\
+	&=  \frac{156 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,88 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 156 \frac{\text{ N}}{\text{ mm}^2}} = 0,097 \\
 	\Psi_{\tau K}&= \frac{\tau_{tWK}}{2 \x  K_{1,Rm} (d_{eff}) \x \sigma_B (d_B) -\tau_{tWK}} &(22) \\
-	&=  \frac{129,2 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,87 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 129,2 \frac{\text{ N}}{\text{ mm}^2}} = 0,08 
+	&=  \frac{133,3 \frac{\text{ N}}{\text{ mm}^2}}{2 \x 0,88 \x 1000\frac{\text{ N}}{\text{ mm}^2} - 133,3 \frac{\text{ N}}{\text{ mm}^2}} = 0,082 
 	\end{align*}
 	\item Spannungsamplitude der Bauteildauerfestigkeit
 	\begin{align*}
 	\sigma_{zdADK} &= \sigma_{zdWK} - \Psi_{zd \sigma K} \x \sigma_{mv} &(10) \\
-	&= 121,25\frac{\text{ N}}{\text{ mm}^2} - 0,075 \x 8,88 \frac{\text{ N}}{\text{ mm}^2} = 120,58 \frac{\text{ N}}{\text{ mm}^2} \\
+	&= 127,54\frac{\text{ N}}{\text{ mm}^2} - 0,078 \x 10,32 \frac{\text{ N}}{\text{ mm}^2} = 126,74 \frac{\text{ N}}{\text{ mm}^2} \\
 	\sigma_{bADK} &= \sigma_{bWK} - \Psi_{b \sigma K} \x \sigma_{mv} &(11) \\
-	&= 135,4\frac{\text{ N}}{\text{ mm}^2} - 0,08 \x 8,88 \frac{\text{ N}}{\text{ mm}^2} = 134,69 \frac{\text{ N}}{\text{ mm}^2} \\
+	&= 156\frac{\text{ N}}{\text{ mm}^2} - 0,097 \x 10,32 \frac{\text{ N}}{\text{ mm}^2} = 155 \frac{\text{ N}}{\text{ mm}^2} \\
 	\tau_{tADK} &= \tau_{tWK} - \Psi_{ \tau K} \x \tau_{mv} &(12) \\
-	&= 129,2\frac{\text{ N}}{\text{ mm}^2} - 0,08 \x 5,13 \frac{\text{ N}}{\text{ mm}^2} = 128,79 \frac{\text{ N}}{\text{ mm}^2} 
+	&= 133,3\frac{\text{ N}}{\text{ mm}^2} - 0,082 \x 5,96 \frac{\text{ N}}{\text{ mm}^2} = 132,8 \frac{\text{ N}}{\text{ mm}^2} 
 	\end{align*}
 	\item vorhandene Sicherheitszahl S 
 	\begin{align*}
 		&S= \frac{1}{\sqrt{\left( \frac{\sigma_{zda}}{\sigma_{zdADK}} +\frac{\sigma_{ba}}{\sigma_{bADK}} \right)^2 +\left( \frac{\tau_{ta}}{\tau_{tADK}} \right)^2 }} &(2) \\
-		&S=  3,23 
+		&S=  1,7 
 	\end{align*}
 \end{itemize}
 \subsubsection{Vorhandene Sicherheitszahl S für Nachweis gegen Überschreiten der Fließgrenze}
@@ -268,19 +271,19 @@ verwendete Formeln aus der DIN 743 - 1
 	\item Bauteilfließgrenze
 	\begin{align*}
 	\sigma_{zd,bFK} &= K_{1,Re} (d_{eff}) \x K_{2F \sigma} \x \gamma_{F\sigma} \x \sigma_S (d_B) & (31) \\
-	\sigma_{zdFK}&= 0,83 \x 1 \x 1,1 \x 800 \frac{\text{ N}}{\text{ mm}^2} \\
-	&= 730 \frac{\text{ N}}{\text{ mm}^2}\\
-	\sigma_{bFK}&= 0,83 \x 1,2 \x 1,1 \x 800 \frac{\text{ N}}{\text{ mm}^2} \\
-	&= 876,48 \frac{\text{ N}}{\text{ mm}^2}\\
+	\sigma_{zdFK}&= 0,84 \x 1 \x 1,1 \x 800 \frac{\text{ N}}{\text{ mm}^2} \\
+	&= 739,2 \frac{\text{ N}}{\text{ mm}^2}\\
+	\sigma_{bFK}&= 0,84 \x 1,2 \x 1,1 \x 800 \frac{\text{ N}}{\text{ mm}^2} \\
+	&= 887\frac{\text{ N}}{\text{ mm}^2}\\
 	\tau_{tFK} &= K_{1,Re} (d_{eff}) \x K_{2F \tau} \x \gamma_{F\tau} \x \sigma_S (d_B) / \sqrt{3} &(32) \\
-	&= 0,83 \x 1,2 \x 1 \x 800 \frac{\text{ N}}{\text{ mm}^2} / \sqrt{3}\\
-	&= 460 \frac{\text{ N}}{\text{ mm}^2}
+	&= 0,84 \x 1,2 \x 1 \x 800 \frac{\text{ N}}{\text{ mm}^2} / \sqrt{3}\\
+	&= 465,58 \frac{\text{ N}}{\text{ mm}^2}
 	\end{align*}
-	\item Vorhandene Sicherheitszahl S 
+	\item Vorhandene Sicherheitszahl S \\
 	Für diesen Fall wird mit den wirkenden Spannungsamplituden als maximale Spannungen gerechnet, da keine stoßartige Belastung angenommen wird. 
 	\begin{align*}
 	&S = \frac{1}{\sqrt{\left( \frac{\sigma_{zdmax}}{\sigma_{zdFK}}+\frac{\sigma_{bmax}}{\sigma_{bFK}} \right)^2 +\left( \frac{\tau_{tmax}}{\tau_{tFK}} \right)^2 }} & (25)\\
-	&= 20,56 
+	&= 9,7 
 	\end{align*}
 \end{itemize}
 Die Schwachstelle 2, also der Freistich, ist ebenfalls gegen Dauerbruch und plastische Verformung ausreichend ausgelegt.

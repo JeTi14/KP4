@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  29 MAY 2018 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.8)  1 JUN 2018 14:49
 entering extended mode
 **./document.tex
 (document.tex
@@ -2477,22 +2477,22 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 214.
  [44]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 247.
+(babel)             in language  on input line 241.
  [45]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 265.
  [46])
 (content/Lagerlebensdauerberechnung.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -2954,7 +2954,7 @@ iKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Programme/MiKTeX/fonts/type1/public/
 lm/lmssbx10.pfb><D:/Programme/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Progr
 amme/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MiKTeX/fonts/type1/pu
 blic/lm/lmtt10.pfb>
-Output written on document.pdf (78 pages, 699772 bytes).
+Output written on document.pdf (78 pages, 699586 bytes).
 PDF statistics:
  845 PDF objects out of 1000 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
