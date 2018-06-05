@@ -171,15 +171,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Produktkatalog Rillenkugellager}
-      \field{urlday}{18}
-      \field{urlmonth}{5}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
+      \verb http://www.lfd.eu/media/files/kataloge/LFD_Rillenkugellager-Katalog_2015_D.pdf
       \endverb
       \verb{url}
-      \verb http://www.kugellager-katalog.de/media/files/lfd-kugellagerkatalog-de.pdf
+      \verb http://www.lfd.eu/media/files/kataloge/LFD_Rillenkugellager-Katalog_2015_D.pdf
       \endverb
     \endentry
     \entry{bib:roloffMatek:maschinenelemente}{book}{}

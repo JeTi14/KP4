@@ -1994,24 +1994,22 @@
     <bcf:citekey order="18">bib:poll:kl3</bcf:citekey>
     <bcf:citekey order="19">bib:poll:kl3</bcf:citekey>
     <bcf:citekey order="20">bib:poll:kl3</bcf:citekey>
-    <bcf:citekey order="21">bib:poll:kl3</bcf:citekey>
+    <bcf:citekey order="21">bib:roloffMatek:tabellenbuch</bcf:citekey>
     <bcf:citekey order="22">bib:poll:kl3</bcf:citekey>
-    <bcf:citekey order="23">bib:roloffMatek:tabellenbuch</bcf:citekey>
+    <bcf:citekey order="23">bib:poll:kl3</bcf:citekey>
     <bcf:citekey order="24">bib:poll:kl3</bcf:citekey>
     <bcf:citekey order="25">bib:poll:kl3</bcf:citekey>
-    <bcf:citekey order="26">bib:poll:kl3</bcf:citekey>
-    <bcf:citekey order="27">bib:poll:kl3</bcf:citekey>
+    <bcf:citekey order="26">bib:poll:kl4</bcf:citekey>
+    <bcf:citekey order="27">bib:poll:kl4</bcf:citekey>
     <bcf:citekey order="28">bib:poll:kl4</bcf:citekey>
     <bcf:citekey order="29">bib:poll:kl4</bcf:citekey>
     <bcf:citekey order="30">bib:poll:kl4</bcf:citekey>
-    <bcf:citekey order="31">bib:poll:kl4</bcf:citekey>
-    <bcf:citekey order="32">bib:poll:kl4</bcf:citekey>
-    <bcf:citekey order="33">bib:www:LFD_Produktkatalog</bcf:citekey>
-    <bcf:citekey order="34">bib:lachmayer:kl1</bcf:citekey>
-    <bcf:citekey order="35">bib:fischer:tabellenbuchMetall</bcf:citekey>
+    <bcf:citekey order="31">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="32">bib:lachmayer:kl1</bcf:citekey>
+    <bcf:citekey order="33">bib:fischer:tabellenbuchMetall</bcf:citekey>
+    <bcf:citekey order="34">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="35">bib:www:LFD_Produktkatalog</bcf:citekey>
     <bcf:citekey order="36">bib:www:LFD_Produktkatalog</bcf:citekey>
-    <bcf:citekey order="37">bib:www:LFD_Produktkatalog</bcf:citekey>
-    <bcf:citekey order="38">bib:www:LFD_Produktkatalog</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
