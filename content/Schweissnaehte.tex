@@ -1,0 +1,75 @@
+\newpage
+\section{Schweißnahtberechnung}
+Alle Schweißnähte wurden in der gleichen Größe ausgeführt. Deswegen wird im Folgenden nur die höchst belastete Naht berechnet. Die Berechung erfolgt nach dem Skript KL IV \ccite{bib:poll:kl3} Seite 17-24.\\
+Um diese zu identifizieren, werden die folgenden Belastungsarten gegeneinander abgewägt. Normal- und Querkräfte innerhalb der Wellen haben kaum Einfluss auf die Beanspruchung der Schweißnähte, weil dadurch keine Momente auf diese einwirken. Die kritische Scherbeanspruchung einer Schweißnaht wird durch die Kräfte, die an den Zahnrädern eingeleitet werden, erzeugt. Diese wirken durch den jeweiligen Hebelarm ein Moment auf die Schweißnaht aus.\\
+Als höchst belastete Schweißnaht habe ich die Naht am Gehäuse des Vertikalkopfes, bei Welle V, angenommen, da an den Kegelrädern mit Abstand die höchsten Kräfte wirken. Zunächst werden für diese Welle die Momente zu einem resultierenden Moment zusammengefasst.
+\subsubsection{Resultierendes Moment:}
+\begin{align*}
+	M_{1,Naht} &= F_{r,11} \x l = 1381,81 \text{ N} \x 103 \text{ mm} = 142,3\text{ Nm} \\
+	M_{2,Naht} &= F_{tm,11} \x l = 5369,06 \text{ N} \x 103 \text{ mm} = 553 \text{ Nm} \\
+	M_{res,Naht} &= \sqrt{(M_{1,Naht})^2 + (M_{2,Naht})^2} = 571 \text{ Nm} 
+\end{align*}
+\subsubsection{Auslegung der Schweißnaht:}
+\begin{align*}
+	&\sigma_{bw} = 180 \frac{\text{N}}{\text{mm}^2} \text{ (Biegewechselfestihkeit von S235JR)} \\
+	&S = 1,7 \text{ (gewählt)} \\
+	&\text{Schweißnahtdicke }a= 5 \text{ mm} \\
+	&\text{Breite Schweißnaht } b= 5 \sqrt{2} \text{ mm}\\
+	&\text{Radius innen an Naht } r_i = 65 \text{ mm} \\
+	&\text{Radius außen an Naht } r_a = r_i + b = 72,1\text{ mm} \\
+	&\implies \text{effektiver Radius } r = \frac{r_a + r_i}{2} = 68,55\text{ mm} \\
+\end{align*}
+\begin{itemize}
+\item zulässige Schweißnahtspannung \hfill (1.9)
+	\begin{align*}
+	&\sigma_{w,zul} = \nu_1 \x \nu_2 \x \frac{\sigma_{bw}}{S} \\
+	&\nu_1 = 0,1 \text{ (Fall: einseitige Flachnaht, Biegebeanspruchung)}\\
+	&\nu_2 = 0,8 \text{ (für Normalgüte)}\\
+	&\implies \sigma_{w,zul} = 0,1 \x 0,8 \x \frac{180 \frac{\text{N}}{\text{mm}^2}}{1,7} = 8,5 \frac{\text{N}}{\text{mm}^2}
+	\end{align*}
+\item Erforderliches Widerstandsmoment
+	\begin{align*}
+	&W_{b,erf} = \frac{M_b}{\sigma_{w,zul}} = \frac{ 571000 \text{ Nmm} }{8,5 \frac{\text{N}}{\text{mm}^2}} = 67176,5 \text{ mm}^3 
+	\end{align*}
+\item Tatsächliches Widerstandsmoment
+	\begin{align*}
+	&W_{b} = \frac{I_b}{z_{max}} = \frac{ \pi \x r^3 \x a }{r_a} = \frac{ \pi \x (67,84 \text{ mm})^3 \x 5 \text{ mm}} {72,1\text{ mm}} = 70178,96 \text{ mm}^3 \\
+	&W_b > W_{b,erf} \\
+	&\implies \text{Mit einer Nahtdicke von 5 mm ist das erforderliche Widerstandsmoment erfüllt.}
+	\end{align*}
+\end{itemize}
+\subsubsection{Betriebsfestigkeit der Schweißnaht:}
+\begin{itemize}
+\item Wirkende Kräfte
+	\begin{align*}
+	&\text{Maximale Belastung im 4. Gang: }F_{max} = \sqrt{F_{r,11,4}^2 + F_{tm,11,4}^2 } = 5544,02 \text{N} \\
+	&\text{Minimale Belastung im 1. Gang: } F_{min} = \sqrt{F_{r,11,1}^2 + F_{tm,11,1}^2 } = 131 \text{N} 
+	\end{align*}
+\item Grenzspannungsverhältnis $\chi$ \hfill (1.11)
+	\begin{align*}
+	& \chi = \frac{F_{min}}{F_{max}} = 0,02 \\
+	& \implies \text{Schwellbereich}
+\end{align*}
+\item Zulässige Spannung $\sigma_{Z,zul}$ 
+	\begin{align*}
+	&\left. \begin{array}{c} \text{Spannungskollektiv S1}\\\text{Spannungsspielbereich N3} \end{array} \right\} \text{ Beanspruchungsgruppe B4} &(Tabelle\text{ }1.5)\\
+	&\text{Kerbfall K4, da Kehlnaht in Normalgüte}  &(Tabelle \text{ }1.5.4) \\
+	&\implies \sigma_{D(-1)} = 54 \frac{\text{N}}{\text{mm}^2} &(Tabelle\text{ } 1.6) \\ \\
+	&\sigma_{z(0)} = \frac{5}{3-2 \x \chi} \x \text{zul } \sigma_{D(-1)} = \frac{5}{3} \x 54 \frac{\text{N}}{\text{mm}^2} = 90 \frac{\text{N}}{\text{mm}^2} &(Tabelle\text{ } 1.7) \\ \\
+	&\sigma_{z,zul (\chi)} = \frac{\text{zul } \sigma_{z(0)}}{1- \left( 1 - \frac{\text{zul } \sigma_{z(0)}}{0,75 \x \sigma_B} \right)\x \chi}  \\
+	&\sigma_{z,zul (\chi = 0,02)} = \frac{90 \frac{\text{N}}{\text{mm}^2}}{1- \left( 1 - \frac{90 \frac{\text{N}}{\text{mm}^2}}{0,75 \x 360\frac{\text{N}}{\text{mm}^2}} \right)\x 0,02} = 91,2 \frac{\text{N}}{\text{mm}^2} 
+	\end{align*}
+\item Vergleichsspannung
+	\begin{align*}
+	&\textbf{Normalspannung: } \\ \\
+	&\sigma_x = \frac{M_b}{W_b} = \frac{ 571000 \text{ Nmm} }{70178,96 \text{ mm}^3} = 8,1 \frac{\text{N}}{\text{mm}^2}\\ \\
+	&\textbf{Vergleichspannung nach DIN 15018: } \\\\
+	&\sigma_{w,v} = \sqrt{ \bar{\sigma_x} + \bar{\sigma_y} -\bar{\sigma_x} \x \bar{\sigma_y} + 2 \x \tau ^2} & (1.4)\\
+	&\text{mit } \bar{\sigma_x} = \frac{\sigma_{z,zul}}{\sigma_{w,z,zul}} \x \sigma_x  = \frac{160 \text{ N/mm}^2 }{140 \text{ N/mm}^2} \x 8,1 \frac{\text{N}}{\text{mm}^2} = 9,3 \frac{\text{N}}{\text{mm}^2} & (1.5) \\
+	&\text{und } \bar{\sigma_y} = \frac{\sigma_{z,zul}}{\sigma_{w,z,zul}} \x \sigma_y  = 0 \frac{\text{N}}{\text{mm}^2} \text{ da } \sigma_y  = 0 & (1.6) \\
+	&\text{(Die zulässigen Spannungen sind den Tabellen 1.2 und 1.3 zu entnehmen)} \\
+	&\tau = \frac{F}{A} = \frac{5544,02 \text{ N}}{\pi \x r^2 \x a} = 0,075 \frac{\text{N}}{\text{mm}^2}\\
+	&\implies \sigma_{w,v} = \sqrt{ \left(  9,3 \frac{\text{N}}{\text{mm}^2} \right)^2 + 2 \x \left(  0,075 \frac{\text{N}}{\text{mm}^2} \right)^2 } = 9,3\frac{\text{N}}{\text{mm}^2} \\ \\
+	&\implies \text{Da }\sigma_{w,v} < \sigma_{Z,zul } = 91,2 \frac{\text{N}}{\text{mm}^2}  \text{ hält die Schweißnaht der Belastung stand.}
+	\end{align*}
+\end{itemize}

@@ -2004,12 +2004,13 @@
     <bcf:citekey order="28">bib:poll:kl4</bcf:citekey>
     <bcf:citekey order="29">bib:poll:kl4</bcf:citekey>
     <bcf:citekey order="30">bib:poll:kl4</bcf:citekey>
-    <bcf:citekey order="31">bib:www:LFD_Produktkatalog</bcf:citekey>
-    <bcf:citekey order="32">bib:lachmayer:kl1</bcf:citekey>
-    <bcf:citekey order="33">bib:fischer:tabellenbuchMetall</bcf:citekey>
-    <bcf:citekey order="34">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="31">bib:poll:kl3</bcf:citekey>
+    <bcf:citekey order="32">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="33">bib:lachmayer:kl1</bcf:citekey>
+    <bcf:citekey order="34">bib:fischer:tabellenbuchMetall</bcf:citekey>
     <bcf:citekey order="35">bib:www:LFD_Produktkatalog</bcf:citekey>
     <bcf:citekey order="36">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="37">bib:www:LFD_Produktkatalog</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
