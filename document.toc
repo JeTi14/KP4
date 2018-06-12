@@ -99,96 +99,96 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Berechnung der Lagerkr\IeC {\"a}fte}{52}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Lagerkr\IeC {\"a}fte im Gang 2}{53}{section.5.2}
+\contentsline {section}{\numberline {5.2}Lagerkr\IeC {\"a}fte im Gang 2}{54}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Berechnung der Zahnradkr\IeC {\"a}fte}{53}{section*.31}
+\contentsline {subsubsection}{\nonumberline Berechnung der Zahnradkr\IeC {\"a}fte}{54}{section*.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Berechnung der Lagerkr\IeC {\"a}fte}{54}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Lagerkr\IeC {\"a}fte im Gang 3}{54}{section.5.3}
+\contentsline {section}{\numberline {5.3}Lagerkr\IeC {\"a}fte im Gang 3}{56}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Berechnung der Zahnradkr\IeC {\"a}fte}{54}{section*.33}
+\contentsline {subsubsection}{\nonumberline Berechnung der Zahnradkr\IeC {\"a}fte}{56}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Berechnung der Lagerkr\IeC {\"a}fte}{55}{section*.34}
+\contentsline {subsubsection}{\nonumberline Berechnung der Lagerkr\IeC {\"a}fte}{56}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Lagerkr\IeC {\"a}fte im Gang 4}{56}{section.5.4}
+\contentsline {section}{\numberline {5.4}Lagerkr\IeC {\"a}fte im Gang 4}{59}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Berechnung der \IeC {\"a}quivalenten dynamischen Lagerbelastung}{57}{section.5.5}
+\contentsline {section}{\numberline {5.5}Berechnung der \IeC {\"a}quivalenten dynamischen Lagerbelastung}{59}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Gang 1}{57}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Gang 1}{59}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 1, Festlager:}{57}{section*.35}
+\contentsline {subsubsection}{\nonumberline Gang 1, Festlager:}{59}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 1, Loslager:}{58}{section*.36}
+\contentsline {subsubsection}{\nonumberline Gang 1, Loslager:}{60}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Gang 2}{59}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.2}Gang 2}{61}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 2, Festlager:}{59}{section*.37}
+\contentsline {subsubsection}{\nonumberline Gang 2, Festlager:}{61}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 2, Loslager:}{60}{section*.38}
+\contentsline {subsubsection}{\nonumberline Gang 2, Loslager:}{62}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Gang 3}{61}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.3}Gang 3}{63}{subsection.5.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 3, Festlager:}{61}{section*.39}
+\contentsline {subsubsection}{\nonumberline Gang 3, Festlager:}{63}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 3, Loslager:}{61}{section*.40}
+\contentsline {subsubsection}{\nonumberline Gang 3, Loslager:}{63}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Gang 4}{63}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.4}Gang 4}{65}{subsection.5.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 4, Festlager:}{63}{section*.41}
+\contentsline {subsubsection}{\nonumberline Gang 4, Festlager:}{65}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Gang 4, Loslager:}{64}{section*.42}
+\contentsline {subsubsection}{\nonumberline Gang 4, Loslager:}{66}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Bestimmung der Lastkollektive und der Lebensdauer}{65}{section.5.6}
+\contentsline {section}{\numberline {5.6}Bestimmung der Lastkollektive und der Lebensdauer}{67}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lastkollektiv Festlager}{65}{section*.43}
+\contentsline {subsubsection}{\nonumberline Lastkollektiv Festlager}{67}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lastkollektiv Loslager}{65}{section*.44}
+\contentsline {subsubsection}{\nonumberline Lastkollektiv Loslager}{67}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{65}{section*.45}
+\contentsline {subsubsection}{\nonumberline Lebensdauer Festlager}{67}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Lebensdauer Loslager}{65}{section*.46}
+\contentsline {subsubsection}{\nonumberline Lebensdauer Loslager}{67}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Schwachstellenberechnung}{66}{chapter.6}
+\contentsline {chapter}{\numberline {6}Schwachstellenberechnung}{68}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Berechnung Welle-Nabe-Verbindungen}{66}{section.6.1}
+\contentsline {section}{\numberline {6.1}Berechnung Welle-Nabe-Verbindungen}{68}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Berechnung der Schraubenverbindungen}{69}{section.6.2}
+\contentsline {section}{\numberline {6.2}Berechnung der Schraubenverbindungen}{71}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Verschraubung Lagerdeckel}{69}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Verschraubung Lagerdeckel}{71}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{69}{section*.47}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Kr\IeC {\"a}fte}}\mathsurround \z@ $\relax }{71}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{70}{section*.48}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Schraubendaten}}\mathsurround \z@ $\relax }{72}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{71}{section*.49}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {Vorspannen}}\mathsurround \z@ $\relax }{73}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{73}{section*.50}
+\contentsline {subsubsection}{\nonumberline \relax $\@@underline {\hbox {unter Betriebslast}}\mathsurround \z@ $\relax }{75}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Schwei\IeC {\ss }nahtberechnung}{75}{section.6.3}
+\contentsline {section}{\numberline {6.3}Schwei\IeC {\ss }nahtberechnung}{77}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Resultierendes Moment:}{75}{section*.51}
+\contentsline {subsubsection}{\nonumberline Resultierendes Moment:}{77}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Auslegung der Schwei\IeC {\ss }naht:}{76}{section*.52}
+\contentsline {subsubsection}{\nonumberline Auslegung der Schwei\IeC {\ss }naht:}{78}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Betriebsfestigkeit der Schwei\IeC {\ss }naht:}{77}{section*.53}
+\contentsline {subsubsection}{\nonumberline Betriebsfestigkeit der Schwei\IeC {\ss }naht:}{79}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Passungsberechnung}{79}{chapter.7}
+\contentsline {chapter}{\numberline {7}Passungsberechnung}{81}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 1: Lagerau\IeC {\ss }enring Rillenkugellager (Festlager, Welle I) und Lagertopf}{80}{section*.54}
+\contentsline {subsubsection}{\nonumberline Passung 1: Lagerau\IeC {\ss }enring Rillenkugellager (Festlager, Welle I) und Lagertopf}{82}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 2: Lagerinnenring Rillenkugellager (Festlager) und Welle I}{81}{section*.55}
+\contentsline {subsubsection}{\nonumberline Passung 2: Lagerinnenring Rillenkugellager (Festlager) und Welle I}{83}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 3: Lagerau\IeC {\ss }enring Rillenkugellager (Loslager, Welle I) und Lagertopf}{82}{section*.56}
+\contentsline {subsubsection}{\nonumberline Passung 3: Lagerau\IeC {\ss }enring Rillenkugellager (Loslager, Welle I) und Lagertopf}{84}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 4: Gleitlagerbuchse (Festlager, Schaltwelle 1) und Lagertopf}{83}{section*.57}
+\contentsline {subsubsection}{\nonumberline Passung 4: Gleitlagerbuchse (Festlager, Schaltwelle 1) und Lagertopf}{85}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Passung 5: Zahnrad 4 und Welle II}{84}{section*.58}
+\contentsline {subsubsection}{\nonumberline Passung 5: Zahnrad 4 und Welle II}{86}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Quellen}{85}{chapter.8}
+\contentsline {chapter}{\numberline {8}Quellen}{87}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Literatur}{85}{section.8.1}
+\contentsline {section}{\numberline {8.1}Literatur}{87}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Internet}{85}{section.8.2}
+\contentsline {section}{\numberline {8.2}Internet}{87}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Anhang}{86}{appendix.A}
+\contentsline {chapter}{\numberline {A}Anhang}{88}{appendix.A}
