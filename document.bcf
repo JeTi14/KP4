@@ -2011,6 +2011,8 @@
     <bcf:citekey order="35">bib:www:LFD_Produktkatalog</bcf:citekey>
     <bcf:citekey order="36">bib:www:LFD_Produktkatalog</bcf:citekey>
     <bcf:citekey order="37">bib:www:LFD_Produktkatalog</bcf:citekey>
+    <bcf:citekey order="38">bib:www:schauglas</bcf:citekey>
+    <bcf:citekey order="39">bib:www:rastbolzen</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

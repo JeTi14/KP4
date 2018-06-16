@@ -71,6 +71,70 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2014}
     \endentry
+    \entry{bib:www:schauglas}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8ca78b77a4cb114e1b2083aad3ffb8fc}{%
+           family={Griff},
+           familyi={G\bibinitperiod},
+           given={Ganter},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{fullhash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{bibnamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authorbibnamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authornamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authorfullhash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \field{labelalpha}{Gri}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GN541 Ölschaugläser}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ganter-griff.de/de/produkte/3.5-Kontrollieren-Entlueften-Verschliessen-von-Fluessigkeiten-und-Gasen/GN-541-lschauglaeser-Kunststoff
+      \endverb
+      \verb{url}
+      \verb https://www.ganter-griff.de/de/produkte/3.5-Kontrollieren-Entlueften-Verschliessen-von-Fluessigkeiten-und-Gasen/GN-541-lschauglaeser-Kunststoff
+      \endverb
+    \endentry
+    \entry{bib:www:rastbolzen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8ca78b77a4cb114e1b2083aad3ffb8fc}{%
+           family={Griff},
+           familyi={G\bibinitperiod},
+           given={Ganter},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{fullhash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{bibnamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authorbibnamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authornamehash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \strng{authorfullhash}{8ca78b77a4cb114e1b2083aad3ffb8fc}
+      \field{labelalpha}{Gri}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GN817.4 Edelstahl-Rastbolzen}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ganter-griff.de/de/produkte/3.1-Rasten-Arretieren-Sperren-mit-Bolzen-und-Kugeln/GN-817.4-Edelstahl-Rastbolzen-mit-T-Griff
+      \endverb
+      \verb{url}
+      \verb https://www.ganter-griff.de/de/produkte/3.1-Rasten-Arretieren-Sperren-mit-Bolzen-und-Kugeln/GN-817.4-Edelstahl-Rastbolzen-mit-T-Griff
+      \endverb
+    \endentry
     \entry{bib:lachmayer:kl1}{report}{}
       \name{author}{1}{}{%
         {{hash=8cd1058c7f33ba4b082e60c12d138580}{%
