@@ -71,6 +71,37 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2014}
     \endentry
+    \entry{bib:www:reibbelag}{online}{}
+      \name{author}{1}{}{%
+        {{hash=21b128bd58e38cfffd50afcf4f56bb72}{%
+           family={GmbH},
+           familyi={G\bibinitperiod},
+           given={Leicht},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \strng{fullhash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \strng{bibnamehash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \strng{authorbibnamehash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \strng{authornamehash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \strng{authorfullhash}{21b128bd58e38cfffd50afcf4f56bb72}
+      \field{labelalpha}{Gmb}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reibbelag Technische Daten | Reibwerkstoff: Bremsbelag - Kupplungsbelag}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.leicht-gmbh.de/cms/Werkstoffe/LR353/index1-a-45.html
+      \endverb
+      \verb{url}
+      \verb https://www.leicht-gmbh.de/cms/Werkstoffe/LR353/index1-a-45.html
+      \endverb
+    \endentry
     \entry{bib:www:schauglas}{online}{}
       \name{author}{1}{}{%
         {{hash=8ca78b77a4cb114e1b2083aad3ffb8fc}{%

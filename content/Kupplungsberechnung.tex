@@ -1,0 +1,23 @@
+\section{Auslegung der Lamellenkupplung}
+Die verwendeten Formeln stammen aus dem Skript KL III \ccite{bib:poll:kl3} Seite 93
+\begin{itemize}
+\item Bestimmung des effektiven Reibradius:
+\begin{align*}
+	&r_i = 50  \text{ mm} \\
+	&r_a = 81  \text{ mm} \\
+	&r_{eff} = \frac{2}{3} \x \left( \frac{r_a^3- r_i^3}{r_a^2 - r_i ^2} \right) = 66,7 \text{ mm} 
+\end{align*}
+\item Bestimmung der Normalkraft:
+\begin{align*}
+	&\mu = 0,43 \text{ (siehe Datenblatt im Anhang)} \\
+	&z= 8 \text{Anzahl sich im Eingriff befindlicher Lamellen} \\
+	&M_N = T_{\mathord{\mathrm{IV}},4,S} = 268,99 \text{ Nm} \\
+	& F_N = \frac{M_N}{z \x \mu \x r_{eff}} = 1172,3 \text{ N}
+\end{align*}
+\item Bestimmung des Anpressdrucks:
+\begin{align*}
+	&p = \frac{F_N}{A_r} = \frac{F_N}{\pi \x (r_a^2 - r_i^2)} = \frac{1172,3 \text{ N}}{12758 \text{ mm}^2} = 0,09 \frac{\text{N}}{\text{mm}^2} = 0,09 \text{ MPa}\\
+	&p_{zul} = 2 \text{ MPa (laut Aufgabenstellung)} \\
+	& \implies p < p_{zul} \text{ : Die maximal zulässige Flächenpressung wird also nicht überschritten.}
+\end{align*}
+\end{itemize}
